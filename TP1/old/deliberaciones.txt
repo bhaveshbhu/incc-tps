@@ -1,0 +1,35 @@
+0 - (Christian) Revisión de bibliografía
+
+1 - (Christian, Mailén) Armar el esqueleto del experimento en Psychtoolbox
+   1.1 mostrar cruz de centrado
+   1.2 mostrar estímulo por un tiempo indeterminado
+   1.3 mostrar opciones
+   1.4 guardar las respuestas ingresadas en el teclado con registro de tiempo
+
+2 - (Miguel) Generar una máscara de bubbles (INPUT: desvío estándar, superficie a  mostrar)
+	2.1 - Partiendo de los parametros del filtro, determinar nùmero y tamaño de las bubbles (ver Gosselin Bubbles y Fiset)
+         2.1.1 - ¿Tienen que haber bubbles en zonas donde se sabe que no va haber letras? 
+
+3 - (Mailén) Análisis de estímulos base (output: letras en distintas tipografías en formato True Type/PostScript)
+	3.1 - 
+
+4 - (Pablo) Calcular complejidad de una letra (INPUT: imagen de una letra ; OUTPUT: perímetro, superficie, complejidad (per^2/sup)
+	4.1 - Implementar el algoritmo de Pelli (2006)
+
+5 - (Christian) Ajustes iniciales de parámetros (superficie expuesta, desvío, umbrales) 
+	4.1 -  
+
+6 - (Pablo, Miguel) Análisis de bandas de frecuencia y tamaño de letras (output: tipografías con sus respectivas versiones filtradas y en tamaños adecuados)
+	6.1 - Buscar software que filtre imágenes automáticamente con filtros pasa banda de 1 octava
+	6.2 - Generar los archivos filtrados en los distintos rangos de frecuencia
+
+7 - (Pablo) Generar estímulos (INPUT: letras en sus versiones filtradas, máscaras con bubbles OUTPUT: conjunto de estímulos a utilizar en el experimento)
+	7.1 - Generar la salida enmascarada, aplicando las màscaras del punto 2 a las imágenes del filtradas del punto anterior
+
+
+8 - (Christian, Miguel) Análisis e implementación del Observador ideal
+	8.1 - Leer, leer y leeeeeeeer.
+
+9 - (Miguel-Pablo)Obtención de zonas relevantes por cada letra-tipografía (ver Gosselin and Schyns 2001, Sec 3.2 y Fig 1)
+
+10 - (Mailén) Identificación de rasgos distintivos de cada letra (ver Fiset et al 2008, Fig.5)

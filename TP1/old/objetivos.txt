@@ -1,0 +1,42 @@
+Objetivo
+-------------
+Reconocer rasgos utilizados por una persona para reconocer una letra presentada utilizando diferentes tipografías.
+
+Detalles
+---------
+Parámetros iniciales
+.....................
+Cantidad de burbujas: se arma un pre-experimento, con un sujeto para determinar la cantidad de acuerdo a un % de aciertos superior al azar (52%) (Fiset et al 2008, Tabla 1)
+
+Estímulos
+..........
+Alfabeto español (27 letras, incluyendo ñ)
+4 tipografías
+5 filtros por letra
+5 máscaras por letra
+
+Procesamiento de datos
+.......................
+Agrupamiento de datos por letra-tipografía
+
+Análisis de Resultados
+.......................
+Comparación de rasgos entre diferentes tipografías por letra (e.g. similitud)
+Eficiencia por tipografía
+
+Gráficos
+.........
+Gráfico con una frase completa mostrando las letras con los rasgos más importantes (Fiset et al 2008, Fig. 3)
+Lista de estímulos base (Pelli 2006, Fig.1)
+Generación de un estímulo (Fiset et al 2008, Fig.1)
+Importancia relativa de cada rasgo (rasgo x importancia_relativa x tipografía)
+
+
+Hipótesis
+-----------
+La técnica de bubles permite obtener consistentemente los rasgos en el reconocimiento de una letra (i.e., coiciden los resultados
+Mayor complejidad, menor eficiencia en el reconocimiento (pelli 2006)
+Los rasgos de una letra (e.g., 'b') varían con la tipografía que se esté utilizando
+El uso de tipografías ampliamente conocidas, (por ej. letra de coca-cola) facilita el reconocimiento (sube la eficiencia).
+
+

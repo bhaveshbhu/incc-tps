@@ -1,0 +1,54 @@
+\documentclass[runningheads,a4paper]{llncs}
+\usepackage[utf8x]{inputenc}
+\usepackage[pdftex]{graphicx}
+%\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{a4wide}
+\setcounter{tocdepth}{3}
+\usepackage[spanish]{babel}
+
+\urldef{\mails}\path|{cgcossio,mailen.gomezmayol, plistingart, miguelmsoler}@gmail.com|
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+\begin{document}
+\mainmatter
+
+\title{Reconocimiento de Letras:\\ Detecci\'on de Rasgos con Bubbles}
+\titlerunning{Reconocimiento de Letras con Bubbles}
+\author{Cossio Mercado, C. \and Gomez Mayol, M. \and Listingart, P. \and Martinez Soler, M.}
+\authorrunning{Cossio Mercado, Gomez Mayol, Listingart, Martinez Soler}
+
+\institute{Facultad de Ciencias Exactas y Naturales, UBA\\Buenos Aires, Argentina\\\mails }
+\toctitle{Reconocimiento de Letras con Bubbles}
+\tocauthor{Cossio Mercado, Gomez Mayol, Listingart, Martinez Soler}
+
+\maketitle
+\begin{abstract}
+
+\keywords{}
+\end{abstract}
+
+% + Revisión bibliográfica, 
+% + experimento viejo
+% + variación propuesta. 
+% + Diseño experimentaldetallado 
+
+\section{Introducción}
+\label{sec:Introduccion}
+
+\section{Estado del Arte}
+\label{sec:EstadoDelArte}
+
+
+\begin{thebibliography}{10}
+  \bibitem{Stone:CrossValidation} Stone, M.: \emph{Cross-Validatory Choice and Assessment of Statistical Predictions}, in  Journal of the Royal Statistical Society Series B 36: 111–147 (1974).
+  \bibitem{PetersEtAl:StatLearning} Peters, B., Bui, H.,H., Frankild, S., Nielsen, M., Lundegaard C., et al.: \emph{A Community Resource Benchmarking Predictions of Peptide Binding to MHC-I Molecules}.
+In PLoS Computational Biology 2(6), e65, pp. 574--584, Public Library of Science (2006)
+\bibitem{HastieEtAl:StatLearning} Hastie, T., Tibshirani, R., Friedman, J.: \emph{The Elements of Statistical Learning, Second Edition}. Springer, New York (2009)
+  \bibitem{ClarkeEtAl:PrincDatMinandMachLearn} Clarke, B., Fokoué, E., Zhang, H.: \emph{Principles and Theory for Data Mining and Machine Learning}. Springer, New York (2009)
+  \bibitem{LundEtAl:ImmnuBioinformatics} Lund, O., Nielsen, M., Lundegaard, C., Ke\c smir, C., Brunak, S.: \emph{Immunological Bioinformatics}. MIT Press, Cambridge, Massachusetts (2005)
+\end{thebibliography}
+
+\end{document}
