@@ -8,7 +8,7 @@
 
 Pendientes de definición (PdD)
 ................................
-+ Cómo guardar los valores obtenidos (máscaras, letra del estímulo, letra predicha)
++ Cómo guardar los valores obtenidos (máscaras, letra del estímulo, letra predicha, tiempo transcurrido en responder)
 + Cómo se obtuvo la cantidad de bubbles por cada letra (tabla 1)
 + Definir el orden de mayúsculas-minúsculas en forma random (capaz no es necesario)
 + Tamaño real del estímulo a mostrar (tan((1.35/360)*2*pi())*100 en cm. en Octave)

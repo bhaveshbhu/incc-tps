@@ -1,4 +1,5 @@
 window = Screen(0, 'OpenWindow');
+letras = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"]
 mayuscula=1;
 miniscula=0;
 maxBlocks=2;		% Se harán 100 bloques
@@ -21,8 +22,8 @@ for b=1:maxBlocks
 	Screen('Close', textura);
 	while mod(e,estimPorBlock)!=0
 	    if mod(e,estimPorBlock)>(estimPorBlock/2)
-		% idLetra=letraRandom(); 			%Devuelve un id de letra con una letra entre a-z ([1..27])
-		% tipografia=tipografiaRandom(); 	%Devuelve el id de una tipografía de las utilizadas ([1..4])
+		% idLetra=rand()*27+1; 		%Devuelve un id de letra con una letra entre a-z ([1..27])
+		% tipografia=rand()*3+1; 	%Devuelve el id de una tipografía de las utilizadas ([1..4])
 		% mascaras=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas
 		% mletra = generarEstimulo(letra, tipografia, mayuscula, mascaras); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las máscaras indicadas
 		mletra=mletra_a_may;
@@ -38,6 +39,8 @@ for b=1:maxBlocks
 	    % RECIBIR RESPUESTA
 	    [secs,tecla,deltasecs] = KbPressWait();
 	    teclaNombre = KbName(tecla);
+
+	    % GUARDAR los valores obtenidos (máscaras, letra del estímulo, letra predicha, tiempo transcurrido en responder)
 	    if letras(idLetra)== teclaNombre
 		aciertos++;
 	    end
