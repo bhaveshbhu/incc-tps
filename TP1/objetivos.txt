@@ -1,4 +1,4 @@
-Objetivo
+﻿Objetivo
 -------------
 Reconocer rasgos utilizados por una persona para reconocer una letra presentada utilizando diferentes tipografías.
 
@@ -13,7 +13,7 @@ Estímulos
 Alfabeto español (27 letras, incluyendo ñ)
 4 tipografías
 5 filtros por letra (32-16, 16-8, 8-4, 4-2, 2-1 ciclos/letra)
-108 Estímulos totales (27 letras x 4 alfabetos)
+108 Estímulos totales (27 letras x 3 alfabetos+letras famosas x 2)
 
 Procesamiento de datos
 .......................

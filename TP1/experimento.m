@@ -1,7 +1,6 @@
 window = Screen(0, 'OpenWindow');
 mayuscula=1;
 miniscula=0;
-burbujas=10;
 maxBlocks=2;		% Se harán 100 bloques
 estimPorBlock=10; 	% 270 estímulos random por bloque
 
@@ -14,6 +13,7 @@ mletra_a_min = imread('./a_min.png');	% A BORRAR
 aciertos=0;
 e=1;
 for b=1:maxBlocks
+	burbujas=10;
 	textura=Screen('MakeTexture', window, mcruz);
 	Screen('DrawTexture', window, textura);
 	Screen('Flip',window);

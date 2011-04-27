@@ -1,4 +1,4 @@
-0 - (Christian) Revisión de bibliografía
+﻿0 - (Christian) Revisión de bibliografía
 
 1 - (Christian, Mailén) Armar el esqueleto del experimento en Psychtoolbox
    1.1 mostrar cruz de centrado
@@ -6,30 +6,65 @@
    1.3 mostrar opciones
    1.4 guardar las respuestas ingresadas en el teclado con registro de tiempo
 
+Pendientes de definición (PdD)
+................................
++ Cómo guardar los valores obtenidos (máscaras, letra del estímulo, letra predicha)
++ Cómo se obtuvo la cantidad de bubbles por cada letra (tabla 1)
++ Definir el orden de mayúsculas-minúsculas en forma random (capaz no es necesario)
++ Tamaño real del estímulo a mostrar (tan((1.35/360)*2*pi())*100 en cm. en Octave)
+
+
 2 - (Miguel) Generar una máscara de bubbles (INPUT: desvío estándar, superficie a  mostrar)
 	2.1 - Partiendo de los parametros del filtro, determinar nùmero y tamaño de las bubbles (ver Gosselin Bubbles y Fiset)
          2.1.1 - ¿Tienen que haber bubbles en zonas donde se sabe que no va haber letras? 
 
+PdD
+.....
++ Tamaño de las máscaras (pixeles x pixeles)
++ Cómo correlacionar las bandas con la cantidad y tamaño de las burbujas.
+
 3 - (Mailén) Análisis de estímulos base (output: letras en distintas tipografías en formato True Type/PostScript)
 	3.1 - 
+
+PdD
+.....
++ Nombres de los archivos (convención: a_02_may_1.png <letra>_<id-tipografía>_<may|min>_<0|..|5>.bmp)
++ Reajustar imágenes al tamaño final de los estímulos (resize con script de Gimp).
++ Cambiar fondo a gris y letras a gris oscuro (con script de Gimp)
++ Asegurarse que las imágenes tengan sólo dos colores (no grises).
 
 4 - (Pablo) Calcular complejidad de una letra (INPUT: imagen de una letra ; OUTPUT: perímetro, superficie, complejidad (per^2/sup)
 	4.1 - Implementar el algoritmo de Pelli (2006)
 
-5 - (Christian) Ajustes iniciales de parámetros (superficie expuesta, desvío, umbrales) 
-	4.1 -  
 
-6 - (Pablo, Miguel) Análisis de bandas de frecuencia y tamaño de letras (output: tipografías con sus respectivas versiones filtradas y en tamaños adecuados)
+5 - (Christian) Ajustes iniciales de parámetros (superficie expuesta, desvío, umbrales)
+	5.1 -  
+
+PdP
+....
++ Revisar cómo se hace (!)
+
+
+6 - (Pablo) Análisis de bandas de frecuencia y tamaño de letras (output: tipografías con sus respectivas versiones filtradas y en tamaños adecuados)
 	6.1 - Buscar software que filtre imágenes automáticamente con filtros pasa banda de 1 octava
 	6.2 - Generar los archivos filtrados en los distintos rangos de frecuencia
 
-7 - (Pablo) Generar estímulos (INPUT: letras en sus versiones filtradas, máscaras con bubbles OUTPUT: conjunto de estímulos a utilizar en el experimento)
+7 - (Pablo, Miguel) Generar estímulos (INPUT: letra, may/min, máscaras. OUTPUT: estímulo a utilizar en el experimento)
 	7.1 - Generar la salida enmascarada, aplicando las màscaras del punto 2 a las imágenes del filtradas del punto anterior
 
+PpD
+....
++ Tiene que implementarse para poder realizarse online (no puede tardar demasiado)
 
-8 - (Christian, Miguel) Análisis e implementación del Observador ideal
-	8.1 - Leer, leer y leeeeeeeer.
 
-9 - (Miguel-Pablo)Obtención de zonas relevantes por cada letra-tipografía (ver Gosselin and Schyns 2001, Sec 3.2 y Fig 1)
+8 - (Miguel) Análisis e implementación del Observador ideal
+	8.1 - 
+
+Fórmula: argmin(H_i)(|D-H_i|^2)
+
+
+9 - (Mailén, Christian, Miguel) Obtención de zonas relevantes por cada letra-tipografía (ver Gosselin and Schyns 2001, Sec 3.2 y Fig 1)
+
 
 10 - (Mailén) Identificación de rasgos distintivos de cada letra (ver Fiset et al 2008, Fig.5)
+
