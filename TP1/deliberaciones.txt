@@ -1,6 +1,6 @@
 ﻿0 - (Christian) Revisión de bibliografía
 
-1 - (Christian, Mailén) Armar el esqueleto del experimento en Psychtoolbox
+1 - (Christian) Armar el esqueleto del experimento en Psychtoolbox
    1.1 mostrar cruz de centrado
    1.2 mostrar estímulo por un tiempo indeterminado
    1.3 mostrar opciones
@@ -10,18 +10,21 @@ Pendientes de definición (PdD)
 ................................
 + Cómo guardar los valores obtenidos (máscaras, letra del estímulo, letra predicha, tiempo transcurrido en responder)
 + Cómo se obtuvo la cantidad de bubbles por cada letra (tabla 1)
-+ Definir el orden de mayúsculas-minúsculas en forma random (capaz no es necesario)
++ Definir el orden de mayúsculas-minúsculas en forma random (capaz no es necesario)	HECHO!
 + Tamaño real del estímulo a mostrar (tan((1.35/360)*2*pi())*100 en cm. en Octave)
-
++ Agregar pop-up para pedir datos del sujeto	(i.e., nombre)
 
 2 - (Miguel) Generar una máscara de bubbles (INPUT: desvío estándar, superficie a  mostrar)
 	2.1 - Partiendo de los parametros del filtro, determinar nùmero y tamaño de las bubbles (ver Gosselin Bubbles y Fiset)
          2.1.1 - ¿Tienen que haber bubbles en zonas donde se sabe que no va haber letras? 
+	2.2 - 
 
 PdD
 .....
 + Tamaño de las máscaras (pixeles x pixeles)
 + Cómo correlacionar las bandas con la cantidad y tamaño de las burbujas.
++ Como reemplazar el fondo negro por una interpolación a gris (fondo)
++ Si las burbujas van sólo sobre la letra efectiva	Sí!
 
 3 - (Mailén) Análisis de estímulos base (output: letras en distintas tipografías en formato True Type/PostScript)
 	3.1 - 
@@ -32,39 +35,53 @@ PdD
 + Reajustar imágenes al tamaño final de los estímulos (resize con script de Gimp).
 + Cambiar fondo a gris y letras a gris oscuro (con script de Gimp)
 + Asegurarse que las imágenes tengan sólo dos colores (no grises).
++ Tamaño de las imágenes debe ser potencia de 2.
++ Tam(estimulo)/tam(letra)>=2
 
-4 - (Pablo) Calcular complejidad de una letra (INPUT: imagen de una letra ; OUTPUT: perímetro, superficie, complejidad (per^2/sup)
+4 - (?) Calcular complejidad de una letra (INPUT: imagen de una letra ; OUTPUT: perímetro, superficie, complejidad (per^2/sup)
 	4.1 - Implementar el algoritmo de Pelli (2006)
 
+PdD
+......
++ Para la semana de análisis de datos
 
 5 - (Christian) Ajustes iniciales de parámetros (superficie expuesta, desvío, umbrales)
 	5.1 -  
 
 PdP
 ....
-+ Revisar cómo se hace (!)
++ A cancelar (CHECK)
 
 
-6 - (Pablo) Análisis de bandas de frecuencia y tamaño de letras (output: tipografías con sus respectivas versiones filtradas y en tamaños adecuados)
+6 - (Miguel) Análisis de bandas de frecuencia y tamaño de letras (output: tipografías con sus respectivas versiones filtradas y en tamaños adecuados)
 	6.1 - Buscar software que filtre imágenes automáticamente con filtros pasa banda de 1 octava
 	6.2 - Generar los archivos filtrados en los distintos rangos de frecuencia
 
-7 - (Pablo, Miguel) Generar estímulos (INPUT: letra, may/min, máscaras. OUTPUT: estímulo a utilizar en el experimento)
+7 - (Miguel, Christian) Generar estímulos (INPUT: letra, may/min, máscaras. OUTPUT: estímulo a utilizar en el experimento)
 	7.1 - Generar la salida enmascarada, aplicando las màscaras del punto 2 a las imágenes del filtradas del punto anterior
 
 PpD
 ....
 + Tiene que implementarse para poder realizarse online (no puede tardar demasiado)
-
++ Lee archivo PGM?
++ 
 
 8 - (Miguel) Análisis e implementación del Observador ideal
 	8.1 - 
 
 Fórmula: argmin(H_i)(|D-H_i|^2)
 
+PdP
+....
++ Para la semana de análisis de datos
 
 9 - (Mailén, Christian, Miguel) Obtención de zonas relevantes por cada letra-tipografía (ver Gosselin and Schyns 2001, Sec 3.2 y Fig 1)
 
+PdP
+....
++ Para la semana de análisis de datos
 
 10 - (Mailén) Identificación de rasgos distintivos de cada letra (ver Fiset et al 2008, Fig.5)
-
+PdP
+....
++ Para la semana de análisis de datos
