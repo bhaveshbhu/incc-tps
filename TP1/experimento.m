@@ -9,8 +9,6 @@ mbienvenida = imread('./bienvenida.png');
 mcruz = imread('./cruz.png');
 mpresionetecla = imread('./presione_tecla.png');
 
-
-
 aciertos=0;
 e=1;
 
