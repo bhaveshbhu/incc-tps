@@ -4,6 +4,8 @@ mayuscula=1;
 minuscula=0;
 maxBlocks=2;		% Se harán 100 bloques
 estimPorBlock=10; 	% 270 estímulos random por bloque
+burbujas(1
+
 
 mbienvenida = imread('./bienvenida.png');
 mcruz = imread('./cruz.png');
@@ -17,9 +19,11 @@ Screen('DrawTexture', window, textura);
 Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
+
 for b=1:maxBlocks
 	esMayuscula=round(rand());
 	burbujas=10;
+
 	while mod(e,estimPorBlock) ~=0
 	    textura=Screen('MakeTexture', window, mcruz);
 	    Screen('DrawTexture', window, textura);
