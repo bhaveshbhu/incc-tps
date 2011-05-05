@@ -3,6 +3,7 @@
 
 + Reajustar ancho letras a 64 pixels
 + Definir tamaño canvas a 256x256 (con la letra centrada)
++ Convertir imágenes a formato PGM
 + Probar biblioteca Filtros en Octave
 + Armar funciones de matlab/octave
   - generarMáscaras (recibe cantidad de burbujas para la imagen con mayor definición, y devuelve vector de matrices con los valores entre 0 y 1)
