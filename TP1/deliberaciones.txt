@@ -31,7 +31,7 @@ PdD
 
 PdD
 .....
-+ Nombres de los archivos (convención: a_02_may_1.png <letra>_<id-tipografía>_<may|min>_<0|..|5>.bmp)
++ Nombres de los archivos (convención: a_02_may_1.png <letra>_<id-tipografía>_<may|min>_<0|..|5>.pgm)
 + Reajustar imágenes al tamaño final de los estímulos (resize con script de Gimp).
 + Cambiar fondo a gris y letras a gris oscuro (con script de Gimp)
 + Asegurarse que las imágenes tengan sólo dos colores (no grises).

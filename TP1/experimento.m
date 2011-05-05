@@ -15,7 +15,7 @@ e=1;
 textura=Screen('MakeTexture', window, mbienvenida);
 Screen('DrawTexture', window, textura);
 Screen('Flip',window);
-KbWait; %Presione cualquier tecla para continuar
+KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
 for b=1:maxBlocks
 	esMayuscula=round(rand());
@@ -29,7 +29,7 @@ for b=1:maxBlocks
 	    letra=rand()*26+1; 		%Devuelve un id de letra con una letra entre a-z ([1..27])
 	    letra=1;
 	    tipografia=rand()*3+1;	%Devuelve el id de una tipografía de las utilizadas ([1..4])
-	    mascaras=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas
+	    [m1,m2,m3,m4,m5]=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas	    
 	    if mod(e,estimPorBlock)>(estimPorBlock/2)
 		mayuscula=esMayuscula;
 		%mletra=mletra_a_may;
@@ -37,6 +37,7 @@ for b=1:maxBlocks
 		mayuscula=mod(esMayuscula + 1,2);
 		%mletra=mletra_a_min;
 	    end
+	    filtros=generarFiltros;
 	    mletra = generarEstimulo(letra, tipografia, mayuscula, mascaras); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las máscaras indicadas
 	    textura=Screen('MakeTexture', window, mletra);
 	    Screen('DrawTexture', window, textura);    
