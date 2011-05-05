@@ -1,14 +1,18 @@
+idSujeto=input("\nPor favor, ingrese su ID y presione Enter \n","s");
+
 window = Screen(0, 'OpenWindow');
-letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z'];
+%letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z'];
+letras=["a";"b";"c";"d";"e";"f";"g";"h";"i";"j";"k";"l";"m";"n";"ñ";"o";"p";"q";"r";"s";"t";"u";"v";"w";"x";"y";"z"]; %PONER ñ!!!
 mayuscula=1;
 minuscula=0;
-maxBlocks=2;		% Se harán 100 bloques
-estimPorBlock=10; 	% 270 estímulos random por bloque
+maxBlocks=5;		% Se harán 100 bloques
+estimPorBlock=100; 	% 270 estímulos random por bloque
 %burbujas=zeros(27,3,2);
 
 mbienvenida = imread('./bienvenida.png');
 mcruz = imread('./cruz.png');
 mpresionetecla = imread('./presione_tecla.png');
+%mletraPrueba= imread('./estimulos/x_3_may_0.pgm');
 
 aciertos=0;
 e=1;
@@ -29,19 +33,26 @@ for b=1:maxBlocks
 	    Screen('Flip',window);
 	    WaitSecs(0.5);
 	    Screen('Close', textura);
-	    letra=rand()*26+1; 		%Devuelve un id de letra con una letra entre a-z ([1..27])
-	    letra=1;
-	    tipografia=rand()*2+1;	%Devuelve el id de una tipografía de las utilizadas ([1..4])
-	    [m1,m2,m3,m4,m5]=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas	    
+	    letra=round(rand()*26+1); 		%Devuelve un id de letra con una letra entre a-z ([1..27])
+	    tipografia=round(rand()*2+1);	%Devuelve el id de una tipografía de las utilizadas ([1..4])
+	    %[m1,m2,m3,m4,m5]=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas	    
 	    if mod(e,estimPorBlock)>(estimPorBlock/2)
 		mayuscula=esMayuscula;
-		%mletra=mletra_a_may;
 	    else
 		mayuscula=mod(esMayuscula + 1,2);
-		%mletra=mletra_a_min;
 	    end
-	    filtros = generarFiltros('./estimulos/k_3_may_0.pgm');
-	    mletra  = generarEstimulo(mascaras,filtros); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las máscaras indicadas
+
+	    if mayuscula==1
+		mayStr='may';
+	    else
+		mayStr='min';
+	    end
+	  
+	    nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
+	    %filtros = generarFiltros(['./estimulos/',nombreArchivo]);
+	    %mletra  = generarEstimulo(mascaras,filtros); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las máscaras indicadas
+   
+	    mletra  = imread(['./estimulos/',nombreArchivo]);
 	    textura = Screen('MakeTexture', window, mletra);
 	    Screen('DrawTexture', window, textura);    
 	    Screen('Flip',window);	    
@@ -54,15 +65,14 @@ for b=1:maxBlocks
 	    %KbWait;
         % RECIBIR RESPUESTA
 	    [secs,tecla,deltasecs] = KbPressWait();
-	    teclaNombre = KbName(tecla)
-	    letras(letra)
+	    teclaNombre = KbName(tecla);
 	    e=e+1;
         % GUARDAR los valores obtenidos (máscaras, letra del estímulo, letra predicha, tiempo transcurrido en responder)
-	    if letras(letra) == teclaNombre
-		aciertos=aciertos+1
+	    if deblank(letras(letra,:)) == teclaNombre
+		aciertos=aciertos+1;
 	    end
 	    if aciertos/e < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el próximo
-		burbujas=burbujas+1
+		burbujas=burbujas+1;
 	    end
 	end
 	e=e+1;
