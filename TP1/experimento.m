@@ -1,12 +1,12 @@
-idSujeto=input("\nPor favor, ingrese su ID y presione Enter \n","s");
+idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
 
 window = Screen(0, 'OpenWindow');
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z'];
-letras=["a";"b";"c";"d";"e";"f";"g";"h";"i";"j";"k";"l";"m";"n";"ñ";"o";"p";"q";"r";"s";"t";"u";"v";"w";"x";"y";"z"]; %PONER ñ!!!
+letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ñ!!!
 mayuscula=1;
 minuscula=0;
-maxBlocks=5;		% Se harán 100 bloques
-estimPorBlock=100; 	% 270 estímulos random por bloque
+maxBlocks=1;		% Se harán 100 bloques
+estimPorBlock=10; 	% 270 estímulos random por bloque
 %burbujas=zeros(27,3,2);
 
 mbienvenida = imread('./bienvenida.png');
@@ -25,7 +25,7 @@ Screen('Close', textura);
 
 for b=1:maxBlocks
 	esMayuscula=round(rand());
-	burbujas=16;
+	burbujas=18;
 
 	while mod(e,estimPorBlock) ~=0
 	    textura=Screen('MakeTexture', window, mcruz);
@@ -35,7 +35,7 @@ for b=1:maxBlocks
 	    Screen('Close', textura);
 	    letra=round(rand()*26+1); 		%Devuelve un id de letra con una letra entre a-z ([1..27])
 	    tipografia=round(rand()*2+1);	%Devuelve el id de una tipografía de las utilizadas ([1..4])
-	    %[m1,m2,m3,m4,m5]=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas	    
+	    
 	    if mod(e,estimPorBlock)>(estimPorBlock/2)
 		mayuscula=esMayuscula;
 	    else
@@ -46,13 +46,14 @@ for b=1:maxBlocks
 		mayStr='may';
 	    else
 		mayStr='min';
-	    end
-	  
-	    nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
-	    %filtros = generarFiltros(['./estimulos/',nombreArchivo]);
-	    %mletra  = generarEstimulo(mascaras,filtros); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las máscaras indicadas
-   
-	    mletra  = imread(['./estimulos/',nombreArchivo]);
+        end
+        
+        [m1,m2,m3,m4,m5]=generarMascaras(burbujas);	%Devuelve un vector de 5 máscaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas
+        nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
+	    [f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo));
+	    mletra1  = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las máscaras indicadas
+        
+	    mletra  = imread('/tmp/letra.pgm');
 	    textura = Screen('MakeTexture', window, mletra);
 	    Screen('DrawTexture', window, textura);    
 	    Screen('Flip',window);	    

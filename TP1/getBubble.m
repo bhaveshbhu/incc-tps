@@ -8,7 +8,7 @@ function bubble = getBubble(diameter, variance)
 	F = mvnpdf([X1(:) X2(:)],mu,Sigma);
 	F = reshape(F,length(x2),length(x1));
 	factor = 1 / F(diameter/2, diameter/2);
-	bubble = F ;%* factor;
+	bubble = F * factor;
 
 	% surf(x1,x2,bubble);
 	% caxis([min(bubble(:))-.5*range(bubble(:)),max(bubble(:))]);

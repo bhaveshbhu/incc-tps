@@ -1,5 +1,5 @@
 function [f1,f2,f3,f4,f5,fondo] = generarFiltros(archivo)
-
+archivo
 oim = pgmRead(archivo);
 
 tic; corrDn(oim,[1 1; 1 1]/4,'circular',[2 2]); time = toc;
@@ -41,6 +41,5 @@ f3 = fine3_full + blurred5_full;
 f4 = fine4_full + blurred5_full;
 f5 = fine5_full + blurred5_full;
 fondo = blurred5_full;
-end
 
-endfunction
+end
