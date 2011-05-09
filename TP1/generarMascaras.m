@@ -93,9 +93,9 @@ function [m1,m2,m3,m4,m5] = generarMascaras(cantBurbujas)
         %pgmWrite(m5, 'm5.pgm');
         
         %aplanar
-        m1 = m1 * .8 + 1.2;
-        m2 = m2 * .8 + 1.2;
-        m3 = m3 * .8 + 1.2;
-        m4 = m4 * .8 + 1.2;
-        m5 = m5 * .8 + 1.2;
+%         m1 = m1 * .8 + 1.2;
+%         m2 = m2 * .8 + 1.2;
+%         m3 = m3 * .8 + 1.2;
+%         m4 = m4 * .8 + 1.2;
+%         m5 = m5 * .8 + 1.2;
 end
