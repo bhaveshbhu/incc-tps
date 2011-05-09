@@ -1,10 +1,10 @@
 function [m1,m2,m3,m4,m5] = generarMascaras(cantBurbujas)
 
-        var1= 4; %3p
+        var1= 3; %3p
         var2= 16; %6p
-        var3= 32;%12p
-        var4= 96;%24p
-        var5= 256;%48p
+        var3= 50;%12p
+        var4= 100;%24p
+        var5= 440;%48p
 
         m1(1:256,1:256) = 0;
         size = 16;
@@ -21,7 +21,7 @@ function [m1,m2,m3,m4,m5] = generarMascaras(cantBurbujas)
         end
         %superficie = sum(sum(max(m1,ones(256)*.001)));
         %superficie
-        %pgmWrite(m1, 'm1.pgm');
+        pgmWrite(m1, 'm1.pgm');
 
         m2(1:256,1:256) = 0;
         size = 32;
@@ -39,7 +39,7 @@ function [m1,m2,m3,m4,m5] = generarMascaras(cantBurbujas)
 
         %sum(sum(max(m2,ones(256)*.001)))
 
-        %pgmWrite(m2, 'm2.pgm');
+        pgmWrite(m2, 'm2.pgm');
 
         m3(1:256,1:256) = 0;
         size = 64;
@@ -73,7 +73,7 @@ function [m1,m2,m3,m4,m5] = generarMascaras(cantBurbujas)
         end
 
         %sum(sum(max(m4,ones(256)*.001)))
-        %pgmWrite(m4, 'm4.pgm');
+        pgmWrite(m4, 'm4.pgm');
 
         m5(1:256,1:256) = 0;
         size = 96*2-2;
@@ -90,7 +90,7 @@ function [m1,m2,m3,m4,m5] = generarMascaras(cantBurbujas)
         end
 
         %sum(sum(max(m5,ones(256)*.001)))
-        %pgmWrite(m5, 'm5.pgm');
+        pgmWrite(m5, 'm5.pgm');
         
         %aplanar
 %         m1 = m1 * .8 + 1.2;
