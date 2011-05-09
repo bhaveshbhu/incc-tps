@@ -25,7 +25,7 @@ Screen('Close', textura);
 
 for b=1:maxBlocks
 	esMayuscula=round(rand());
-	burbujas=18;
+	burbujas=16;
 
 	while mod(e,estimPorBlock) ~=0
 	    textura=Screen('MakeTexture', window, mcruz);
