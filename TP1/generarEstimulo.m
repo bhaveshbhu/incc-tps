@@ -10,7 +10,7 @@ function letra = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6)
     g4 = (max(max(f4))-min(min(f4)))* coef + min(min(f4));
     g5 = (max(max(f5))-min(min(f5)))* coef + min(min(f5));
  
-    %filtro las imágenes
+    %filtro las imï¿½genes
     r1 = f1.*m1+(ones(256,256)*g1).*(1-m1);
     r2 = f2.*m2+(ones(256,256)*g2).*(1-m2);
     r3 = f3.*m3+(ones(256,256)*g3).*(1-m3);
@@ -20,5 +20,5 @@ function letra = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6)
     %compongo
 	letra = r1+r2+r3+r4+r5;
     %grabo en un archivo para normalizar
-    pgmWrite(letra,'C:\temp\letra.pgm');
+    pgmWrite(letra,'/tmp/letra.pgm');
 end
