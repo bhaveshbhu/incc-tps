@@ -1,3 +1,6 @@
+%TODO: Registrar cantidad de burbujas por letra-estímulo en 
+% una matriz de 27x3x2
+
 idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
 
 window = Screen(0, 'OpenWindow');
@@ -12,14 +15,16 @@ result.m2=zeros(256,256);
 result.m3=zeros(256,256);
 result.m4=zeros(256,256);
 result.m5=zeros(256,256);
-result.f1=zeros(256,256);
-result.f2=zeros(256,256);
-result.f3=zeros(256,256);
-result.f4=zeros(256,256);
-result.f5=zeros(256,256);
+%result.f1=zeros(256,256);
+%result.f2=zeros(256,256);
+%result.f3=zeros(256,256);
+%result.f4=zeros(256,256);
+%result.f5=zeros(256,256);
 result.burbujas=0;
 result.letra='';
-result.estimulo=zeros(256,256);
+result.tipografia=0;
+result.mayuscula='';
+%result.estimulo=zeros(256,256);
 result.respuesta='';
 result.tiempoRespuesta=0.0;
 
@@ -109,14 +114,16 @@ for b=1:maxBlocks
 	    result.m3=m3;
 	    result.m4=m4;
 	    result.m5=m5;
-	    result.f1=f1;
-	    result.f2=f2;
-	    result.f3=f3;
-	    result.f4=f4;
-	    result.f5=f5;
+	    %result.f1=f1;
+	    %result.f2=f2;
+	    %result.f3=f3;
+	    %result.f4=f4;
+	    %result.f5=f5;
+        result.tipografia=tipografia;
+        result.mayuscula=mayStr;
 	    result.letra=letraEstimulo;
 	    result.burbujas=burbujas;
-	    result.estimulo=mletra;
+	    %result.estimulo=mletra;
 	    result.respuesta=teclaNombre;
 	    result.tiempoRespuesta=deltasecs;
 	    %GUARDAR en archivo general de resultados
@@ -140,6 +147,6 @@ KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
 
 nombreData=strcat('./datos/', idSujeto,'_',date,'_',int2str(cputime*1000),'.mat');
-save(nombreData, 'results', '-ascii');
+save(nombreData, 'results');
 
 Screen('CloseAll');
