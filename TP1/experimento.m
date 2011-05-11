@@ -1,11 +1,27 @@
 %TODO: Registrar cantidad de burbujas por letra-estímulo en 
 % una matriz de 27x3x2
+burbujas = ones(27,3,2)*10;
+aciertos = zeros(27,3,2);
+apariciones = zeros(27,3,2);
+if isWin()
+    pathDatos = '.\datos\';
+    pathTemp = 'C:\temp\'
+else
+    pathDatos = './datos/';
+    pathTemp = '/tmp/'
+end
 
 idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
 
 window = Screen(0, 'OpenWindow');
-%letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o','p','q','r','s','t','u','v','w','x','y','z'];
-letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
+%letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o',
+%'p','q','r','s','t','u','v','w','x','y','z'];
+if isWin()
+    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
+else
+    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
+end
+
 
 %INICIALIZAR VARIABLES
 result.bloque=0;
@@ -32,8 +48,8 @@ results=result;
 
 mayuscula=1;
 minuscula=0;
-maxBlocks=3;		% Se har�n 100 bloques
-estimPorBlock=10; 	% 270 est�mulos random por bloque
+cantBloques=5;		% Se har�n 100 bloques
+estimPorBlock=100; 	% 270 est�mulos random por bloque
 
 %Imágenes útiles
 mbienvenida = imread('./bienvenida.png');
@@ -41,7 +57,7 @@ mcruz = imread('./cruz.png');
 mpresionetecla = imread('./presione_tecla.png');
 mdespedida = imread('./despedida.png');
 
-aciertos=0;
+
 est=1;
 
 textura=Screen('MakeTexture', window, mbienvenida);
@@ -50,9 +66,9 @@ Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
 
-for b=1:maxBlocks
+for b=1:cantBloques
 	esMayuscula=round(rand());
-	burbujas=16;
+	%burbujas=16;
 
 	%while mod(est,estimPorBlock) ~=0
     for e=1:estimPorBlock
@@ -72,15 +88,16 @@ for b=1:maxBlocks
 
 	    if mayuscula==1
 		mayStr='may';
-	    else
+        else
 		mayStr='min';
-	    end
-	    [m1,m2,m3,m4,m5]=generarMascaras(burbujas);	%Devuelve un vector de 5 m�scaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas
+        end
+        apariciones(letra, tipografia, mayuscula + 1) = apariciones(letra, tipografia, mayuscula + 1) + 1;
+	    [m1,m2,m3,m4,m5]=generarMascaras(burbujas(letra, tipografia, mayuscula + 1));	%Devuelve un vector de 5 m�scaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas
 	    nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
 	    [f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo));
-	    mletra1  = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las m�scaras indicadas
+	    mletra1  = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6, pathTemp); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las m�scaras indicadas
         
-	    mletra  = imread('/tmp/letra.pgm');
+        mletra  = imread(strcat(pathTemp,'letra.pgm'));
 	    textura = Screen('MakeTexture', window, mletra);
 	    Screen('DrawTexture', window, textura);    
 	    Screen('Flip',window);	    
@@ -93,11 +110,11 @@ for b=1:maxBlocks
 	    %KbWait;
         % RECIBIR RESPUESTAint2str(cputime*1000)
 	    teclaNombre='0';
-	    while  ((teclaNombre < 'a') || (teclaNombre > 'z')) && teclaNombre~='ñ'
+	    while  ((teclaNombre < 'a') || (teclaNombre > 'z')) && teclaNombre~=letras(15,:) %letra �
 	      [secs,tecla,deltasecs] = KbPressWait();
 	      teclaNombre = KbName(tecla);
-	      if strcmp(teclaNombre,'ntilde')
-            teclaNombre='ñ';
+	      if strcmp(teclaNombre,'ntilde') || ( isWin() && strcmp(teclaNombre,'`') )
+            teclaNombre=letras(15,:); %letra �
           else
               if length(teclaNombre)>1
                  teclaNombre='0';
@@ -122,7 +139,7 @@ for b=1:maxBlocks
         result.tipografia=tipografia;
         result.mayuscula=mayStr;
 	    result.letra=letraEstimulo;
-	    result.burbujas=burbujas;
+	    result.burbujas=burbujas(letra, tipografia, mayuscula + 1);
 	    %result.estimulo=mletra;
 	    result.respuesta=teclaNombre;
 	    result.tiempoRespuesta=deltasecs;
@@ -130,10 +147,10 @@ for b=1:maxBlocks
 	    results(est)=result;
 	    
 	    if letraEstimulo == teclaNombre
-		aciertos=aciertos+1;
+		aciertos(letra, tipografia, mayuscula + 1)=aciertos(letra, tipografia, mayuscula + 1)+1;
 	    end
-	    if aciertos/est < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el pr�ximo
-		burbujas=burbujas+1;
+	    if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el pr�ximo
+		burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
 	    end
 	    est=est+1;
 	end
@@ -146,7 +163,8 @@ Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
 
-nombreData=strcat('./datos/', idSujeto,'_',date,'_',int2str(cputime*1000),'.mat');
+
+nombreData=strcat(pathDatos, idSujeto,'_',date,'_',int2str(cputime*1000),'.mat');
 save(nombreData, 'results');
 
 Screen('CloseAll');

@@ -1,4 +1,4 @@
-function letra = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6)
+function letra = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6, pathTemp)
 
     %nivel de luminancia del fondo 
     coef = 0.60;
@@ -20,5 +20,5 @@ function letra = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6)
     %compongo
 	letra = r1+r2+r3+r4+r5;
     %grabo en un archivo para normalizar
-    pgmWrite(letra,'/tmp/letra.pgm');
+    pgmWrite(letra,strcat(pathTemp,'letra.pgm'));   
 end
