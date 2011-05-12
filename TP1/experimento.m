@@ -53,8 +53,8 @@ results=result;
 
 mayuscula=1;
 minuscula=0;
-cantBloques=3;		% Se har�n 100 bloques
-estimPorBlock=10; 	% 270 est�mulos random por bloque
+cantBloques=5;		% Se har�n 100 bloques
+estimPorBlock=100; 	% 270 est�mulos random por bloque
 
 %Imágenes útiles
 mbienvenida = imread('./bienvenida.png');
