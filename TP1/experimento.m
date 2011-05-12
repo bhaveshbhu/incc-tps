@@ -5,6 +5,8 @@ aciertos = zeros(27,3,2);
 apariciones = zeros(27,3,2);
 black = BlackIndex(window);
 
+RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
+
 if IsWin()
     pathDatos = '.\datos\';
     pathTemp = 'C:\temp\';
