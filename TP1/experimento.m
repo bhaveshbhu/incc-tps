@@ -3,12 +3,15 @@
 burbujas = ones(27,3,2)*10;
 aciertos = zeros(27,3,2);
 apariciones = zeros(27,3,2);
-if isWin()
+black = BlackIndex(window);
+
+if IsWin()
     pathDatos = '.\datos\';
-    pathTemp = 'C:\temp\'
+    pathTemp = 'C:\temp\';
 else
-    pathDatos = './datos/';
-    pathTemp = '/tmp/'
+    %pathDatos = './datos/';
+    pathDatos = '/tmp/'; 
+    pathTemp = '/tmp/';
 end
 
 idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
@@ -16,8 +19,8 @@ idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
 window = Screen(0, 'OpenWindow');
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ï¿½','o',
 %'p','q','r','s','t','u','v','w','x','y','z'];
-if isWin()
-    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
+if IsWin()
+    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ï¿½';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
 else
     letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'Ã±';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
 end
@@ -37,6 +40,8 @@ result.m5=zeros(256,256);
 %result.f4=zeros(256,256);
 %result.f5=zeros(256,256);
 result.burbujas=0;
+result.aciertos=0;
+result.apariciones=0;
 result.letra='';
 result.tipografia=0;
 result.mayuscula='';
@@ -48,24 +53,24 @@ results=result;
 
 mayuscula=1;
 minuscula=0;
-cantBloques=5;		% Se harï¿½n 100 bloques
-estimPorBlock=100; 	% 270 estï¿½mulos random por bloque
+cantBloques=3;		% Se harï¿½n 100 bloques
+estimPorBlock=10; 	% 270 estï¿½mulos random por bloque
 
 %ImÃ¡genes Ãºtiles
 mbienvenida = imread('./bienvenida.png');
 mcruz = imread('./cruz.png');
 mpresionetecla = imread('./presione_tecla.png');
 mdespedida = imread('./despedida.png');
+mintervalo = imread('./intervalo.png');
 
-
-est=1;
-
+Screen('FillRect',window,black);
 textura=Screen('MakeTexture', window, mbienvenida);
 Screen('DrawTexture', window, textura);
 Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
 
+est=1;
 for b=1:cantBloques
 	esMayuscula=round(rand());
 	%burbujas=16;
@@ -110,11 +115,11 @@ for b=1:cantBloques
 	    %KbWait;
         % RECIBIR RESPUESTAint2str(cputime*1000)
 	    teclaNombre='0';
-	    while  ((teclaNombre < 'a') || (teclaNombre > 'z')) && teclaNombre~=letras(15,:) %letra ñ
+	    while  ((teclaNombre < 'a') || (teclaNombre > 'z')) && teclaNombre~=letras(15,:) %letra ï¿½
 	      [secs,tecla,deltasecs] = KbPressWait();
 	      teclaNombre = KbName(tecla);
-	      if strcmp(teclaNombre,'ntilde') || ( isWin() && strcmp(teclaNombre,'`') )
-            teclaNombre=letras(15,:); %letra ñ
+	      if strcmp(teclaNombre,'ntilde') || ( IsWin() && strcmp(teclaNombre,'`') )
+            teclaNombre=letras(15,:); %letra ï¿½
           else
               if length(teclaNombre)>1
                  teclaNombre='0';
@@ -140,21 +145,30 @@ for b=1:cantBloques
         result.mayuscula=mayStr;
 	    result.letra=letraEstimulo;
 	    result.burbujas=burbujas(letra, tipografia, mayuscula + 1);
-	    %result.estimulo=mletra;
+        result.aciertos=aciertos(letra, tipografia, mayuscula + 1);
+        result.apariciones=apariciones(letra, tipografia, mayuscula + 1);
+        %result.estimulo=mletra;
 	    result.respuesta=teclaNombre;
 	    result.tiempoRespuesta=deltasecs;
 	    %GUARDAR en archivo general de resultados
 	    results(est)=result;
 	    
 	    if letraEstimulo == teclaNombre
-		aciertos(letra, tipografia, mayuscula + 1)=aciertos(letra, tipografia, mayuscula + 1)+1;
+            aciertos(letra, tipografia, mayuscula + 1)=aciertos(letra, tipografia, mayuscula + 1)+1;
 	    end
 	    if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el prï¿½ximo
-		burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
+            burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
 	    end
 	    est=est+1;
-	end
-	%est=est+1;
+    end
+    
+    if b < cantBloques
+        textura=Screen('MakeTexture', window, mintervalo);
+        Screen('DrawTexture', window, textura);
+        Screen('Flip',window);
+        KbPressWait();
+        Screen('Close', textura);
+    end
 end
 
 textura=Screen('MakeTexture', window, mdespedida);
