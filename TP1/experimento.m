@@ -1,9 +1,6 @@
-%TODO: Registrar cantidad de burbujas por letra-estímulo en 
-% una matriz de 27x3x2
-burbujas = ones(27,3,2)*10;
+burbujas = ones(27,3,2)*16
 aciertos = zeros(27,3,2);
 apariciones = zeros(27,3,2);
-black = BlackIndex(window);
 
 RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
 
@@ -19,10 +16,11 @@ end
 idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
 
 window = Screen(0, 'OpenWindow');
+black = BlackIndex(window);
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o',
 %'p','q','r','s','t','u','v','w','x','y','z'];
 if IsWin()
-    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
+    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
 else
     letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
 end
