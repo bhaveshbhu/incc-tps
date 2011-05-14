@@ -8,7 +8,7 @@
 \setcounter{tocdepth}{3}
 \usepackage[spanish]{babel}
 
-\urldef{\mails}\path|{cgcossio,mailen.gomezmayol, plistingart, miguelmsoler}@gmail.com|
+\urldef{\mails}\path|{cgcossio,mailen.gomezmayol, miguelmsoler}@gmail.com|
 \newcommand{\keywords}[1]{\par\addvspace\baselineskip
 \noindent\keywordname\enspace\ignorespaces#1}
 
@@ -17,12 +17,12 @@
 
 \title{Reconocimiento de Letras:\\ Detecci\'on de Rasgos con Bubbles}
 \titlerunning{Reconocimiento de Letras con Bubbles}
-\author{Cossio Mercado, C. \and Gomez Mayol, M. \and Listingart, P. \and Martinez Soler, M.}
-\authorrunning{Cossio Mercado, Gomez Mayol, Listingart, Martinez Soler}
+\author{Christian Cossio Mercado \and Mail\'en G\'omez Mayol \and Miguel Mart\'inez Soler}
+\authorrunning{Cossio Mercado, Gomez Mayol, Martinez Soler}
 
 \institute{Facultad de Ciencias Exactas y Naturales, UBA\\Buenos Aires, Argentina\\\mails }
 \toctitle{Reconocimiento de Letras con Bubbles}
-\tocauthor{Cossio Mercado, Gomez Mayol, Listingart, Martinez Soler}
+\tocauthor{Cossio Mercado, Gomez Mayol, Martinez Soler}
 
 \maketitle
 \begin{abstract}
@@ -38,17 +38,47 @@
 \section{Introducción}
 \label{sec:Introduccion}
 
+\subsection{Objetivo}
+Reconocer rasgos utilizados por una persona para reconocer letras, presentadas utilizando diferentes tipografías.
+
+\section{Hipótesis}
+\begin{enumerate}
+ \item La técnica de bubles permite obtener consistentemente los rasgos en el reconocimiento de una letra (i.e., coiciden los resultados con los obtenidos en Fiset et al 2006).
+ \item El conjunto de rasgos detectados no es idiosincrático al grupo de individuos participantes en el experimento (i.e., se trata de una forma de identificación del ser humano en general).
+ \item A mayor complejidad de las letras, menor eficiencia en el reconocimiento (pelli 2006)
+ \item Los rasgos de una letra (e.g., 'b') varían de acuerdo a la tipografía que se esté utilizando.
+ \item El uso de tipografías ampliamente conocidas, (por ej. letras de coca-cola) facilitan el reconocimiento y, por ende, en esos casos
+ \item Aún en casos en los que el sujeto no cree haber reconocido alguna tipografía famosa, mejora el porcentaje de aciertos.
+ \item Habrá una variación en los rasgos de la letra "n" con relación a la incorporación de la letra "ñ" en todas las tipografías (cf. Fiset et al 2008).
+ \item Un observador ideal utilizará rasgos distintos a los que utiliza un ser humano para la identificación de las letras.
+\end{enumerate}
+
+
+
 \section{Estado del Arte}
 \label{sec:EstadoDelArte}
 
 
 \begin{thebibliography}{10}
-  \bibitem{Stone:CrossValidation} Stone, M.: \emph{Cross-Validatory Choice and Assessment of Statistical Predictions}, in  Journal of the Royal Statistical Society Series B 36: 111–147 (1974).
-  \bibitem{PetersEtAl:StatLearning} Peters, B., Bui, H.,H., Frankild, S., Nielsen, M., Lundegaard C., et al.: \emph{A Community Resource Benchmarking Predictions of Peptide Binding to MHC-I Molecules}.
-In PLoS Computational Biology 2(6), e65, pp. 574--584, Public Library of Science (2006)
-\bibitem{HastieEtAl:StatLearning} Hastie, T., Tibshirani, R., Friedman, J.: \emph{The Elements of Statistical Learning, Second Edition}. Springer, New York (2009)
-  \bibitem{ClarkeEtAl:PrincDatMinandMachLearn} Clarke, B., Fokoué, E., Zhang, H.: \emph{Principles and Theory for Data Mining and Machine Learning}. Springer, New York (2009)
-  \bibitem{LundEtAl:ImmnuBioinformatics} Lund, O., Nielsen, M., Lundegaard, C., Ke\c smir, C., Brunak, S.: \emph{Immunological Bioinformatics}. MIT Press, Cambridge, Massachusetts (2005)
+  \bibitem[Attneave&Arnoult56]{AttneaveArnoult:QuantitativeStudyOfShape}Attneave F, Arnoult M (1956). The quantitative study of shape and pattern perception.pdf
+  \bibitem[Chauvin05]{Chauvin05:TestsForClassificationImages}Chauvin et al (2005). Accurate statistical tests for smooth classification images.pdf
+  \bibitem[Farell\&Pelli99]{FarellPelli99:MeasureThreshold}Farell B and Pelli D (1999). Psychophysical methods, or how to measure a threshold and why.pdf
+  \bibitem[FisetEtAl08]{FisetEtAl08:BubblesForLetters}Fiset D et al (2008). Features for Identification of Uppercase and Lowercase Letters.pdf
+  \bibitem[FisetEtAl09]{FisetEtAl09:SpatioTemporalBubbles}Fiset D et al (2009). The spatio-temporal dynamics of visual letter recognition.pdf
+  \bibitem[Gosselin\&Schyns01]{GosselinSchyns01:Bubbles}Gosselin F and Schyns F (2001). Bubbles. a technique to reveal the use of information in recognition tasks.pdf
+  \bibitem[Gosselin\&Schyns03]{GosselinSchyns03:BubblesUserGuide}Gosselin F and Schyns P (2003). A User's Guide to Bubbles.pdf
+  \bibitem[GraingeEtAl08]{GraingeEtAl08:LetterPerception}Grainger et al (2008). Letter Perception. from pixels to pandemonium.pdf
+  \bibitem[Oruc\&Landy09]{OrucLandy09:ChannelSwitchingLetterIdentification}Oruc I and Landy M (2009). Scale dependence and channel switching in letter identification.pdf
+  \bibitem[Pelli\&Farell10]{PelliFarell10:PychophysicalMethods}Pelli and Farell (2010). Psychophysical Methods.pdf
+  \bibitem[Pelli01]{Pelli01:HowWeSeeLetters}Pelli D (2001). How We See Letters. Implications for Making Better Displays.pdf
+  \bibitem[Pelli03]{Pelli03:InneficiencyOfWordRecognition}Pelli D (2003). The remarkable inefficiency of word recognition.pdf
+  \bibitem[PelliEtAl09]{PelliEtAl09:GestaltInLetterIdentification}Pelli D et al (2009). Grouping in Object Recognition. The role of a Gestalt law in letter identification.pdf
+  \bibitem[PelliEtAl06]{PelliEtAl06:LetterIdentification}Pelli et al (2006). Feature detection and letter identification.pdf
+  \bibitem[Petit\&Grainger02]{PetitGrainger02:PrimingForLetterPerception}Petit JP and Grainger J (2002). Masked partial priming of letter perpection.pdf
+  \bibitem[PetitEtAl06]{PetitEtAl06:MaskedPrimingERP}Petit JP et al (2006). On the time course of letter perception. A masked priming ERP investigation.pdf
+  \bibitem[Solomon\&Pelli94]{SolomonPelli94:VisualFilterForLetterIdentification}Solomon J and Pelli D (1994). The Visual Filter Mediating Letter Identification.pdf
+
+
 \end{thebibliography}
 
 \end{document}

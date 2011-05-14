@@ -4,14 +4,14 @@
 + Reajustar ancho letras a 64 pixels	HECHO!
 + Definir tamaño canvas a 256x256 (con la letra centrada)	HECHO!
 + Convertir imágenes a formato PGM	HECHO!
-+ Probar biblioteca Filtros en Octave
-+ Armar funciones de matlab/octave
++ Probar biblioteca Filtros en Octave	CANCELADO!
++ Armar funciones de matlab/octave 	HECHO!
   - generarMáscaras (recibe cantidad de burbujas para la imagen con mayor definición, y devuelve vector de matrices con los valores entre 0 y 1)
   - generarFiltros (recibe el nombre del archivo original, devuelve las 5 versiones filtradas de la letra en una matriz)
   - generarEstímulo (recibe las máscaras y las imágenes filtradas y generar un estímulo)
-+ Agregar pop-up para registrar datos del sujeto.
-+ Guardar resultados de cada trial (máscaras, datos de letra, respuesta, demora en respuesta)
-+ Ajustar contador de cantidad de burbujas para cada letra (en vez de ser para cada bloque)
++ Agregar pop-up para registrar datos del sujeto	HECHO!
++ Guardar resultados de cada trial (máscaras, datos de letra, respuesta, demora en respuesta)	HECHO!
++ Ajustar contador de cantidad de burbujas para cada letra (en vez de ser para cada bloque)	HECHO!
 
 -------
 

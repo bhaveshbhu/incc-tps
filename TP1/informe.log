@@ -1,6 +1,5 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.31)  23 APR 2011 18:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  14 MAY 2011 19:02
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **informe.tex
 (./informe.tex
@@ -260,30 +259,28 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 (/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
-)
-(/usr/share/texmf-texlive/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./informe.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./informe.aux) ) 
 Here is how much of TeX's memory you used:
- 3294 strings out of 495061
- 40613 string characters out of 1182621
- 103169 words of memory out of 3000000
- 6441 multiletter control sequences out of 15000+50000
- 10471 words of font info for 41 fonts, out of 3000000 for 9000
+ 3094 strings out of 495061
+ 38564 string characters out of 1182621
+ 106169 words of memory out of 3000000
+ 6244 multiletter control sequences out of 15000+50000
+ 10434 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,4n,27p,336b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on informe.pdf (1 page, 86840 bytes).
+ 29i,5n,27p,336b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
+<
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
+t9.pfb>
+Output written on informe.pdf (3 pages, 99887 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
