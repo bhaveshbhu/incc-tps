@@ -9,15 +9,15 @@ else
 	pathTemp = '/tmp/';
 end
 
-idSujeto=input('\nPor favor, ingrese su ID y presione Enter \n','s');
-
-window = Screen(0, 'OpenWindow');
-black = BlackIndex(window);
-
-
+% ### ENTRADA DE ID DE SUJETO ###
+idSujeto = input('\nPor favor, ingrese su ID y presione Enter \n','s');
+idSujeto = strcat(idSujeto, '_', date, '_', int2str(cputime*1000));
 
 % ### INICIALIZAR CONSTANTES ###
-RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
+if ~ (IsOctave())
+	RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
+end
+
 mayuscula=1;
 minuscula=0;
 
@@ -34,51 +34,51 @@ end
 
 
 % ### INICIALIZAR VARIABLES ###
-
-burbujas = ones(27,3,2)*16
-aciertos = zeros(27,3,2);
-apariciones = zeros(27,3,2);
+window = Screen('OpenWindow', 0);
+black = BlackIndex(window);
+burbujas 	= ones(27,3,2)*16
+aciertos	= zeros(27,3,2);
+apariciones 	= zeros(27,3,2);
 
 est=1; %Id de estímulo
 
 % --- Estructura de resultados ---
-result.bloque	=0;
-result.trial	=0;
-result.m1	=zeros(256,256);
-result.m2	=zeros(256,256);
-result.m3	=zeros(256,256);
-result.m4	=zeros(256,256);
-result.m5	=zeros(256,256);
-result.burbujas	=0;
-result.aciertos	=0;
-result.apariciones=0;
-result.letra	='';
-result.tipografia=0;
-result.mayuscula='';
-result.respuesta='';
-result.tiempoRespuesta=0.0;
-results		=result;
-
+resultVacio.bloque	= 0;
+resultVacio.trial		= 0;
+resultVacio.m1		= zeros(256,256);
+resultVacio.m2		= zeros(256,256);
+resultVacio.m3		= zeros(256,256);
+resultVacio.m4		= zeros(256,256);
+resultVacio.m5		= zeros(256,256);
+resultVacio.burbujas	= 0;
+resultVacio.aciertos	= 0;
+resultVacio.apariciones	= 0;
+resultVacio.letra	= '';
+resultVacio.tipografia	= 0;
+resultVacio.mayuscula	= '';
+resultVacio.respuesta	= '';
+resultVacio.tiempoRespuesta= 0.0;
+results			= resultVacio;
 
 % ### CARGA DE IMÁGENES ###
-mbienvenida = imread('./bienvenida.png');
-mcruz = imread('./cruz.png');
-mpresionetecla = imread('./presione_tecla.png');
-mdespedida = imread('./despedida.png');
-mintervalo = imread('./intervalo.png');
+mbienvenida 	= imread('./bienvenida.png');
+mcruz 		= imread('./cruz.png');
+mpresionetecla 	= imread('./presione_tecla.png');
+mdespedida 	= imread('./despedida.png');
+mintervalo 	= imread('./intervalo.png');
 
 % ### COMIENZO DEL EXPERIMENTO ###
 
-Screen('FillRect',window,black);
+%Screen('FillRect',window,black);
+% --- Mensaje de Bienvenida ---
 textura=Screen('MakeTexture', window, mbienvenida);
 Screen('DrawTexture', window, textura);
 Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
 
-for b=1:cantBloques
-	esMayuscula=round(rand());
-
+for bloq=1:cantBloques
+	esMayuscula = round(rand());
 	for e=1:estimPorBlock
 		textura=Screen('MakeTexture', window, mcruz);
 		Screen('DrawTexture', window, textura);
@@ -116,7 +116,7 @@ for b=1:cantBloques
 		Screen('Flip',window);
 		Screen('Close', textura);
 
-		% RECIBIR RESPUESTA
+		% ### RECIBIR RESPUESTA ###
 		teclaNombre='0';
 		while  ((teclaNombre < 'a') || (teclaNombre > 'z')) && teclaNombre~=letras(15,:) %letra �
 			tic;
@@ -133,7 +133,7 @@ for b=1:cantBloques
 		end	    
 
 		letraEstimulo=deblank(letras(letra,:));
-		% GUARDAR los valores obtenidos (m�scaras, letra del est�mulo, letra predicha, tiempo transcurrido en responder)
+		% ### GUARDAR VALORES OBTENIDOS ### (máscaras, letra del estímulo, letra predicha, tiempo transcurrido en responder)
 		result.bloque	= b;
 		result.trial	= est;
 		result.m1	= m1;
@@ -149,8 +149,8 @@ for b=1:cantBloques
 		result.apariciones= apariciones(letra, tipografia, mayuscula + 1);
 		result.respuesta= teclaNombre;
 		result.tiempoRespuesta= deltasecs;
-		%GUARDAR en archivo general de resultados
-		results(est)	= result;
+		% --- Guardar en archivo general de resultados ---
+		results(e)	= result;
 	    
 		if letraEstimulo == teclaNombre
 			aciertos(letra, tipografia, mayuscula + 1)=aciertos(letra, tipografia, mayuscula + 1)+1;
@@ -160,25 +160,26 @@ for b=1:cantBloques
 		end
 		est=est+1;
 	end
-    
-	if b < cantBloques
+
+	% ### DESCANSO ENTRE BLOQUES ###
+	if bloq < cantBloques
 		textura=Screen('MakeTexture', window, mintervalo);
 		Screen('DrawTexture', window, textura);
 		Screen('Flip',window);
 		KbPressWait();
 		Screen('Close', textura);
 	end
+
+	% ### GRABACIÓN DE RESULTADOS ###
+	nombreData=strcat(pathDatos, idSujeto, '_' , bloq, '.mat');
+	save(nombreData, 'results');
 end
 
+% --- Mensaje de Despedida ---
 textura=Screen('MakeTexture', window, mdespedida);
-Screen('DrawTexture', window, textura);    
+Screen('DrawTexture', window, textura);
 Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
-
-
-% ### GRABACIÓN DE RESULTADOS ###
-nombreData=strcat(pathDatos, idSujeto,'_',date,'_',int2str(cputime*1000),'.mat');
-save(nombreData, 'results');
 
 Screen('CloseAll');
