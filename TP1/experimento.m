@@ -1,19 +1,20 @@
 
+% ### ENTRADA DE ID DE SUJETO ###
+idSujeto = input('\nPor favor, ingrese su ID y presione Enter \n','s');
+idSujeto = strcat(idSujeto, '_', date, '_', int2str(cputime*1000));
+
+% ### INICIALIZAR CONSTANTES ###
+
 % --- Destino de los archivos generados ---
 if IsWin()
 	pathDatos = '.\datos\';
 	pathTemp = 'C:\temp\';
 else
     %pathDatos = './datos/';
-	pathDatos = '/tmp/'; 
+	pathDatos = '/tmp/';
 	pathTemp = '/tmp/';
 end
 
-% ### ENTRADA DE ID DE SUJETO ###
-idSujeto = input('\nPor favor, ingrese su ID y presione Enter \n','s');
-idSujeto = strcat(idSujeto, '_', date, '_', int2str(cputime*1000));
-
-% ### INICIALIZAR CONSTANTES ###
 if ~ (IsOctave())
 	RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
 end
@@ -22,12 +23,12 @@ mayuscula=1;
 minuscula=0;
 
 % --- Parámetros de Ejecución ---
-cantBloques	= 17;		% Cantidad de bloques del experimento
-estimPorBlock	= 100; 	% Cantidad de estímulos por bloque
+cantBloques	= 3;		% Cantidad de bloques del experimento
+estimPorBlock	= 10; 	% Cantidad de estímulos por bloque
 
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o', %'p','q','r','s','t','u','v','w','x','y','z'];
 if IsWin()
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
+	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 else
 	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 end
@@ -73,7 +74,7 @@ result.respuesta	= '';
 result.tiempoRespuesta= 0.0000;
 results			= result;
 
-% ### CARGA DE IM�?GENES ###
+% ### CARGA DE IM�?GENES ###
 mbienvenida 	= imread('./bienvenida.png');
 mcruz 		= imread('./cruz.png');
 mpresionetecla 	= imread('./presione_tecla.png');
@@ -135,8 +136,10 @@ for bloq=1:cantBloques
 			[secs,tecla,deltasecs] = KbPressWait();
 			deltasecs=toc;
 			teclaNombre = KbName(tecla);
-            
-            % TODO: Contemplar el caso en que se devuelve un conjunto de celdas!!!
+            % En caso de haberse registrado más de una tecla, se toma la primera de ellas
+            if (length(teclaNombre(1,:))>1)
+               teclaNombre=teclaNombre(1);
+            end            
 			if strcmp(teclaNombre,'ntilde') || ( IsWin() && strcmp(teclaNombre,'`') )
 				teclaNombre=letras(15,:); %letra �
 			else

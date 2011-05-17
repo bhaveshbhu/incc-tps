@@ -1,11 +1,18 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  16 MAY 2011 21:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.17)  17 MAY 2011 12:35
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **informe.tex
 (./informe.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, croatian, bulgarian, ukrainian, russian, czech, slovak, danish, dut
+ch, finnish, french, basque, ngerman, german, german-x-2009-06-19, ngerman-x-20
+09-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, italian, latin, mo
+ngolian2a, mongolian, bokmal, nynorsk, romanian, irish, coptic, serbian, turkis
+h, welsh, esperanto, uppersorbian, estonian, indonesian, interlingua, icelandic
+, kurmanji, slovenian, polish, portuguese, spanish, galician, catalan, swedish,
+ loaded.
 (./llncs.cls
 Document Class: llncs 2010/07/12 v2.17 
  LaTeX document class for Lecture Notes in Computer Science
@@ -166,7 +173,7 @@ File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count116
 ))
 \Gin@req@height=\dimen124
@@ -204,12 +211,6 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count117
 \U@D=\dimen126
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Spanish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@spanish = a dialect from \language0
 \es@datefmt=\count118
 \es@quottoks=\toks25
 \es@quotdepth=\count119
@@ -232,7 +233,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- (/usr/share/texmf-texlive/tex/latex/ucs/ucsencs.def
+
+(/usr/share/texmf-texlive/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
 )
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
@@ -262,31 +264,26 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] <letras.png, id=11, 1987.4
-25pt x 521.95pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] <letras.png, id=11, 702.62
+5pt x 184.69pt>
 File: letras.png Graphic file (type png)
 
-<use letras.png>
-Overfull \hbox (32.5119pt too wide) in paragraph at lines 90--91
-[][] 
- []
-
-[2 <./letras.png>] [3] [4] (./informe.aux) ) 
+<use letras.png> [2 <./letras.png>] [3] [4] (./informe.aux) ) 
 Here is how much of TeX's memory you used:
- 3101 strings out of 495061
- 38660 string characters out of 1182621
- 106169 words of memory out of 3000000
- 6249 multiletter control sequences out of 15000+50000
+ 3102 strings out of 493911
+ 38687 string characters out of 1155272
+ 107831 words of memory out of 3000000
+ 6334 multiletter control sequences out of 15000+50000
  10434 words of font info for 41 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
+ 706 hyphenation exceptions out of 8191
  29i,6n,27p,336b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on informe.pdf (4 pages, 278011 bytes).
+</usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on informe.pdf (4 pages, 154768 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
