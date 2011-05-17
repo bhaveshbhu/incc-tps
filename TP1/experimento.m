@@ -138,7 +138,7 @@ for bloq=1:cantBloques
 			teclaNombre = KbName(tecla);
             % En caso de haberse registrado más de una tecla, se toma la primera de ellas
             if (length(teclaNombre(1,:))>1)
-               teclaNombre=teclaNombre(1);
+               teclaNombre=teclaNombre{1};
             end            
 			if strcmp(teclaNombre,'ntilde') || ( IsWin() && strcmp(teclaNombre,'`') )
 				teclaNombre=letras(15,:); %letra �
