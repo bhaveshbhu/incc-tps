@@ -67,11 +67,11 @@ A partir de la definición particular del experimento de este trabajo, así como
     \subitem H0: No hay variaciones en los rasgos detectados para un misma letra, inclusive con diferentes tipografías.
     \subitem Ref: Las zonas relevantes (rasgos) de una letra se ven afectadas por las características de la tipografía en cuestión.
  \item Habrá una variación en los rasgos de la letra `n' con relación a la incorporación de la letra `ñ' en todas las tipografías (cf. \cite{FisetEtAl08:BubblesForLetters}).
-    \subitem H0: No habrá cambios en los rasgos de la letra `n' por la incorporación de la `\ñ'
-    \subitem Ref:
+    \subitem H0: No habrá cambios en los rasgos de la letra `n' por la incorporación de la `ñ'
+    \subitem Ref: La incorporación de la `ñ' agrega rasgos a la n para permitir su identificación.
  \item Un observador ideal utilizará rasgos distintos a los que utiliza un ser humano para la identificación de las letras \cite{PelliEtAl06:LetterIdentification}.
-    \subitem H0: 
-    \subitem Ref:
+    \subitem H0: Los rasgos utilizados por un observador ideal son los mismo que los que resultan del análisis de un ser humano.
+    \subitem Ref: Hay variaciones significativas entre los rasgos utilizados por un observador ideal y los sujetos del experimento.
 \end{enumerate}
 
 
@@ -92,7 +92,7 @@ Se generó 16 bloques de 100 estímulos cada una, donde se presentó mitad de lo
 A cada estímulo se le aplicó un filtrados por bandas de frecuencia, de manera de mostrar información de 32 a 16 ciclos/letra,
 
 \begin{figure}
- \includegraphics[scale=0.23]{letras.png}
+ \includegraphics[scale=0.60]{letras.png}
   \caption{Conjunto completo de letras utilizadas en el experimento}
   \label{figura:conjuntoLetras}
 \end{figure}
