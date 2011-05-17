@@ -103,7 +103,7 @@ function [datos, planos] = procesar(subjNames)
 %                         maximos = [maximos, maxindex(1)];
 %                     end
                     cantidad = [vector(:).cantBurbujas]; % el último contiene el valor máximo de burbujas para esta letra
-                    maximos = [maximos, cantidad(length(cantidad));
+                    maximos = [maximos, cantidad(length(cantidad))];
                     datos(letra,tipografia,mayuscula).cantBurbujas = mean(maximos);
                     clear maximos;
                 end
