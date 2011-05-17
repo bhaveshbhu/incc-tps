@@ -82,13 +82,14 @@ mintervalo 	= imread('./intervalo.png');
 
 % ### COMIENZO DEL EXPERIMENTO ###
 
+%Screen('FillRect',window,black);
 % --- Mensaje de Bienvenida ---
 textura=Screen('MakeTexture', window, mbienvenida);
 Screen('DrawTexture', window, textura);
 Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
-       
+
 for bloq=1:cantBloques
 	esMayuscula = round(rand());
 	for e=1:estimPorBlock
@@ -135,8 +136,6 @@ for bloq=1:cantBloques
 			[secs,tecla,deltasecs] = KbPressWait();
 			deltasecs=toc;
 			teclaNombre = KbName(tecla);
-            
-            % TODO: Contemplar el caso en que se devuelve un conjunto de celdas!!!
 			if strcmp(teclaNombre,'ntilde') || ( IsWin() && strcmp(teclaNombre,'`') )
 				teclaNombre=letras(15,:); %letra �
 			else

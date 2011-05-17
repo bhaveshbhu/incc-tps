@@ -5,16 +5,16 @@ function resultado = procesar(results)
         letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'Ã±';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
     end
 
-    estr.correctplane1 = zeros(256);
-    estr.correctplane2 = zeros(256);
-    estr.correctplane3 = zeros(256);
-    estr.correctplane4 = zeros(256);
-    estr.correctplane5 = zeros(256);
-    estr.totalplane1 = zeros(256);
-    estr.totalplane2 = zeros(256);
-    estr.totalplane3 = zeros(256);
-    estr.totalplane4 = zeros(256);
-    estr.totalplane5 = zeros(256);
+%     estr.correctplane1 = zeros(256);
+%     estr.correctplane2 = zeros(256);
+%     estr.correctplane3 = zeros(256);
+%     estr.correctplane4 = zeros(256);
+%     estr.correctplane5 = zeros(256);
+%     estr.totalplane1 = zeros(256);
+%     estr.totalplane2 = zeros(256);
+%     estr.totalplane3 = zeros(256);
+%     estr.totalplane4 = zeros(256);
+%     estr.totalplane5 = zeros(256);
     estr.cantBurbujas = 0;
     estr.accuracy = 0;
     estr.tiemporespuesta = 0;
@@ -44,19 +44,19 @@ function resultado = procesar(results)
         %agregar datos a la estructura
         %
         if (results(e).letra==results(e).respuesta) %si fue respuesta correcta agrego las máscaras a correct plane
-            resultado(letra,tipografia,mayuscula).correctplane1 = resultado(letra,tipografia,mayuscula).correctplane1 + results(e).m1 ;
-            resultado(letra,tipografia,mayuscula).correctplane2 = resultado(letra,tipografia,mayuscula).correctplane2 + results(e).m2 ;
-            resultado(letra,tipografia,mayuscula).correctplane3 = resultado(letra,tipografia,mayuscula).correctplane3 + results(e).m3 ;
-            resultado(letra,tipografia,mayuscula).correctplane4 = resultado(letra,tipografia,mayuscula).correctplane4 + results(e).m4 ;
-            resultado(letra,tipografia,mayuscula).correctplane5 = resultado(letra,tipografia,mayuscula).correctplane5 + results(e).m5 ;
+%             resultado(letra,tipografia,mayuscula).correctplane1 = resultado(letra,tipografia,mayuscula).correctplane1 + results(e).m1 ;
+%             resultado(letra,tipografia,mayuscula).correctplane2 = resultado(letra,tipografia,mayuscula).correctplane2 + results(e).m2 ;
+%             resultado(letra,tipografia,mayuscula).correctplane3 = resultado(letra,tipografia,mayuscula).correctplane3 + results(e).m3 ;
+%             resultado(letra,tipografia,mayuscula).correctplane4 = resultado(letra,tipografia,mayuscula).correctplane4 + results(e).m4 ;
+%             resultado(letra,tipografia,mayuscula).correctplane5 = resultado(letra,tipografia,mayuscula).correctplane5 + results(e).m5 ;
             resultado(letra,tipografia,mayuscula).accuracy = resultado(letra,tipografia,mayuscula).accuracy + 1; %cuento un acierto
         end
         % agrego las máscaras a totalplane
-        resultado(letra,tipografia,mayuscula).totalplane1 = resultado(letra,tipografia,mayuscula).totalplane1 + results(e).m1;
-        resultado(letra,tipografia,mayuscula).totalplane2 = resultado(letra,tipografia,mayuscula).totalplane2 + results(e).m2;
-        resultado(letra,tipografia,mayuscula).totalplane3 = resultado(letra,tipografia,mayuscula).totalplane3 + results(e).m3;
-        resultado(letra,tipografia,mayuscula).totalplane4 = resultado(letra,tipografia,mayuscula).totalplane4 + results(e).m4;
-        resultado(letra,tipografia,mayuscula).totalplane5 = resultado(letra,tipografia,mayuscula).totalplane5 + results(e).m5;
+%         resultado(letra,tipografia,mayuscula).totalplane1 = resultado(letra,tipografia,mayuscula).totalplane1 + results(e).m1;
+%         resultado(letra,tipografia,mayuscula).totalplane2 = resultado(letra,tipografia,mayuscula).totalplane2 + results(e).m2;
+%         resultado(letra,tipografia,mayuscula).totalplane3 = resultado(letra,tipografia,mayuscula).totalplane3 + results(e).m3;
+%         resultado(letra,tipografia,mayuscula).totalplane4 = resultado(letra,tipografia,mayuscula).totalplane4 + results(e).m4;
+%         resultado(letra,tipografia,mayuscula).totalplane5 = resultado(letra,tipografia,mayuscula).totalplane5 + results(e).m5;
         
         resultado(letra,tipografia,mayuscula).tiemporespuesta = resultado(letra,tipografia,mayuscula).tiemporespuesta + results(e).tiempoRespuesta;
         
