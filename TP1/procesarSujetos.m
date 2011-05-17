@@ -1,4 +1,4 @@
-if ~(isWin())
+if ~(IsWin())
     addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
 end
 

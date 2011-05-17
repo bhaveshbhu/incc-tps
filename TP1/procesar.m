@@ -26,7 +26,7 @@ function [datos, planos] = procesar(subjNames)
     estr.letra = [];
     estr.tipografia = [];
     estr.mayuscula = [];
-    estr.vector = [];
+    estr.vector{length(subjNames)} = [];
     
     datos = repmat(estr,[length(letras), 3, 2]); %inicializo datos
     planos = repmat(plano,[length(letras), 3, 2]); %inicializo planos
@@ -42,6 +42,7 @@ function [datos, planos] = procesar(subjNames)
     for i = 1:length(subjNames) % procesar cada sujeto
         load(['datos', separator,subjNames(i).name]);
         sujeto = resumenResultados.sujeto;
+        vector = [];
         for bloque = 1:resumenResultados.cantBloques %procesar cada bloque del sujeto
             load(['datos', separator,generarNombreArchivo(sujeto,bloque)]);
             for e = 1:length(results) %procesar cada estímulo
@@ -81,7 +82,7 @@ function [datos, planos] = procesar(subjNames)
                 estrRespuesta.cantBurbujas = results(e).burbujas;
                 estrRespuesta.tiemporespuesta = results(e).tiempoRespuesta;
 
-                datos(letra,tipografia,mayuscula).vector = [datos(letra,tipografia,mayuscula).vector , estrRespuesta];
+                datos(letra,tipografia,mayuscula).vector(i) = {[datos(letra,tipografia,mayuscula).vector{i} , estrRespuesta]};
             end
         end
     end
@@ -94,10 +95,17 @@ function [datos, planos] = procesar(subjNames)
                 if ntrials ~= 0
                     datos(letra,tipografia,mayuscula).tiemporespuesta = datos(letra,tipografia,mayuscula).tiemporespuesta / ntrials;
                     datos(letra,tipografia,mayuscula).accuracy = datos(letra,tipografia,mayuscula).accuracy / ntrials;
-                    [blah, maxindex] = sort([datos(letra,tipografia,mayuscula).vector(:).cantBurbujas],'descend');
-                    clear blah;
-                    maxindex = maxindex(1);
-                    datos(letra,tipografia,mayuscula).cantBurbujas = datos(letra,tipografia,mayuscula).vector(maxindex).cantBurbujas;
+                    maximos =[];
+%                     for i=1:length(datos(letra,tipografia,mayuscula).vector)
+%                         vector = datos(letra,tipografia,mayuscula).vector{i};
+%                         [blah, maxindex] = sort([vector(:).cantBurbujas],'descend');
+%                         clear blah;
+%                         maximos = [maximos, maxindex(1)];
+%                     end
+                    cantidad = [vector(:).cantBurbujas]; % el último contiene el valor máximo de burbujas para esta letra
+                    maximos = [maximos, cantidad(length(cantidad));
+                    datos(letra,tipografia,mayuscula).cantBurbujas = mean(maximos);
+                    clear maximos;
                 end
             end
         end
