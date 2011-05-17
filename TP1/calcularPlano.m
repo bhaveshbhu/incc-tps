@@ -20,4 +20,10 @@ function [p1, p2, p3, p4, p5] = calcularPlano(letra, tipografia, mayuscula, plan
     p3 = correctplane2 ./ totalplane3;
     p4 = correctplane2 ./ totalplane4;
     p5 = correctplane2 ./ totalplane5;
+    
+    p1(isnan(p1)) = 0;
+    p2(isnan(p2)) = 0;
+    p3(isnan(p3)) = 0;
+    p4(isnan(p4)) = 0;
+    p5(isnan(p5)) = 0;
 end

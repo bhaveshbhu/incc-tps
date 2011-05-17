@@ -2,7 +2,7 @@ if ~(IsWin())
     addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
 end
 
-numsujetos = 2;
+
 sujetos = repmat([],2,1);
 
 sujetos(1).name ='Diego_16-May-2011_413797_0.mat';
