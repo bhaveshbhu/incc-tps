@@ -96,14 +96,15 @@ function [datos, planos] = procesar(subjNames)
                     datos(letra,tipografia,mayuscula).tiemporespuesta = datos(letra,tipografia,mayuscula).tiemporespuesta / ntrials;
                     datos(letra,tipografia,mayuscula).accuracy = datos(letra,tipografia,mayuscula).accuracy / ntrials;
                     maximos =[];
-%                     for i=1:length(datos(letra,tipografia,mayuscula).vector)
+                    for i=1:length(datos(letra,tipografia,mayuscula).vector)
 %                         vector = datos(letra,tipografia,mayuscula).vector{i};
 %                         [blah, maxindex] = sort([vector(:).cantBurbujas],'descend');
 %                         clear blah;
 %                         maximos = [maximos, maxindex(1)];
-%                     end
-                    cantidad = [vector(:).cantBurbujas]; % el último contiene el valor máximo de burbujas para esta letra
-                    maximos = [maximos, cantidad(length(cantidad))];
+                        vector = datos(letra,tipografia,mayuscula).vector{i};
+                        cantidad = [vector(:).cantBurbujas]; % el último contiene el valor máximo de burbujas para esta letra
+                        maximos = [maximos, cantidad(length(cantidad))];
+                    end
                     datos(letra,tipografia,mayuscula).cantBurbujas = mean(maximos);
                     clear maximos;
                 end
