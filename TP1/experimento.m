@@ -23,12 +23,12 @@ mayuscula=1;
 minuscula=0;
 
 % --- Parámetros de Ejecución ---
-cantBloques	= 3;		% Cantidad de bloques del experimento
-estimPorBlock	= 10; 	% Cantidad de estímulos por bloque
+cantBloques	= 17;		% Cantidad de bloques del experimento
+estimPorBlock	= 100s; 	% Cantidad de estímulos por bloque
 
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o', %'p','q','r','s','t','u','v','w','x','y','z'];
 if IsWin()
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
+	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 else
 	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 end
@@ -137,10 +137,7 @@ for bloq=1:cantBloques
 			deltasecs=toc;
 			teclaNombre = KbName(tecla);
             % En caso de haberse registrado más de una tecla, se toma la primera de ellas
-            if (length(teclaNombre(1,:))>1)
-               teclaNombre=teclaNombre{1};
-            end            
-			if strcmp(teclaNombre,'ntilde') || ( IsWin() && strcmp(teclaNombre,'`') )
+			if  (length(teclaNombre)==6 && strcmp(teclaNombre,'ntilde')) || ( IsWin() && length(teclaNombre)==1 && strcmp(teclaNombre,'`'))
 				teclaNombre=letras(15,:); %letra �
 			else
 				if length(teclaNombre)>1
