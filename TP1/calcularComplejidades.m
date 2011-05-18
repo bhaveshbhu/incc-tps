@@ -23,4 +23,4 @@ for letra=1:27
     end
 end
 
-save('complejidades','complejidades');
+save('complejidades.mat','complejidades');
