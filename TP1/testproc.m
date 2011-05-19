@@ -13,9 +13,9 @@ else
 end
 
 
-letra = 7;
+letra = 26;
 tipografia = 2;
-mayuscula = 2;
+mayuscula = 1;
 
 [p1,p2,p3,p4,p5] = calcularPlano(letra,tipografia,mayuscula,planos);
 [i1,i2,i3,i4,i5,imtot] = calcularImagenes(p1,p2,p3,p4,p5,letra,tipografia,mayuscula);
