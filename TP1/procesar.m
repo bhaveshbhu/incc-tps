@@ -81,6 +81,7 @@ function [datos, planos] = procesar(subjNames)
                 estrRespuesta.respuesta = results(e).respuesta;
                 estrRespuesta.cantBurbujas = results(e).burbujas;
                 estrRespuesta.tiemporespuesta = results(e).tiempoRespuesta;
+                
 
                 datos(letra,tipografia,mayuscula).vector(i) = {[datos(letra,tipografia,mayuscula).vector{i} , estrRespuesta]};
             end
@@ -102,7 +103,11 @@ function [datos, planos] = procesar(subjNames)
 %                         clear blah;
 %                         maximos = [maximos, maxindex(1)];
                         vector = datos(letra,tipografia,mayuscula).vector{i};
-                        cantidad = [vector(:).cantBurbujas]; % el último contiene el valor máximo de burbujas para esta letra
+                        if length(vector) == 0
+                            cantidad = 0;
+                        else
+                            cantidad = [vector(:).cantBurbujas]; % el último contiene el valor máximo de burbujas para esta letra
+                        end
                         maximos = [maximos, cantidad(length(cantidad))];
                     end
                     datos(letra,tipografia,mayuscula).cantBurbujas = mean(maximos);
