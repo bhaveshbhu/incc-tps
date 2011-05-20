@@ -24,11 +24,11 @@ minuscula=0;
 
 % --- Parámetros de Ejecución ---
 cantBloques	= 17;		% Cantidad de bloques del experimento
-estimPorBlock	= 100s; 	% Cantidad de estímulos por bloque
+estimPorBlock	= 100; 	% Cantidad de estímulos por bloque
 
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o', %'p','q','r','s','t','u','v','w','x','y','z'];
 if IsWin()
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
+	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 else
 	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 end
