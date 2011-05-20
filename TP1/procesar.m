@@ -8,6 +8,7 @@ function [datos, planos] = procesar(subjNames)
         separator = '/';
         letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
     end
+    imgletras = cell(27,1);
 
     plano.correctplane1 = zeros(256);
     plano.correctplane2 = zeros(256);
@@ -52,6 +53,10 @@ function [datos, planos] = procesar(subjNames)
                     mayuscula = 1;
                 else
                     mayuscula = 2;
+                end
+                nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',results(e).mayuscula,'_0.pgm'];
+                if length(imgletras{letra})==0
+                    imgletras{letra} = pgmRead(['estimulos',separator,nombreArchivo]);
                 end
                 %agregar datos a la estructura
                 %
