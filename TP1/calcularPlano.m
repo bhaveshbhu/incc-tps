@@ -26,4 +26,20 @@ function [p1, p2, p3, p4, p5] = calcularPlano(letra, tipografia, mayuscula, plan
     p3(isnan(p3)) = 0;
     p4(isnan(p4)) = 0;
     p5(isnan(p5)) = 0;
+    
+    if(max(max(p1))>1)
+        p1 = p1 ./ max(max(p1));
+    end
+    if(max(max(p2))>1)
+        p2 = p2 ./ max(max(p2));
+    end
+    if(max(max(p3))>1)
+        p3 = p3 ./ max(max(p3));
+    end
+    if(max(max(p4))>1)
+        p4 = p4 ./ max(max(p4));
+    end
+    if(max(max(p5))>1)
+        p5 = p5 ./ max(max(p5));
+    end
 end

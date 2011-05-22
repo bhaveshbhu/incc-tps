@@ -1,14 +1,18 @@
+clear; 
+
 if IsWin()
-    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
+    letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
     separator = '\';
 else
     separator = '/';
     letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER �!!!
 end
+
 mayStr = ['min'; 'may']
+noise = zeros(length(letras),3,2);
 
+%cargo todas las letras para tenerlas en memoria e ir comparando
 imgletras = cell(27,3,2);
-
 for letra=1:length(letras)
     for tipografia=1:3
         for mayusculas=1:2
@@ -34,7 +38,7 @@ else
 	pathTemp = '/tmp/';
 end
 
-if ~ (IsOctave())
+if ~(IsOctave())
 	RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
 end
 
@@ -45,17 +49,9 @@ minuscula=0;
 cantBloques	= 25;		% Cantidad de bloques del experimento
 estimPorBlock	= 100; 	% Cantidad de estímulos por bloque
 
-%letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o', %'p','q','r','s','t','u','v','w','x','y','z'];
-if IsWin()
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
-else
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
-end
-
-
 % ### INICIALIZAR VARIABLES ###
 %window = Screen('OpenWindow', 0,0);
-black = BlackIndex(window);
+%black = BlackIndex(window);
 burbujas 	= ones(27,3,2)*10;
 burbujas(:,1,:) = 4;
 burbujas(:,3,:) = 4;
@@ -134,9 +130,14 @@ for bloq=1:cantBloques
 		apariciones(letra, tipografia, mayuscula + 1) = apariciones(letra, tipografia, mayuscula + 1) + 1;
 		[m1,m2,m3,m4,m5]=generarMascaras(burbujas(letra, tipografia, mayuscula + 1));	%Devuelve un vector de 5 m�scaras con la cantidad de burbujas especificada, y de acuerdo a las bandas predefinidas
 		nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
-		[f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo));
-		mletra1  = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6, pathTemp); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las m�scaras indicadas
-	    
+		[f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo), 0);
+        f1 = saveandload(saveandload(f1) + rand(256)*noise(letra,tipografia,mayuscula+1)*256);
+        f2 = saveandload(saveandload(f2) + rand(256)*noise(letra,tipografia,mayuscula+1)*256);
+        f3 = saveandload(saveandload(f3) + rand(256)*noise(letra,tipografia,mayuscula+1)*256);
+        f4 = saveandload(saveandload(f4) + rand(256)*noise(letra,tipografia,mayuscula+1)*256);
+        f5 = saveandload(saveandload(f5) + rand(256)*noise(letra,tipografia,mayuscula+1)*256);
+		mletra1  = saveandload(generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6, pathTemp)); %Devuelve una matriz con la imagen generada de la letra en may/min para la tipografia especificada, utilizando las m�scaras indicadas
+	    %mletra1 = saveandload(saveandload(mletra1) + rand(256)*noise(letra,tipografia,mayuscula+1)*256);
 % 		mletra  = imread(strcat(pathTemp,'letra.pgm'));
 % 		textura = Screen('MakeTexture', window, mletra);
 % 		Screen('DrawTexture', window, textura);    
@@ -154,15 +155,21 @@ for bloq=1:cantBloques
 		for hletra = 1:length(letras)
             for htipografia = 1:3
                 for hmayusculas = 1:2
-                    norma = norm(mletra1-hletra);
+                    %norma = norm(mletra1-imgletras{hletra,htipografia,hmayusculas});
+                    %norma = mean(mean((double(mletra1) - double(imgletras{hletra,htipografia,hmayusculas})).^2,2),1);
+                    imtemp = imgletras{hletra,htipografia,hmayusculas};
+                    norma = -corr(mletra1(:),imtemp(:));
                     if minnorm == -1 || norma < minnorm
                         minnorm = norma;
-                        hipotesis = letra;
+                        hipotesis = hletra;
                     end
                 end
             end
         end
         teclaNombre = letras(hipotesis);
+        %mostrar soluci�n del observador ideal letra_hletra
+        display([letras(letra), '_', teclaNombre]);
+        imshow(saveandload(mletra1)/255);
         
 		letraEstimulo=deblank(letras(letra,:));
 		% ### GUARDAR VALORES OBTENIDOS ### (máscaras, letra del estímulo, letra predicha, tiempo transcurrido en responder)
@@ -190,31 +197,44 @@ for bloq=1:cantBloques
 		if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el pr�ximo
 			burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
         end
-        aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1)
+        if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) > 0.52 % Si el porcentaje de aciertos es mayor a 52%, se agrega ruido para el pr�ximo
+			noise(letra,tipografia,mayuscula + 1) = noise(letra,tipografia,mayuscula + 1) + 0.2;
+        end
+        %mostrar el accuracy actual
+        
+        disp(aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1));
+        if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) == 0 && tipografia == 2
+            disp('paro');
+        end
+        if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) ~= 0 && tipografia == 2
+            disp('paro');
+        end
 		est=est+1;
     end
 
     % ### GRABACIÓN DE RESULTADOS ###
 	nombreData      = strcat(pathDatos, generarNombreArchivo(idSujeto,bloq));
+    display(nombreData);
 	save(nombreData, 'results');
     
+    
 	% ### DESCANSO ENTRE BLOQUES ###
-	if bloq < cantBloques
-		textura=Screen('MakeTexture', window, mintervalo);
-		Screen('DrawTexture', window, textura);
-		Screen('Flip',window);
-		KbPressWait();
-		Screen('Close', textura);
-	end
+% 	if bloq < cantBloques
+% 		textura=Screen('MakeTexture', window, mintervalo);
+% 		Screen('DrawTexture', window, textura);
+% 		Screen('Flip',window);
+% 		KbPressWait();
+% 		Screen('Close', textura);
+% 	end
 
 end
 
 
 % --- Mensaje de Despedida ---
-textura=Screen('MakeTexture', window, mdespedida);
-Screen('DrawTexture', window, textura);
-Screen('Flip',window);
-KbWait; % Presione cualquier tecla para continuar
-Screen('Close', textura);
-
-Screen('CloseAll');
+% textura=Screen('MakeTexture', window, mdespedida);
+% Screen('DrawTexture', window, textura);
+% Screen('Flip',window);
+% KbWait; % Presione cualquier tecla para continuar
+% Screen('Close', textura);
+% 
+% Screen('CloseAll');

@@ -2,7 +2,7 @@
 function [datos, planos] = procesar(subjNames)
 
     if IsWin()
-        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ï¿½';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
+        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
         separator = '\';
     else
         separator = '/';

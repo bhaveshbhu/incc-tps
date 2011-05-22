@@ -1,6 +1,6 @@
-function [f1,f2,f3,f4,f5,fondo] = generarFiltros(archivo)
-archivo
-oim = pgmRead(archivo);
+function [f1,f2,f3,f4,f5,fondo] = generarFiltros(archivo, mnoise) %mnoise = 0 para no agregar ruido
+%archivo
+oim = saveandload(pgmRead(archivo) + mnoise);
 
 tic; corrDn(oim,[1 1; 1 1]/4,'circular',[2 2]); time = toc;
 imSubSample = min(max(floor(log2(time)/2+3),0),2);

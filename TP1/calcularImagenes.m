@@ -5,7 +5,7 @@ function [im1,im2,im3,im4,im5,imtot] = calcularImagenes(p1,p2,p3,p4,p5,letra,tip
     fondo = 255;
     coef=0.90;
     if IsWin()
-        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ï¿½';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
+        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
         pathTemp = 'C:\temp\';
     else
         letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'Ã±';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
@@ -17,7 +17,7 @@ function [im1,im2,im3,im4,im5,imtot] = calcularImagenes(p1,p2,p3,p4,p5,letra,tip
         mayStr = 'may';
     end
     nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
-    [f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo));
+    [f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo),0);
     f1 = saveandload(f1);
     f2 = saveandload(f2);
     f3 = saveandload(f3);
@@ -39,21 +39,22 @@ function [im1,im2,im3,im4,im5,imtot] = calcularImagenes(p1,p2,p3,p4,p5,letra,tip
     im3 = f3.*p3+g3.*(1-p3);
     im4 = f4.*p4+g4.*(1-p4);
     im5 = f5.*p5+g5.*(1-p5);
-    imtot = (im1+im2+im3+im4+im5)/5;
+    %imtot = (im1+im2+im3+im4+im5)/5;
     
     im1(isnan(im1)) = g1;
     im2(isnan(im2)) = g2;
     im3(isnan(im3)) = g3;
     im4(isnan(im4)) = g4;
     im5(isnan(im5)) = g5;
-    imtot(isnan(imtot)) = (g1+g2+g3+g4+g5)/5;
+    %imtot(isnan(imtot)) = (g1+g2+g3+g4+g5)/5;
+    imtot = generarEstimulo(p1,p2,p3,p4,p5,im1,im2,im3,im4,im5,f6,pathTemp);
     
     im1 = uint8(im1);
     im2 = uint8(im2);
     im3 = uint8(im3);
     im4 = uint8(im4);
     im5 = uint8(im5);
-    imtot = uint8(imtot);
+    %imtot = uint8(imtot);
     
 %     ptot = (p1+p2+p3+p4+p5);
 %     

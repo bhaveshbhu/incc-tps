@@ -15,7 +15,7 @@ else
 	pathTemp = '/tmp/';
 end
 
-if ~ (IsOctave())
+if ~(IsOctave())
 	RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
 end
 
@@ -28,7 +28,7 @@ estimPorBlock	= 100; 	% Cantidad de estímulos por bloque
 
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o', %'p','q','r','s','t','u','v','w','x','y','z'];
 if IsWin()
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
+	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'�';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 else
 	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
 end
