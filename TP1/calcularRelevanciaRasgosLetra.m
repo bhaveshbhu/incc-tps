@@ -6,17 +6,17 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     totalPixels = sum(sum(mtotal));
 
     % Píxeles que se muestran por cada rasgo
-    mr1         = (mascara .* rasgosLetra.r1) > UMBRAL;
-    mr2         = (mascara .* rasgosLetra.r2) > UMBRAL;
-    mr3         = (mascara .* rasgosLetra.r3) > UMBRAL;
-    mr4         = (mascara .* rasgosLetra.r4) > UMBRAL;
-    mr5         = (mascara .* rasgosLetra.r5) > UMBRAL;
-    mr6         = (mascara .* rasgosLetra.r6) > UMBRAL;
-    mr7         = (mascara .* rasgosLetra.r7) > UMBRAL;
-    mr8         = (mascara .* rasgosLetra.r8) > UMBRAL;
-    mr9         = (mascara .* rasgosLetra.r9) > UMBRAL;
-    mr10        = (mascara .* rasgosLetra.r10) > UMBRAL;
-    mr11        = (mascara .* rasgosLetra.r11) > UMBRAL;
+    mr1         = (mascara .* rasgosLetra.mr1) > UMBRAL;
+    mr2         = (mascara .* rasgosLetra.mr2) > UMBRAL;
+    mr3         = (mascara .* rasgosLetra.mr3) > UMBRAL;
+    mr4         = (mascara .* rasgosLetra.mr4) > UMBRAL;
+    mr5         = (mascara .* rasgosLetra.mr5) > UMBRAL;
+    mr6         = (mascara .* rasgosLetra.mr6) > UMBRAL;
+    mr7         = (mascara .* rasgosLetra.mr7) > UMBRAL;
+    mr8         = (mascara .* rasgosLetra.mr8) > UMBRAL;
+    mr9         = (mascara .* rasgosLetra.mr9) > UMBRAL;
+    mr10        = (mascara .* rasgosLetra.mr10) > UMBRAL;
+    mr11        = (mascara .* rasgosLetra.mr11) > UMBRAL;
 
     % Importancia Relativa de cada rasgo
     ir1         = sum(sum(mr1))/totalPixels;
@@ -32,30 +32,30 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     ir11        = sum(sum(mr11))/totalPixels;
     
     % Obtención de rasgos relevantes
-    rr1         = (sum(sum(mr1))/sum(sum(rasgosLetra.r1))) > INC_MIN;
-    rr2         = (sum(sum(mr2))/sum(sum(rasgosLetra.r2))) > INC_MIN;
-    rr3         = (sum(sum(mr3))/sum(sum(rasgosLetra.r3))) > INC_MIN;
-    rr4         = (sum(sum(mr4))/sum(sum(rasgosLetra.r4))) > INC_MIN;
-    rr5         = (sum(sum(mr5))/sum(sum(rasgosLetra.r5))) > INC_MIN;
-    rr6         = (sum(sum(mr6))/sum(sum(rasgosLetra.r6))) > INC_MIN;
-    rr7         = (sum(sum(mr7))/sum(sum(rasgosLetra.r7))) > INC_MIN;
-    rr8         = (sum(sum(mr8))/sum(sum(rasgosLetra.r8))) > INC_MIN;
-    rr9         = (sum(sum(mr9))/sum(sum(rasgosLetra.r9))) > INC_MIN;
-    rr10        = (sum(sum(r10))/sum(sum(rasgosLetra.r10))) > INC_MIN;
-    rr11        = (sum(sum(r11))/sum(sum(rasgosLetra.r11))) > INC_MIN;
+    rr1         = (sum(sum(mr1))/sum(sum(rasgosLetra.mr1))) > INC_MIN;
+    rr2         = (sum(sum(mr2))/sum(sum(rasgosLetra.mr2))) > INC_MIN;
+    rr3         = (sum(sum(mr3))/sum(sum(rasgosLetra.mr3))) > INC_MIN;
+    rr4         = (sum(sum(mr4))/sum(sum(rasgosLetra.mr4))) > INC_MIN;
+    rr5         = (sum(sum(mr5))/sum(sum(rasgosLetra.mr5))) > INC_MIN;
+    rr6         = (sum(sum(mr6))/sum(sum(rasgosLetra.mr6))) > INC_MIN;
+    rr7         = (sum(sum(mr7))/sum(sum(rasgosLetra.mr7))) > INC_MIN;
+    rr8         = (sum(sum(mr8))/sum(sum(rasgosLetra.mr8))) > INC_MIN;
+    rr9         = (sum(sum(mr9))/sum(sum(rasgosLetra.mr9))) > INC_MIN;
+    rr10        = (sum(sum(mr10))/sum(sum(rasgosLetra.mr10))) > INC_MIN;
+    rr11        = (sum(sum(mr11))/sum(sum(rasgosLetra.mr11))) > INC_MIN;
     
     % Generación de resultados (Rasgos relevante o no, importancia relativa)
-    relevanciaRasgos    = struct('relevante',rr1,'importancia',ir1);
-    relevanciaRasgos(2) = struct('relevante',rr2,'importancia',ir2);
-    relevanciaRasgos(3) = struct('relevante',rr3,'importancia',ir3);
-    relevanciaRasgos(4) = struct('relevante',rr4,'importancia',ir4);
-    relevanciaRasgos(5) = struct('relevante',rr5,'importancia',ir5);
-    relevanciaRasgos(6) = struct('relevante',rr6,'importancia',ir6);
-    relevanciaRasgos(7) = struct('relevante',rr7,'importancia',ir7);
-    relevanciaRasgos(8) = struct('relevante',rr8,'importancia',ir8);
-    relevanciaRasgos(9) = struct('relevante',rr9,'importancia',ir9);
-    relevanciaRasgos(10) = struct('relevante',rr10,'importancia',ir10);
-    relevanciaRasgos(11) = struct('relevante',rr11,'importancia',ir11);
+    relevanciaRasgos.r1  = struct('relevante',rr1,'importancia',ir1);
+    relevanciaRasgos.r2  = struct('relevante',rr2,'importancia',ir2);
+    relevanciaRasgos.r3  = struct('relevante',rr3,'importancia',ir3);
+    relevanciaRasgos.r4  = struct('relevante',rr4,'importancia',ir4);
+    relevanciaRasgos.r5  = struct('relevante',rr5,'importancia',ir5);
+    relevanciaRasgos.r6  = struct('relevante',rr6,'importancia',ir6);
+    relevanciaRasgos.r7  = struct('relevante',rr7,'importancia',ir7);
+    relevanciaRasgos.r8  = struct('relevante',rr8,'importancia',ir8);
+    relevanciaRasgos.r9  = struct('relevante',rr9,'importancia',ir9);
+    relevanciaRasgos.r10 = struct('relevante',rr10,'importancia',ir10);
+    relevanciaRasgos.r11 = struct('relevante',rr11,'importancia',ir11);
       
 
 end
