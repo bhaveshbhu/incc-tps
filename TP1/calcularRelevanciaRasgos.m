@@ -24,4 +24,3 @@ for letra=1:27
 end
 
 save('relevanciaRasgos.mat','rasgosLetras');
-

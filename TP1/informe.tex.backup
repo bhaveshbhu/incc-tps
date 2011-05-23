@@ -116,7 +116,7 @@ Se presentan letras en forma individual por 200ms, para que luego el sujeto pres
 \multirow{2}{*}{\textbf{Letra}} & \multicolumn{3}{|c|}{\textbf{Tipografía}} & \multirow{2}{*}{\textbf{Letra}} & \multicolumn{3}{|c}{\textbf{Tipografía}} \\
 \cline{2-4}\cline{6-8}
     & \textbf{Arial} & \textbf{Kunstler} & \textbf{Famosas} &     & \textbf{Arial} & \textbf{Kunstler} & \textbf{Famosas} \\\hline\hline
-\textbf{    A    }   &   9   &   20   &   9   &   \textbf{a}   &   9   &   15   &   11 \\\hline
+\textbf{A}   &   9   &   20   &   9   &   \textbf{a}   &   9   &   15   &   11 \\\hline
 \textbf{B}   &   8   &   19   &   14   &   \textbf{b}   &   11   &   19   &   13 \\\hline
 \textbf{C}   &   7   &   15   &   14   &   \textbf{c}   &   8   &   15   &   12 \\\hline
 \textbf{D}   &   8   &   17   &   12   &   \textbf{d}   &   11   &   18   &   9 \\\hline
