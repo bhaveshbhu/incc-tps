@@ -38,15 +38,15 @@ else
 	pathTemp = '/tmp/';
 end
 
-if ~(IsOctave())
-	RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
-end
+% if ~(IsOctave())
+% 	RandStream.setDefaultStream(RandStream('mt19937ar','Seed',sum(100*clock)));
+% end
 
 mayuscula=1;
 minuscula=0;
 
 % --- Parámetros de Ejecución ---
-cantBloques	= 25;		% Cantidad de bloques del experimento
+cantBloques	= 50;		% Cantidad de bloques del experimento
 estimPorBlock	= 100; 	% Cantidad de estímulos por bloque
 
 % ### INICIALIZAR VARIABLES ###
@@ -66,7 +66,8 @@ resumenResultados.cantBloques   = cantBloques;
 resumenResultados.estimPorBlock = estimPorBlock;
 resumenResultados.fechaHora     = datestr(now);
 resumenResultados.isWin         = IsWin();
-resumenResultados.isOctave      = IsOctave();
+%resumenResultados.isOctave      = IsOctave();
+resumenResultados.isOctave      = false;
 
 % ### GRABACION DE LISTADO DE ARCHIVOS ###
 nombreData      = strcat(pathDatos, generarNombreArchivo(idSujeto,0));
@@ -201,7 +202,7 @@ for bloq=1:cantBloques
 % 			burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
 %         end
         if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) > 0.52 % Si el porcentaje de aciertos es mayor a 52%, se agrega ruido para el pr�ximo
-			noise(letra,tipografia,mayuscula + 1) = noise(letra,tipografia,mayuscula + 1) + 0.2;
+			noise(letra,tipografia,mayuscula + 1) = noise(letra,tipografia,mayuscula + 1) + 0.1;
         end
         %mostrar el accuracy actual
         

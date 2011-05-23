@@ -1,7 +1,8 @@
-if ~(IsWin())
-    addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
-end
+% if ~(IsWin())
+%     addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
+% end
 
+sujetos = repmat([],6,1);
 
 sujetos = repmat([],2,1);
 % 
@@ -11,6 +12,7 @@ sujetos = repmat([],2,1);
 % sujetos(4).name ='Marina_21-May-2011_450094_0.mat';
 % sujetos(5).name ='patriciop_21-May-2011_19750_0.mat';
 sujetos(1).name = 'ideal_22-May-2011_364328_0.mat';
+
 [datos, planos] = procesar(sujetos);
 
 % save('datos.mat', 'datos');
