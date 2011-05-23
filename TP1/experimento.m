@@ -36,7 +36,6 @@ end
 
 % ### INICIALIZAR VARIABLES ###
 window = Screen('OpenWindow', 0,0);
-black = BlackIndex(window);
 burbujas 	= ones(27,3,2)*10;
 burbujas(:,1,:) = 4;
 burbujas(:,3,:) = 4;

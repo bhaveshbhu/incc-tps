@@ -1,6 +1,14 @@
 
 % ### OBTENCION DE IMPORTANCIA RELATIVA DE RASGOS POR LETRA-TIPOGRAFIA-CASE ####
+if ~(exist('planos','var'))
+    load('./datos/planos.mat');
+end
 
+if ~(exist('rasgos','var'))
+    load('rasgos.mat');
+end
+
+mascarasResultado = obtenerMascarasResultado(planos);
 mascara      = mascarasResultado(1,1,1);
 rasgosLetra  = rasgos(1,1,1);
 rasgosLetras = calcularRelevanciaRasgosLetra(mascara, rasgosLetra);

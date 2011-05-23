@@ -6,6 +6,7 @@
 \usepackage{url}
 \usepackage{a4wide}
 \setcounter{tocdepth}{3}
+\usepackage{multirow}
 \usepackage[spanish]{babel}
 
 \urldef{\mails}\path|{cgcossio,mailen.gomezmayol, miguelmsoler}@gmail.com|
@@ -92,7 +93,7 @@ Se generó 16 bloques de 100 estímulos cada una, donde se presentó mitad de lo
 A cada estímulo se le aplicó un filtrados por bandas de frecuencia, de manera de mostrar información de 32 a 16 ciclos/letra,
 
 \begin{figure}
- \includegraphics[scale=0.60]{letras.png}
+ \includegraphics[scale=0.60]{graficos/letras.png}
   \caption{Conjunto completo de letras utilizadas en el experimento}
   \label{figura:conjuntoLetras}
 \end{figure}
@@ -104,6 +105,46 @@ Se presentan letras en forma individual por 200ms, para que luego el sujeto pres
 
 \section{Resultados}
 \ldots
+
+\begin{table}
+\centering
+\label{tabla:cantidadBurbujas}
+\caption{Cantidad de burbujas promedio necesarias para la identificación de las letras}
+\begin{tabular}{c|r|r|r|c|r|r|r}
+
+\hline
+\multirow{2}{*}{\textbf{Letra}} & \multicolumn{3}{|c|}{\textbf{Tipografía}} & \multirow{2}{*}{\textbf{Letra}} & \multicolumn{3}{|c}{\textbf{Tipografía}} \\
+\cline{2-4}\cline{6-8}
+    & \textbf{Arial} & \textbf{Kunstler} & \textbf{Famosas} &     & \textbf{Arial} & \textbf{Kunstler} & \textbf{Famosas} \\\hline\hline
+\textbf{A}   &   9   &   20   &   9   &   \textbf{a}   &   9   &   15   &   11 \\\hline
+\textbf{B}   &   8   &   19   &   14   &   \textbf{b}   &   11   &   19   &   13 \\\hline
+\textbf{C}   &   7   &   15   &   14   &   \textbf{c}   &   8   &   15   &   12 \\\hline
+\textbf{D}   &   8   &   17   &   12   &   \textbf{d}   &   11   &   18   &   9 \\\hline
+\textbf{E}   &   9   &   19   &   12   &   \textbf{e}   &   10   &   20   &   9 \\\hline
+\textbf{F}   &   11   &   17   &   11   &   \textbf{f}   &   11   &   17   &   13 \\\hline
+\textbf{G}   &   10   &   15   &   14   &   \textbf{g}   &   10   &   16   &   10 \\\hline
+\textbf{H}   &   11   &   18   &   12   &   \textbf{h}   &   11   &   18   &   11 \\\hline
+\textbf{I}   &   11   &   17   &   12   &   \textbf{i}   &   11   &   16   &   10 \\\hline
+\textbf{J}   &   10   &   21   &   12   &   \textbf{j}   &   10   &   15   &   13 \\\hline
+\textbf{K}   &   7   &   15   &   10   &   \textbf{k}   &   8   &   19   &   13 \\\hline
+\textbf{L}   &   9   &   17   &   12   &   \textbf{l}   &   12   &   16   &   11 \\\hline
+\textbf{M}   &   9   &   18   &   8   &   \textbf{m}   &   10   &   16   &   10 \\\hline
+\textbf{N}   &   9   &   20   &   11   &   \textbf{n}   &   13   &   16   &   13 \\\hline
+\textbf{Ñ}   &   10   &   20   &   7   &   \textbf{ñ}   &   10   &   15   &   12 \\\hline
+\textbf{O}   &   9   &   17   &   13   &   \textbf{o}   &   9   &   18   &   13 \\\hline
+\textbf{P}   &   8   &   18   &   11   &   \textbf{p}   &   9   &   17   &   13 \\\hline
+\textbf{Q}   &   9   &   17   &   9   &   \textbf{q}   &   13   &   20   &   12 \\\hline
+\textbf{R}   &   7   &   15   &   8   &   \textbf{r}   &   14   &   19   &   13 \\\hline
+\textbf{S}   &   6   &   17   &   8   &   \textbf{s}   &   7   &   16   &   13 \\\hline
+\textbf{T}   &   11   &   17   &   12   &   \textbf{t}   &   13   &   16   &   12 \\\hline
+\textbf{U}   &   10   &   15   &   13   &   \textbf{u}   &   11   &   15   &   9 \\\hline
+\textbf{V}   &   7   &   19   &   14   &   \textbf{v}   &   11   &   20   &   11 \\\hline
+\textbf{W}   &   8   &   19   &   10   &   \textbf{w}   &   8   &   21   &   12 \\\hline
+\textbf{X}   &   6   &   17   &   7   &   \textbf{x}   &   6   &   16   &   5 \\\hline
+\textbf{Y}   &   9   &   15   &   8   &   \textbf{y}   &   9   &   14   &   8 \\\hline
+\textbf{Z}   &   7   &   14   &   9   &   \textbf{z}   &   7   &   16   &   6 \\\hline
+\end{tabular}
+\end{table}
 
 \subsection{Mediciones realizadas}
 \ldots
