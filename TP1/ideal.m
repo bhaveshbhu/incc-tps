@@ -50,11 +50,14 @@ cantBloques	= 25;		% Cantidad de bloques del experimento
 estimPorBlock	= 100; 	% Cantidad de estÃ­mulos por bloque
 
 % ### INICIALIZAR VARIABLES ###
-%window = Screen('OpenWindow', 0,0);
-%black = BlackIndex(window);
-burbujas 	= ones(27,3,2)*10;
-burbujas(:,1,:) = 4;
-burbujas(:,3,:) = 4;
+
+
+% Se define la cantidad de burbujas de acuerdo a la cantidades promedio utilizada por los sujetos
+% burbujas 	= ones(27,3,2)*10;
+% burbujas(:,1,:) = 4;
+% burbujas(:,3,:) = 4;
+load('burbujasPromedio.mat');
+burbujas=floor(burbujas);
 aciertos	= zeros(27,3,2);
 apariciones = zeros(27,3,2);
 
@@ -194,9 +197,9 @@ for bloq=1:cantBloques
 		if letraEstimulo == teclaNombre
 			aciertos(letra, tipografia, mayuscula + 1)=aciertos(letra, tipografia, mayuscula + 1)+1;
 		end
-		if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el prï¿½ximo
-			burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
-        end
+% 		if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) < 0.52 % Si la el porcentaje de aciertos es menor a 52%, se agrega una burbuja para el prï¿½ximo
+% 			burbujas(letra, tipografia, mayuscula + 1)=burbujas(letra, tipografia, mayuscula + 1)+1;
+%         end
         if aciertos(letra, tipografia, mayuscula + 1)/apariciones(letra, tipografia, mayuscula + 1) > 0.52 % Si el porcentaje de aciertos es mayor a 52%, se agrega ruido para el próximo
 			noise(letra,tipografia,mayuscula + 1) = noise(letra,tipografia,mayuscula + 1) + 0.2;
         end
