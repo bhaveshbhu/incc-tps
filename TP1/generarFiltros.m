@@ -1,7 +1,8 @@
-function [f1,f2,f3,f4,f5,fondo] = generarFiltros(archivo, mnoise) %mnoise = 0 para no agregar ruido
+function [f1,f2,f3,f4,f5,fondo] = generarFiltros(archivo) %mnoise = 0 para no agregar ruido
 %archivo
-oim = saveandload(pgmRead(archivo) + mnoise);
+%oim = saveandload(pgmRead(archivo) + mnoise);
 
+oim = pgmRead(archivo);
 tic; corrDn(oim,[1 1; 1 1]/4,'circular',[2 2]); time = toc;
 imSubSample = min(max(floor(log2(time)/2+3),0),2);
 im = blurDn(oim, imSubSample,'qmf9');

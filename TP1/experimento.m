@@ -23,7 +23,7 @@ mayuscula=1;
 minuscula=0;
 
 % --- Parámetros de Ejecución ---
-cantBloques	= 17;		% Cantidad de bloques del experimento
+cantBloques     = 17;		% Cantidad de bloques del experimento
 estimPorBlock	= 100; 	% Cantidad de estímulos por bloque
 
 %letras=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','�','o', %'p','q','r','s','t','u','v','w','x','y','z'];
@@ -75,10 +75,10 @@ results			= result;
 
 % ### CARGA DE IM�?GENES ###
 mbienvenida 	= imread('./bienvenida.png');
-mcruz 		= imread('./cruz.png');
+mcruz           = imread('./cruz.png');
 mpresionetecla 	= imread('./presione_tecla.png');
-mdespedida 	= imread('./despedida.png');
-mintervalo 	= imread('./intervalo.png');
+mdespedida      = imread('./despedida.png');
+mintervalo      = imread('./intervalo.png');
 
 % ### COMIENZO DEL EXPERIMENTO ###
 
@@ -88,10 +88,10 @@ Screen('DrawTexture', window, textura);
 Screen('Flip',window);
 KbWait; % Presione cualquier tecla para continuar
 Screen('Close', textura);
-       
+
+esMayuscula = round(rand());
 for bloq=1:cantBloques
-	esMayuscula = round(rand());
-	for e=1:estimPorBlock
+    for e=1:estimPorBlock
 		textura=Screen('MakeTexture', window, mcruz);
 		Screen('DrawTexture', window, textura);
 		Screen('Flip',window);
@@ -100,11 +100,12 @@ for bloq=1:cantBloques
 		letra       = ceil(rand()*27); 		%Devuelve un id de letra con una letra entre a-z ([1..27])
 		tipografia  = ceil(rand()*3);	%Devuelve el id de una tipograf�a de las utilizadas ([1..4])
 		
-		if mod(est,estimPorBlock)>(estimPorBlock/2)
+		%if mod(est-1,estimPorBlock)>(estimPorBlock/2)
+        if e <= estimPorBlock/2
 			mayuscula=esMayuscula;
-		else
+        else
 			mayuscula=mod(esMayuscula + 1,2);
-		end
+        end
 
 		if mayuscula==1
 			mayStr='may';

@@ -15,11 +15,17 @@ function [p1, p2, p3, p4, p5] = calcularPlano(letra, tipografia, mayuscula, plan
     totalplane5 = planos(letra,tipografia,mayuscula).totalplane5;
     
     %plano = (correctplane1 + correctplane2 + correctplane3 + correctplane4 + correctplane5) ./  (totalplane1 + totalplane2 + totalplane3 + totalplane4 + totalplane5);
-    p1 = correctplane1 ./ totalplane1;
-    p2 = correctplane2 ./ totalplane2;
-    p3 = correctplane2 ./ totalplane3;
-    p4 = correctplane2 ./ totalplane4;
-    p5 = correctplane2 ./ totalplane5;
+%     p1 = correctplane1 ./ totalplane1;
+%     p2 = correctplane2 ./ totalplane2;
+%     p3 = correctplane2 ./ totalplane3;
+%     p4 = correctplane2 ./ totalplane4;
+%     p5 = correctplane2 ./ totalplane5;
+    
+    p1 = 2* correctplane1 - totalplane1;
+    p2 = 2* correctplane2 - totalplane2;
+    p3 = 2* correctplane2 - totalplane3;
+    p4 = 2* correctplane2 - totalplane4;
+    p5 = 2* correctplane2 - totalplane5;
     
     p1(isnan(p1)) = 0;
     p2(isnan(p2)) = 0;

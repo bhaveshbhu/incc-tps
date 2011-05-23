@@ -13,8 +13,8 @@ else
 end
 
 
-letra = 15;
-tipografia = 3;
+letra = 20;
+tipografia = 1;
 mayuscula = 2;
 
 [p1,p2,p3,p4,p5] = calcularPlano(letra,tipografia,mayuscula,planos);
