@@ -9,7 +9,7 @@ function letra = generarEstimulo(m1,m2,m3,m4,m5,f1,f2,f3,f4,f5,f6, pathTemp)
     g3 = (max(max(f3))-min(min(f3)))* coef + min(min(f3));
     g4 = (max(max(f4))-min(min(f4)))* coef + min(min(f4));
     g5 = (max(max(f5))-min(min(f5)))* coef + min(min(f5));
- 
+
     %filtro las im�genes
     r1 = f1.*m1+(ones(256,256)*g1).*(1-m1);
     r2 = f2.*m2+(ones(256,256)*g2).*(1-m2);

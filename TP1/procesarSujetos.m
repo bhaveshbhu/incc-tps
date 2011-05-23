@@ -2,7 +2,7 @@
 %     addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
 % end
 
-sujetos = repmat([],8,1);
+sujetos = repmat([],9,1);
 
 %sujetos = repmat([],2,1);
 % 
@@ -14,6 +14,7 @@ sujetos = repmat([],8,1);
  sujetos(6).name ='nicolas_19-May-2011_14580_0.mat';
  sujetos(7).name ='Mailen_19-May-2011_40490_0.mat';
  sujetos(8).name ='Christian_23-May-2011_27172_0.mat';
+ sujetos(9).name ='miguel_23-May-2011_13688_0.mat';
 
 %sujetos(1).name = 'ideal_22-May-2011_364328_0.mat';
 

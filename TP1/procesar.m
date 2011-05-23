@@ -28,6 +28,7 @@ function [datos, planos] = procesar(subjNames)
     estr.tipografia = [];
     estr.mayuscula = [];
     estr.vector{length(subjNames)} = [];
+    estr.names{length(subjNames)} = [];
     
     datos = repmat(estr,[length(letras), 3, 2]); %inicializo datos
     planos = repmat(plano,[length(letras), 3, 2]); %inicializo planos
@@ -89,6 +90,7 @@ function [datos, planos] = procesar(subjNames)
                 
 
                 datos(letra,tipografia,mayuscula).vector(i) = {[datos(letra,tipografia,mayuscula).vector{i} , estrRespuesta]};
+                datos(letra,tipografia,mayuscula).names(i) = {subjNames(i)};
             end
         end
     end

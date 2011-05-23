@@ -17,7 +17,7 @@ function [im1,im2,im3,im4,im5,imtot] = calcularImagenes(p1,p2,p3,p4,p5,letra,tip
         mayStr = 'may';
     end
     nombreArchivo=[deblank(letras(letra,:)),'_',int2str(tipografia),'_',mayStr,'_0.pgm'];
-    [f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo),0);
+    [f1,f2,f3,f4,f5,f6] = generarFiltros(strcat('./estimulos/',nombreArchivo));
     f1 = saveandload(f1);
     f2 = saveandload(f2);
     f3 = saveandload(f3);

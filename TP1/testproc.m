@@ -13,7 +13,7 @@ else
 end
 
 
-letra = 20;
+letra = 15;
 tipografia = 1;
 mayuscula = 2;
 
