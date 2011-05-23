@@ -1,7 +1,7 @@
 
 % ### OBTENCION DE IMPORTANCIA RELATIVA DE RASGOS POR LETRA-TIPOGRAFIA-CASE ####
 if ~(exist('planos','var'))
-    load('./datos/planos.mat');
+    load('planos.mat');
 end
 
 if ~(exist('rasgos','var'))

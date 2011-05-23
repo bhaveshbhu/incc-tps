@@ -2,7 +2,7 @@
 %
 % testea la R mayúscula arial
 %addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
-if ~(exist('planos'))
+if ~(exist('planos','var'))
     load 'planos.mat'
 end
 
