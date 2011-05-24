@@ -60,6 +60,5 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     relevanciaRasgos.r9  = struct('relevante',rr9,'importancia',ir9);
     relevanciaRasgos.r10 = struct('relevante',rr10,'importancia',ir10);
     relevanciaRasgos.r11 = struct('relevante',rr11,'importancia',ir11);
-      
 
 end
