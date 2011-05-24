@@ -1,5 +1,6 @@
 P5
-# MatLab PGMWRITE file, saved 23-May-2011
+# MatLab PGMWRITE file, saved 24-May-2011
 256 256
 255
-┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░ппппппппппппп░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░ппппппппппппппппппппппппп░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░░░░░░░░ппппппппппппппппппппппппппппппппп░░░░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░░░пппппппппппоооооооооооооооооппппппппппп░░░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░░ппппппппппооооооооооооооооооооооооооппппппппп░░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░░ппппппппооооооооооооонннннннноооооооооооопппппппп░░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░пппппппоооооооооннннннннннннннннннннноооооооооппппппп░░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░пппппппоооооооннннннннннннннннннннннннннннноооооооппппппп░░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░ппппппооооооонннннннннмммммммммммммммммнннннннннооооооппппппп░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░ппппппоооооонннннннмммммммммммммммммммммммммннннннноооооопппппп░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░ппппппооооонннннннммммммммлллллллллллллллммммммммнннннннооооопппппп░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░пппппоооооннннннмммммммлллллллллллллллллллллллмммммммнннннооооооппппп░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░ппппппооооонннннммммммллллллллкккккккккккккллллллллммммммннннноооооппппп░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░пппппооооонннннмммммлллллллккккккккккккккккккккккллллллмммммннннноооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░пппппоооооннннмммммллллллкккккккйййййййййййййкккккккклллллмммммнннноооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒░░░░░░пппппоооонннннммммлллллккккккйййййййййййййййййййййкккккклллллммммнннннооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░ппппоооооннннммммлллллкккккййййййййиииииииииииийййййййкккккллллмммммннннооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▒▒▒▒▒▒░░░░░ппппоооооннннммммллллкккккйййййииииииииииииииииииииийййййкккккллллммммннннооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒░░░░░ппппооооннннммммллллкккккйййййиииииииззззззззззззиииииийййййккккллллммммннннооооппппп░░░░░▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▓▒▒▒▒▒░░░░░ппппооооннннммммллллккккййййиииииизззззззззззззззззззииииииййййккккллллмммннннооооппппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░░ппппооооннннммммлллккккййййиииииззззззжжжжжжжжжжжжжззззззиииииййййкккллллмммнннноооопппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▓▒▒▒▒▒░░░░ппппооооннннммммлллккккйййииииизззззжжжжжжжжжжжжжжжжжжжзззззииииййййкккллллмммнннноооопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░░ппппоооннннммммлллкккййййииииззззжжжжжжееееееееееееежжжжжжззззиииийййкккклллмммнннноооопппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▒▒▒▒░░░░░ппппоооонннмммллллкккйййииииззззжжжжжееееееееееееееееееежжжжжззззииийййкккклллмммннннооопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░ппппоооонннмммллллкккйййиииизззжжжжеееееедддддддддддддеееееежжжжзззииийййкккклллмммннноооопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒░░░░░пппоооонннммммлллкккйййиииззззжжжееееедддддддддддддддддддеееежжжжзззииийййкккллллмммннноооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░ппппооонннммммлллкккйййииизззжжжееееедддддгггггггггггггдддддеееежжжзззииииййккклллмммннннооопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒░░░░ппппоооннннмммлллкккйййииизззжжжеееееддггггггвввввввггггггггдддеееежжжззииийййккклллмммннноооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒▒░░░░пппоооонннмммлллкккйййиииизззжжедддддддгвввввбаЯааббввввввввгггддееежжжззииийййккклллмммнннооооппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░░ппппооонннмммлллкккйййииииизззжедггдддггвбабббЯЮЬЬЭЯаааааааааббввгддеежжззззииййккклллмммннннооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒▒░░░░пппоооонннмммллкккйййииизззззждгвбвгдддвбаЯабаЯЭЩЩЩЬЮЮЮЮЮЮЯЮЭЭЮЯабвггдежжжжжжзийкккклллмммнннооооппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒░░░░ппппооонннмммлллккйййииззззззжжжзииииииззжжеежжедгвввгггггггбаЮЮЮЯЯабвгдежжееежзийкккклллмммнннооопппп░░░░▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░░пппооонннмммлллккйййиизжжжжжжжй▓╛╚╟┬║▓▓┤╢╕╕╣╢│▓▓╖╜┐└╛╝╗╣╕╕╕╢╡▒лжваЮЮЮЯбгежееддезиййккклллмммнннооопппп░░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒▒░░░ппппооонннмммллкккйййизжеедддеи▒─┌яЁц╥─┼┼╦═╬╬╟┴┐╜┼╥▄▐▐сууу▀ту▀┌╧─╣▓лдЯЮавдедгддежзиййккклллмммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒░░░░пппооонннмммлллккйййизжжеддггел╝З&/E\mlldadkxГЕЖ{dQF@63;@GHWlМ╖шщ▀╤┐нгЯбвггггдежзииййкккллмммнннооопппп░░░░▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░░пппооонннммлллкккййиизжееддгвео├вMis~ДЗЕДГГЗОТЧЧХПЙВxpjeiorrle]WP^В╙ю╠┤звбббвгдеззиийййкклллммнннооооппп░░░░▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒▒░░░пппооонннмммлллккйййиизжееедгвеп├кjГПФХЦФУУФЦЪЬЮЭЪЧХУОЙЕАВЕИИЖГБzn]>z№┘╣кгаабгежззиииййкклллмммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппооонннммлллкккййииззжеедгввдо┴лwМЦЩШШЦФФФЧЫЭЯЭЪЩЧЧФПЛЙИКМОООПСПЛЖ{bY┼╤╣квббгежжззииййкккллмммнннооопппп░░░▒▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░ппппоооннмммлллккййиииззжедгвббдо─лwНЧЩШЧХФУФХЩЫЬЫЩЪЩШЦСНЛККНОПРТХЦЧЧУИzf╡╨╕кдгджззжжзийййкклллмммннооооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░пппооонннмммллккйййиииззждваЯЯЯго╔мkЕФШЦЦХФФУТХЧШЧЧШШШХСЛЙЖЗЙЙМОРФЦШЪЩЦРДp╝╞│иджззжжжззиййкккллмммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппооонннммлллккййиииззжегаЮЭЬЭбо╨м\БУШЦЧЦХУСРСУХФХЧЦЦФСМЗДВГДЗЛПУЦШЩЩШХНЖv╜║нжззжжеежзийййкклллммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппоонннмммллкккййииззжедбЮЫЫЫЫао╒мM}УЩЩЪЪШХТОКЛПМНТПНКГzvrrsvЖМСУХХХФФТОЕЙ╩┤йзжееддезииййкклллммнннооопппп░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппооонннммлллккййиииззжегаЭЪЪЪЪЯо╫лJ|УЪЪЬЭЫЦПЖ{vzvv{xwsfYUOPU^o~ЗНРСТТСУФУЙtн├пжгвггдежзиййкккллмммннноооппп░░░░▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллкккййииззжедвЯЭЪЪЪЪЮн╓кM}ТЫЬЮЯЬХЙx~qojkklh`I62% &2Pi|ЙПРСССУФФПxY╫╝йбабвгежзийййккллмммннноооппп░░░░▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││▓▓▓▓▓▓▒▒▒░░░░пппоооннмммллккйййиизжжедваЭЫЫЫЪЮм╧йT}ПЦШЫЭЬЦЖkЁч┘╓╙╨╠═╨╪▀су▐╩ЭCOlАМПТУУУХЦТT┼╥оаЯЯбгежзииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппоонннммлллккййииззжеедгаЮЫЫЫЫЮл╔й[ПХХЦЩЩУА\╥╟▓лйииййккмо┤╜═ц~_yЙТЦШШЦЦЦУБZЛш╢бЮЮбгежзииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппооонннммллкккййииззжееегбЭЪЪЪЫЯк┼и[{ЛРРТФЦП{X╟╕ЯХФШЬЯЯЭЭЫЪЬбл╗╧зsЗХЫЬЫЩЧЦХЗhLї╜дЮЮвджззииййкккллмммнноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккйййиизжжееегаЬЪЩЪЬак┬иYtЕМНРУХН|]┬▓ЫТСХЪЭЯЭЬЧХФХЪд▓╚ЕДХЬЭЬЪЧЦЦМuI№┼иЯЮбджззииййкккллмммннооопппп░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккййииззжжееевЯЬЩЩЪЬай┐иVoВЛНСФХОc└▒ЫУУЦШЫЭЬЫЩФТРФЫж╣╦wПЩЩЪЩЧЦЧТБ^╩╩маЮбджззиийййккллмммннноопппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммлллккййииззжжеждгЯЬЩЩЬЮвй╗зSoГМПУЧЧСБd┐░ЪУФХШШЬЪЪЧХУТХШЯо╔ГДХЧЩШЧЦЧФЕgп═пвЮбджззиииййккллмммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒░░░░пппоонннммллкккййииззжееедвЯЬЪЫЭЮвй╗зQrДНРХЧЩФД`└░ШТТХУУХЦХЧЦХХЧШЬй┴ФwМХШЧЦЦШФЖeб╬▒гЯбдеззиииййкклллммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккййиииззжеедгваЮЭЭЭЮвй╣з^sЖНТЦЩЪХБY─▒ЧСТТПННОСУФУХЦЧЫз┐ЮoИУЧЦЦЧШУГ`Ы╧▒давдежззииййкклллммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккййииззжжеддггвбаЯЮЮби║зezКСТЦШЩТВX┼▓ХПРРМКЙКМРСТУФЦЪз┬ЬtКХШЦЦЦЦП|WЮ╧░гавгежззииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккййииззжжедггддгвбаЯби╝жi}НУХЧЧЦР~U╞▓ФОПОЙИЗЙКОТФУУФЪл╟Р}РЧЧЦФТСЙrJй╬пгавгдежзииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннммлллккййииззжееддгдеедгбЯаи┐жgГРЧШШЦХНzT─▒ХППОЙЗЖЖЙНТУСПСЫ╡╒xЖФЧЦУРНМВh=┼╠мвабгдежзииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллкккййииззжеедддежжжжгааи┬е_ВУЪЫЪЧФЛvK┼▒ЦССПКЖЖЕЗНУФССХи╬╜kКЦШЦУОКЙ{Y*є┼иаЯавдежзииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллкккййииззжжееедеежеедаЯи┼еT}ТЫЬЫЦТИpJ┼▒ЧТТСМЗЕЕЗОФЦХЩз╟ъOwРЪЪЦУОЛИwM#ў╝дЯЮабгежзииййкклллммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккйййииззжжееедгедгвбЯЯи┼еSzСЫЬЫХРЖk>╠╕ЮШШШЧХТСТЦЪЯд▓═√]gЛШЭЫЧФРНЙwNsт┤вЯЮЯавджзииййкклллммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккййиииззжжеедгвбаЯЮЭЭЮи─еRzПЩЫШУМВe:▀═┤мкккклмнп┤╗╔▀╣P`ЕЦЭЭЫЦУТСМzX│╩нбЯЯабвджзииййкклллммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккййииззжжеедгбаЯЮЭЬЫЫЮи┴е^АРЧШФОИgF°ь╙╟┬┐╛┴╔╤╫▐╫╡СY]nЕУЪЭЬЪХУТСЙx^╞╣ибаЯЯавджзииййккллмммннноооппп░░░▒▒▒▒▒▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккййииззжжеедваЯЭЭЭЬЫЫЮи╜жkЖТЦХРЙВ}pbkdgqvyvnU?.">btАЖМУШЫЭЫШХТРЛ}iП┬пебааабвджзииййккллмммннноопппп░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккййиизззжеегбЯЮЭЭЮЬЫЫЮи╛жkЖУЦУМДА}}}}~АВАzudZW[kВОЧЩЩШШЩЫЪЩФРЙ{bV▄╕йваааабгджзийййккллмммнноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккййиииззжеегваЯЮЮЯЮЮЭЯи└жiИУХРИГВВЖМОРОНЛИДtmotВПЪЮЮЫЪЧЧЩЪШУЛ|]4╡╨пгЮЭЮЯЯбгежзиййкккллмммнноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллккйййииззжеегваЯЮЮЯЯаЮЯи┼жdДСТНЖБВЖНУХХСРОКЕАxssxДРЩЭЪШЧХФЧЧШСБa1rх╝жЬЪЪЬЭЯбгезииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллкккййииззжжедваЯЮЭЮЯЮЭЮи┼жdАНПКЖЖЗМТЦШХТРОМЗАzvv{ДОХХФРСРТФУСДc-_ў╞кЮШЧШЪЬЯбджзииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоонннммллкккййииззжжедваЮЬЫЫЬЭЬЮи┼жdМПЛКМОТЦЧХТРПОМЙД~yy}ВЙНОМКИИЗИГz^)q ═лЭЩЦЧШЪЬЯвджзииййккллмммннноооппп░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннммлллккййииззжжедвЯЬЪЩШЩЫЫЭй┬зjВНРННСХЧЩЧФРОНМКЙЕА{z}АГГ}{zxrfZC╨Є╩лЭШШЦЦШЪЭагежзиййкккллмммннооопппп░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннммлллккййииззжжедваЬЩШЧШЪЪЭй┴зpДОТСУЧЩЩЪФСОЗВ}}|ytppprph^WTQMC-.Пё┌║жЬШЧШЧШЪЬЯвгезииййкклллммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккййиизззжедгаЭЪШЧШЪЪЮй┴иjБОФФЧЪЫЪЩНДym`ZYZVOKIFE9'+мї┌┴пбЪШШЩЪЪЫЬЮбгджзийййккллмммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккйййииззжжегбЯЬЪШЪЫЬак┴и_|НФЦШЫЬЩФХК|qgloplgfkr|Нг╣╟╫шс╩╕мгЭЬЫЫЫЫЬЫЬЮавгежзиййкккллмммннооопппп░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││▓▓▓▓▓▒▒▒▒░░░░ппооонннммллкккййииззжжедгбЯЭЬЬЬЭбк─иXyЛФХЧЩЩХЙmху┌█▌█╘╤╥╫┌▐▀█┘╙╬╩├╗░ибЬЪЫЭЮЯЮЮЭЭЮабвдезииййкклллммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒░░░░пппоонннммлллккййиизззжеедвбЯЮЭЬЭбк╞йOvЛФХЦШШТa╬╟▓кжжзззжжедгваЯЮЬЫЫЫЫЪЪЬЯавббаЯЯабвджзиййкккллмммннноооппп░░░░▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллккйййииззжеддгвбаЯЮЮбл─йUyОЦЦЦЧЧПyV╔╜ЮУРСЦЩЩЧФСПППССТСУЦЧЩЪЪЫЮавввббббвгджзиййкклллммнннооопппп░░░▒▒▒▒▒▓▓▓▓▓▓││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппоооннмммллкккййииззжеддггвбаЯЮвл─к^}СШШШШШРy\╞║ЫОНОФЧЩЧФСППРССТТФЦШЩЫЫЬЮаггддггвгдезиййкккллмммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппооонннммлллккййииизжеддгддвбаагл┴кdАТЩЪЪЩШРВf├╕ЬПНСХЩЪЩЦФУФФФФХЧШЩЫЫЬЬЬЮавдееддддежзййккклллммнннооопппп░░░░▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппоонннмммллккйййииззеедддддгвбдл┴лbГФЫЭЬЪЩФЗq─╕ЭРОУЧЫЬЬШЦХЦЧЧЩЩЫЬЭЭЮЯЯЯабгеежеееежзийккклллмммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппоооннмммллкккййииззжедддеедгвдм┴лjИЧЬЯЮЬЫЧЗm┼╣ЮСОТЧЫЮЮЬЩЪЫЬЭЭЮЯаааЯЯабвгдеежжжжжзийккклллмммнннооопппп░░░░▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░пппооонннммлллккйййиизжеееежедгвдн┴мpКШЭЮЮЭЫХВa╠╗ЮРНРХЫЯаЮЭЮЯааабгввбЯЯбвгдежжжжжззиййккллллмммннноооппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░пппооонннмммллкккййиизжжеежжжегвдо┬мyРЬЯЯЮЭЫФ}V╨╛ЯСОРХЪЮЯЯЯавгдгддвбааабгдежжжззззиийккллллмммнннооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппоооннмммлллккйййиизжжжззжегбдо┬мЕЦЮаЯЯЮЬУ{J╫└аУССХШЫЭЯвгддеддгвббаббгеежжзззииийккллллмммнннооооппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппооонннмммллкккйййиззззиизегбеп┬мЗШЮааЯЮЬФzG┘┬вЧФХЦЩЫЭЯвддддгвбаааббвгеежззииииййклммммммннннооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░пппооооннмммлллкккййииизииизегбе▒─нВФЭаааЯЭУ{B┌└дЬЩЪЪЫЬЮавггггбаЯЯавггддежжззиииййкллммнннннннооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒░░░░пппооонннмммлллккйййиииииизждвж▒╟оyРЫЯааЯЮЧN╪└жЯЭЭЭЮЮавггггбЯЮЮЯвдеееееежззиийййклммнннннннооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓▓│││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒░░░░пппооонннмммлллкккйййииииизждгз▓╚пvПЫЯЯааЯШГU╓└збаЯаббвгдддгбЯЮЮагжззжжеежззийййкллмнноонннооооппп░░░░░▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▒▒▒▒▒░░░ппппооонннмммлллкккйййиииизжеди│╩░sНЫаЯаааЪЗe╥┐ивбаббвгдедггбЯЯабджззжжжжжзийййклмммнооонноооопппп░░░░▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░░пппоооннннмммлллкккйййиииззжеи┤╥│lЛЪааЯЯаЪЙj╬╛йгбббвгддддгвбаабгджжжжжжжзиййкклмоооооооооооопппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒░░░░ппппооонннмммллллкккйййииззжжй╖▄╖^ИЫббаааЩДi╠╝йдвбббвгдддгвбббвгдеежжжззиййкклноп░░пооооооопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒▒░░░░пппоооонннмммлллккккйййииззжк║щ║LГЩааЯЮЮЦБ_╨╜кдвбаббггдггбббввгдеежжзиийккклмо░▓▓▒░пооооопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒░░░░ппппоооннннмммллллккййййииззл╝э║B}ХЫЪЩШШТ}V╫┬лдбббабвгдгввввггдеежззиййккллмнп▒│││▓░ппоопппп░░░░░▒▒▒▒▒▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒▒░░░░пппоооонннммммллллкккккййиил╗ьо.j~Б|xx~|g8┌╚мдбббббвгдддгггдеежжзииййккллмнп░▒▓││▓▒░ппппппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒░░░░ппппоооонннммммллллккллккйим╣█Ж<GD/!&:?1├├лдввввгдеежееееежжззиййкклллмноп░░▒▓▓▓▒░пппппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░ппппоооннннммммллллллммлкйм┤╔╔╗╚╨╫сццр╫╚п╚╖йдггддджжзззжжжжззиййккллмммнооп░░░░▒▒░░ппппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▒▒▒▒▒░░░░ппппооооннннммммлллммннмлллп╕┼══╨╫счщф▌╤╩╗нзееежжжзиииизззииййккллммннннопппппопппппппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░ппппооооннннмммммлммнннмллмо▒▓▓▓│╡╢╢╢┤▒░мизжжзззиииииииииййкклллмнннннооппооннноооппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░░ппппоооонннннмммммннннммллллккккккййййиизззззиииииииийййкклллмммнноооооппоннннооппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░░ппппооооннннннмммннннммлллкккйййййййййииииииииииийййййккллллмммнннноооппонннооппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▒▒▒▒▒▒░░░░пппппооооннннннмммммммллллккккйййййййййййййййййййййййкккллллмммнннннооппоооопппп░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▒▒▒▒▒░░░░░пппппооооннннннммммммлллллккккккккййййййййййййййкккккклллллммммнннноооооопппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▓▒▒▒▒▒░░░░░пппппооооонннннмммммлллллллккккккккккккккккккккккккллллллммммнннннооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▒▒▒▒▒▒░░░░░пппппооооонннннммммммлллллллллккккккккккккккккклллллллмммммнннннооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││▓▓▓▓▓▓▓▒▒▒▒▒░░░░░░пппппоооооннннннмммммммлллллллллллллллллллллллллллммммммннннноооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░пппппооооооннннннммммммммлллллллллллллллллллллмммммммнннннноооооппппп░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░пппппооооооонннннннмммммммммммллллллллллммммммммммнннннноооооппппп░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░ппппппоооооооннннннннмммммммммммммммммммммммммнннннннооооооппппп░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░пппппппоооооооннннннннннмммммммммммммммммннннннннноооооопппппп░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░ппппппоооооооонннннннннннннннннннннннннннннннооооооопппппп░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░пппппппооооооооооннннннннннннннннннннннннооооооооппппппп░░░░░░▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒░░░░░░░░ппппппппоооооооооооннннннннннннннннооооооооооппппппп░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░пппппппппоооооооооооооооооооооооооооооооопппппппп░░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒░░░░░░░░пппппппппппоооооооооооооооооооооооооппппппппп░░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░░пппппппппппппооооооооооооооооппппппппппп░░░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░░░ппппппппппппппппппппппппппппппппппп░░░░░░░░░▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒░░░░░░░░░░░пппппппппппппппппппппппппппппп░░░░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░ппппппппппппппппппппп░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░ппп░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓│││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓│││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││▓▓▓▓▓▓▓▓▓▓│││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤││││││││││││││││││││││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤│││││││││││┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤┤
+ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккллкккккккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккккллллккккккйиззийкккккккккккккклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйййкллллйиийкйзжггдзиййййииззииийккккклллллкклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйизжзклллкизжиййидаЯЯгжзжжжжжедгдежииййкклллкййкллмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкклллллкккллллллллккйкллкизжжжзииииизждввгдежжзиклллйиийкллмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйккллкл▒╜╟─╝▒лллн▒▒▓пллл▒║╜╛╗╣╕┤┤┤╡╡╡▓нйждгввезйллкйззийкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййииййкк▒┴╫ыщ█╛лмн╢╣╗║▓лллп┴╨╙╥╓╓╒╙╧╘╪╪╒╠┬╕│нзгвдиккйзззийклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййииииийм╕С*=B^АЩШЧНЙНШкллллПtd\NKV^gdkyФ╢██╫╨└пжджийиззиййклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйййййизйо║зj|БМЦЪШЧХЧЭжллллйбЧЙ}tnt}БГ~xrqowМ╨ы╦╡кзжжжжзийкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккййкййзйо╖мИФЩЭЯаЮЭЭЯвилллйеваЩТМДЗМРССОППНДuYЕє╘╖мзееезйкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййййиийн┤мЩЮаббаЮЫЫЬбзллкждввЮЧСОНПУФХХЧЫЪЧХП|v╜─╢мжжжикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйиззжин╖мШЯббЯЮЬЬЪЫЮдзйжежедаЩУРППТУХЧШЭЮаваЫЧТ░┴╡мииклллккклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйздддезо┐нИХЭЯЭЭЭЫЫЫЪЯбгвбдддаЪТОКЛООСФЧЫЮбгдгвбЭ░╢плкллллкйкклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкздбббвжп╔оsПЬаЮЯЯЮЫЩЧЩЬаЯадгвЯЪУМЗДЖЗКРХЪЮаббаЯЭдлллллллллйййкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкиебЮЮЮад░╤о^КЬввдегЮЫЧХШЯЫЭдбЭШНБztttwВКТШЫЬЬЬЪЫЫЯикомллллйиийккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйздаЭЭЮЯг░╘нZЙЮддзкзвЫФМНЦСТЩЦФНzf^UTW_rВМУЧЧШШЦШЪЮЯЩм┤мкиззззийклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйзгаЭЭЮЯгп╘н_ЛЭезклйвШКТЛПЛООПКБePK6,.7XpГРЦЧЧЧЦШЪЬЬП┼╢леддезийкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккйздбЯЯааго╩мjЛШЯвжлйеЩЖ╘╬╟╞├┐║║╛╟╤╥╪╪╚вWd|ЛХЧЩЪЪЩЪЮЫОp└╦░двгезиккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккйижгаЯабдн┬лsОШЭЮбджвХ}─╛▒нллллллмнп│╣─╘ТПШЭЯбаЭЭЭЪЛnУс╖дбвдзйккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккккйжвЯЮавем╜лtЙУЧШЫЯбЭС{╜╡дЬЭгиллкйжгджм╡╗кЪбеззжвЯЭЫПzaы╜збвеикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйебЮЮагжм╣кrМТФЩЭаЫУД╣▒вЫЬвйллллдаЯЯвйо░йкллйзгЯЬЭХЕeю─кввжйлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйебЮЮагзл╡кmyЗСУЪЯбЭШМ╖пгЮадзллллйвЯЫЯжкомзккедгЯЬЮЫТ}├╞одвжйлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйебЮЯгжйлпкjxЙТЧЮгдбЪП╢пвЮвдииллкждаЯвжин┤ЯвигдбЯЭЮЭЦДп╞░евжиклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкиевавдикл░кh}КФЩаджеЯЙ╖░аЭагббгедзеггжжзл│бЧЮбгаЮЭЯЭХ~ж┼▒зджиклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллклкйзедежзклмкyОФЫвзйиЬА╜▒ЮЬааЬШЩЪЯбвбгеежк┤жОЪЯбЯЮЯаЬРwб╞▒зезикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккккккйиизийлпкДКФЪЬвжздЭ~┐▓ЫЪЭЭШХФХЧЭЯабвгдк╢дФЭвваЯЮЭЦЗjг╞░зезийклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййкллллкйкйл▓кЙОШЭбгддбШ{└▓ЪШЫЫФТСУХЪагбабгм╕бЭгебЮЫШЦОzZм╚░зежийкклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккккллллллкил╡кЗЦЬгеждвЭУy╛▒ЬЪЬЪУСРРУЪабЮЫЫв│└ЬдждаЫХСПЕnK├╚нжежзйккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкклллллллллил╗й{ХбзййебЪМl└▒ЮЭЯЬХРПОСЪавЭЫЬк╞╕ТбждаЫУМЛ|]7ы├кддежийклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллзк╛иlОаилйдЮХДk┐▒ЯЮаЯШРООСЪвгаай┼▀pУгижаЫУОКyR3ь╗иггдезйкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйжк┐иkКЮилквЫТ}Y╞╖гвггвЯЫЩЪЮгжи▓╔ЄqВвйлзбЬЧТН}[Б╫┤жгггджиклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйййззжжжк╜иjКЬжйжЮЦМrN╫╞│нллллмноп▓╢╛╨╕h|ЬйллзаЫЩЧФЖt▒╛ождгдежикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкижееддггек╣й{ТЭгдаШРЗqUъ█─╕▓пн░╗╞╬╘╦▓ЯА~ЗЪжллкжЯЪШЩХНЕ╢░лзедгджиклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкижедгддгджк│кНЫЯвбЪРИГxp~БНЮжлзЫy\H;_ЛЫвбагзйлигЯЪЧФМИв▒мкзжедджикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйзедгдждгдек┤кМЫбвЭХКЕБДМСЦЫавЯЧПvhcf{ШжллкижжиздЭЧПЕuv─▒лижеддежикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйзжееезззззл╕йЙЭвбЪПИЗИПЩЭвааЭЩУМ|rszНЮллллйггжжгЬТДgH┤╞пздвввгежикллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйзжедеиййижл┐йГШЮЬФЛЕИМШбдеаЯЬЦПЙ}uu|НЭйлйждаЯггдЬЛk=z▐╗йбЮЭЯавдзйкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйижедджзижел┐йГТШЧРММОЦЯездЯЭЫЧРЗ~xxЛЩггаЫЫЩЫЮЮЭУq9fЇ╞мбЫЪЫЭЯвезйкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйзегбббгеддл╛йВСЦЧУСХШЮгегЯЬЬЫШУЛГ}|ВЙУШШХТПППТПКo9v ╬обЭЩЩЩЬЮвеиккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйзеаЮЭЭЯвгдл║кКХЧШФХЫбдзевЮЫЩШЦФОЗБ~ГЗМЛЕГА~ypjW*╨ё╠наЬЫЩШЪЬагжиклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйиеаЬЬЫЭббгл╕кУЧЩЪЪЭгззкдвбШТЛМЛЖzzz~{pcZWTRL9>Фэ┘╗йаЬЫЬЪЫЬЯвезйклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккиебЮЬЫЭбвел╖кКТЩЭЮвиййлвЮШЛzrpsmb][XXI0"
+6оь╒└░еЯЭЭЮЮЭЮЯбджийкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйздаЮЭЯбгжл╕кzЛЧЭЯгййййЩвЬРГv|ВГ~uquyБСж╗╚╪ч▌╟╖озвбввбааЯабгезийкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккиждббвгеим╗лoЖФЬЮвеедЯК╔══╥╫╘╦╟╟╧╘┌▌┌╪╥╧╩├╗▒кжвбгежжедвбвгдезиккллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйизедггезм╛лcБФЫЮавгаФГ┐└▓мййкккййизжедгваабвгвбгзикизедгддезиклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйййижжееим╗мkЕЧЮЯабвЫНw┐╗вШЦЧЮвваЬЧФХФЦЧШЧЪЭЯбввгжикййзжееежзйкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйййййзжжеим║мvЛЪбббввЬМА╗╕аУУЦЮвдбЭЩЦЦЧШШШЩЫЮабввгжзклккизжжзийлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйййййкйиззйм╡мПЫвдгвбЭШО╕╡бХУЩЯездаЭЬЬЬЬЫЭЯабгггвгежклллкйзиийклллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййййклккййкм┤м|ТЭезждгбЯЭ╕╡вХХЫбзйигаЮЮЯаввджжжжзжжзиклллкййййкллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййййклллкккм╡мЖШбейиждеЮЧ╣╢вХУЪбжлкзддезиийкккйззийййлллллкййккллмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкййййклллкйкм┤мПЫвжииждбЦЕ┬╣бФСЦЮжллкийллллллллкзжиккллллллккккллммлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккййкллллйийн┤мЫгзийиждЯПt╟╝вФУХЬгйкккллллллллкизжикллллллллккллмммллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйклллкизйо┤лллкйизждЭМb╨┐гЧЦЧЫаезкллллллллкйижззйлллллллллллмммммлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккллллкижио┤лллйиизждЭЙ]╥└жЬЪЫЭагжйлллллллйзизззийкллллллллллммнмммлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкижй░╢межззииздЬКU╙╜игабвгдзклллллйижежийкйккклллллллллмннннммллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкижй░╣нЩадежзжеаРf╧╗йжееежзйлллллйжддеиклллккккклллллллмнннннмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллйзк▒║оУЮвееззжвУp╠╗кииииййллллллйедгжйллллкйййккллллллммннонмллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкйик▒╜оОЫбееезздШЕ╞╣киииййклллллкиеддзкллллкйййкллллмммммннннмллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллккйл│╚▓ГЧбеедджгЪМ╛╢лйииийкллллкйзедезклллкйййкллллмнопоонннмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккл╡╒╖oТбежедебФК╗│лйизззйлллкйзжеежзийййййккллллмно░▒▒░онммлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккм╣ц╗VЛЯддгввЬР|└┤лйизжжзйккйижееежзиийййккллммммн░▓┤│▓░онмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллкккм╝ь╝IДЪЯЯЭЬЭЩЛo╠╗мйзееежзийизжжжжзиииййкллллмммно▒│┤╡┤▓░нмллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмммллкн╗э░6uЖИБ{{ЕЖvN╒┼озееееезиййизжззииййкклллммммно░▒▓│┤┤▓░омллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмннмлло║▄К!QYQ5!(EOF┬┬нзежжжжийккйиииийййкллммммммннп░░▒▒▓▓▒пнмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмнооннмо╢╩╔║┬╔╤рчч▀╘┼░┼╕лзжзииикклллкййййккллмммннннноп░░░пп░понллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллннопооно▒╣─╟┬─═█фшс╫╩╞╣пкииййккллллллкккклммммнноооооопппонммммлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмнпппоноо░▒▒░п▒│╡╢╡│▒░нлййккклллллллллллммнннннооооооооонлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмнооооннннммлллллллллллккккклллллллллллммннннннооооононнмллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллммннонннммммллллллллллллллллллллллллллллммммммнннннннннннмллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмммммммллллллллллллллллллллллллллллллллммммммммммммммммллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллмлллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл

@@ -36,17 +36,17 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     ir11        = sum(sum(mr11))/totalPixels;
     
     % Obtención de rasgos relevantes
-    rr1         = (sum(sum(mr1))/sum(sum(rasgosLetra.mr1))) > INC_MIN;
-    rr2         = (sum(sum(mr2))/sum(sum(rasgosLetra.mr2))) > INC_MIN;
-    rr3         = (sum(sum(mr3))/sum(sum(rasgosLetra.mr3))) > INC_MIN;
-    rr4         = (sum(sum(mr4))/sum(sum(rasgosLetra.mr4))) > INC_MIN;
-    rr5         = (sum(sum(mr5))/sum(sum(rasgosLetra.mr5))) > INC_MIN;
-    rr6         = (sum(sum(mr6))/sum(sum(rasgosLetra.mr6))) > INC_MIN;
-    rr7         = (sum(sum(mr7))/sum(sum(rasgosLetra.mr7))) > INC_MIN;
-    rr8         = (sum(sum(mr8))/sum(sum(rasgosLetra.mr8))) > INC_MIN;
-    rr9         = (sum(sum(mr9))/sum(sum(rasgosLetra.mr9))) > INC_MIN;
-    rr10        = (sum(sum(mr10))/sum(sum(rasgosLetra.mr10))) > INC_MIN;
-    rr11        = (sum(sum(mr11))/sum(sum(rasgosLetra.mr11))) > INC_MIN;
+    rr1         = (sum(sum(mr1))/sum(sum(rasgosLetra.mr1)));
+    rr2         = (sum(sum(mr2))/sum(sum(rasgosLetra.mr2)));
+    rr3         = (sum(sum(mr3))/sum(sum(rasgosLetra.mr3)));
+    rr4         = (sum(sum(mr4))/sum(sum(rasgosLetra.mr4)));
+    rr5         = (sum(sum(mr5))/sum(sum(rasgosLetra.mr5)));
+    rr6         = (sum(sum(mr6))/sum(sum(rasgosLetra.mr6)));
+    rr7         = (sum(sum(mr7))/sum(sum(rasgosLetra.mr7)));
+    rr8         = (sum(sum(mr8))/sum(sum(rasgosLetra.mr8)));
+    rr9         = (sum(sum(mr9))/sum(sum(rasgosLetra.mr9)));
+    rr10        = (sum(sum(mr10))/sum(sum(rasgosLetra.mr10)));
+    rr11        = (sum(sum(mr11))/sum(sum(rasgosLetra.mr11)));
     
     % Generación de resultados (Rasgos relevante o no, importancia relativa)
     relevanciaRasgos.r1  = struct('relevante',rr1,'importancia',ir1);
