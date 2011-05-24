@@ -9,7 +9,7 @@ right,width=22mm]{Goettingen}
 }
 \title{Detecci\'on de Rasgos en la Identificaci\'on de Letras Utilizando Bubbles}
 \subtitle{Intr. a Neurociencia Cognitiva y Computacional}
-\author[Cossio Mercado, Gomez Mayol, Martinez Soler]{Christian Cossio Mercado, Mail\'en G\'omez Mayol, Miguel Mart\'inez Soler}
+\author[Martinez Soler,\\Gomez Mayol,\\Cossio Mercado]{Christian Cossio Mercado,\\Mail\'en G\'omez Mayol,\\Miguel Mart\'inez Soler}
 \institute{Departamento de Computación - FCEyN, UBA}
 %\titlegraphic{\includegraphics[width=20mm]{USTL}}
 \date{24 de Mayo de 2011}
@@ -21,34 +21,35 @@ right,width=22mm]{Goettingen}
 \end{frame}
 
 \section{Introducci\'on}
-\subsection{Primera subsection}
+\subsection{Revisi\'on Bibliogr\'afica}
 \begin{frame}
-  \frametitle{Dónde estamos}
+  \frametitle{Revisión bibliográfica}
   \begin{itemize}
-    \item En los sistemas TTS se puede evaluar \ldots \pause
+    \item Los papers en los que basamos nuestra investigaci\'on \ldots \pause
     \begin{itemize}
-      \item Exactitud (PLN) \pause
-      \item Inteligibilidad \pause
-      \item Naturalidad
+      \item Feature Detection and Letter Identification (Pelli et al., 2006) \pause
+      \item Bubbles (Gosselin \& Schyns) \pause
+      \item Feature for Identification of Uppercase and Lowercase Letters (Fiset et al., 2008)
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\subsection{Experimento}
+\begin{frame}
+  \frametitle{Objetivos del experimento}
+  \begin{itemize}
+    \item Identificar rasgos utilizados por una persona para reconocer letras de distintas tipograf\'ias  \ldots \pause
+    \begin{itemize}
+      \item El uso de tipograf\'ias ampliamente conocidas facilita el reconocimiento de letras \pause
+      \item La eficiencia en el reconocimiento de las letras es inversamente proporcional a su complejidad \pause
+      \item Los rasgos de cada letra var\'ian de acuerdo a la tipograf\'ia que se est\'e utilizando \pause
+      \item Un observador ideal utilizar\'a rasgos distintos a los que utiliza una persona para identificar letras	
     \end{itemize}
 \end{itemize}
 \end{frame}
 
-\subsection{Segunda subsection}
 \begin{frame}
-  \frametitle{Dónde estamos 2}
-  \begin{itemize}
-    \item Lerolerolero alallaa  \ldots \pause
-    \begin{itemize}
-      \item nenenannenene ooeaoksoaks okas \pause
-      \item Inteligibilidad sasa \pause
-      \item sarasero asasjkjkj
-    \end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Dónde estamos 3}
+  \frametitle{Elecci\'on de Tipograf\'ias}
     \begin{figure}
     \includegraphics[scale=0.35]{graficos/letras.png}
       \caption{Conjunto completo de letras utilizadas en el experimento}
@@ -56,50 +57,38 @@ right,width=22mm]{Goettingen}
     \end{figure}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Preparaci\'on de los est\'imulos}
+    \begin{figure}
+    \includegraphics[scale=0.35]{graficos/letras.png}
+      \caption{Preparación del estímulo final}
+      \label{figura:FISET1}
+    \end{figure}
+\end{frame}
 
 
 \section{Results}
 \begin{frame}
   \frametitle{Results}
-    \begin{table}
-	\tiny
-	\centering
-	\label{tabla:cantidadBurbujas}
-	\caption{Cantidad de burbujas promedio necesarias para la identificación de las letras}
-	\begin{tabular}{c|r|r|r|c|r|r|r}
-	    \hline
-	    \multirow{2}{*}{\textbf{Letra}} & \multicolumn{3}{|c|}{\textbf{Tipografía}} & \multirow{2}{*}{\textbf{Letra}} & \multicolumn{3}{|c}{\textbf{Tipografía}} \\
-	    \cline{2-4}\cline{6-8}
-		& \textbf{Arial} & \textbf{Kunstler} & \textbf{Famosas} &     & \textbf{Arial} & \textbf{Kunstler} & \textbf{Famosas} \\\hline\hline
-	    \textbf{A}   & 14   &   35   &   16   &   \textbf{a}   & 14   &   28   &   20   \\\hline
-	    \textbf{B}   & 14   &   35   &   22   &   \textbf{b}   & 18   &   37   &   24   \\\hline
-	    \textbf{C}   & 12   &   26   &   26   &   \textbf{c}   & 14   &   30   &   22   \\\hline
-	    \textbf{D}   & 14   &   31   &   22   &   \textbf{d}   & 18   &   31   &   16   \\\hline
-	    \textbf{E}   & 16   &   31   &   20   &   \textbf{e}   & 20   &   37   &   18   \\\hline
-	    \textbf{F}   & 22   &   31   &   18   &   \textbf{f}   & 20   &   37   &   22   \\\hline
-	    \textbf{G}   & 16   &   26   &   30   &   \textbf{g}   & 16   &   28   &   18   \\\hline
-	    \textbf{H}   & 20   &   31   &   22   &   \textbf{h}   & 18   &   30   &   18   \\\hline
-	    \textbf{I}   & 18   &   39   &   24   &   \textbf{i}   & 20   &   30   &   24   \\\hline
-	    \textbf{J}   & 16   &   41   &   24   &   \textbf{j}   & 22   &   26   &   24   \\\hline
-	    \textbf{K}   & 12   &   30   &   16   &   \textbf{k}   & 14   &   33   &   22   \\\hline
-	    \textbf{L}   & 16   &   31   &   26   &   \textbf{l}   & 26   &   30   &   20   \\\hline
-	    \textbf{M}   & 14   &   39   &   14   &   \textbf{m}   & 16   &   28   &   16   \\\hline
-	    \textbf{N}   & 16   &   39   &   18   &   \textbf{n}   & 20   &   26   &   22   \\\hline
-	    \textbf{Ñ}   & 18   &   39   &   12   &   \textbf{ñ}   & 20   &   26   &   22   \\\hline
-	    \textbf{O}   & 16   &   30   &   22   &   \textbf{o}   & 16   &   33   &   22   \\\hline
-	    \textbf{P}   & 14   &   33   &   22   &   \textbf{p}   & 16   &   30   &   22   \\\hline
-	    \textbf{Q}   & 18   &   35   &   18   &   \textbf{q}   & 24   &   37   &   20   \\\hline
-	    \textbf{R}   & 12   &   28   &   14   &   \textbf{r}   & 26   &   33   &   26   \\\hline
-	    \textbf{S}   & 12   &   35   &   16   &   \textbf{s}   & 14   &   28   &   22   \\\hline
-	    \textbf{T}   & 18   &   33   &   20   &   \textbf{t}   & 20   &   28   &   18   \\\hline
-	    \textbf{U}   & 16   &   26   &   28   &   \textbf{u}   & 18   &   26   &   16   \\\hline
-	    \textbf{V}   & 12   &   33   &   30   &   \textbf{v}   & 20   &   37   &   22   \\\hline
-	    \textbf{W}   & 16   &   37   &   18   &   \textbf{w}   & 14   &   33   &   22   \\\hline
-	    \textbf{X}   & 10   &   31   &   14   &   \textbf{x}   & 10   &   26   &   10   \\\hline
-	    \textbf{Y}   & 14   &   28   &   14   &   \textbf{y}   & 16   &   24   &   14   \\\hline
-	    \textbf{Z}   & 12   &   28   &   18   &   \textbf{z}   & 12   &   28   &   12   \\\hline
-	\end{tabular}
-    \end{table}
+%\begin{table}[htb]
+%   \tiny
+%   \centering
+%  \caption{PCCs for predicted vs. real binding in Fake and True methods with 2, 7 and 10 hidden neurons (best method in italics and best PCC in bold) }
+%\label{tab:results}
+%  \begin{tabular}{l|r||r|r||r|r||r|r}
+%    \hline
+%      \textbf{Allele} & \textbf{Size} & \textbf{True 02N} & \textbf{Fake 02N} & \textbf{True 07N} & \textbf{Fake 07N} & \textbf{True 10N} & \textbf{Fake 10N} \\\hline \hline
+%      HLA A*0201\_09 & 3089 & \textit{0.90867} & 0.87659 & \textit{0.91133} & 0.87317 & \textbf{0.91525} & 0.87312 \\\hline
+%      HLA A*0301\_09 & 2094 & \textit{0.87158} & 0.81958 & \textbf{0.88373} & 0.82268 & \textit{0.87994} & 0.82019 \\\hline
+%      HLA A*3101\_09 & 1869 & \textit{0.87277} & 0.81137 & \textit{0.88504} & 0.81500 & \textbf{0.88748} & 0.81351 \\\hline
+%      HLA A*0202\_09 & 1447 & \textit{0.86403} & 0.79526 & \textit{0.88985} & 0.79790 & \textbf{0.89163} & 0.80160 \\\hline
+%      HLA B*5801\_09 &  988 & \textbf{0.95187} & 0.86461 & \textit{0.95122} & 0.86256 & \textit{0.94953} & 0.86070 \\\hline
+%      Mamu A*01\_09  &  525 & \textit{0.90083} & 0.73711 & \textbf{0.90762} & 0.74464 & \textit{0.90414} & 0.74868 \\\hline
+%      HLA A*2403\_09 &  254 & \textit{0.96759} & 0.77899 & \textit{0.96857} & 0.76313 & \textbf{0.96915} & 0.76038 \\\hline
+%      HLA B*5701\_09 &   59 & \textbf{0.95035} & 0.76323 & \textit{0.94776} & 0.76913 & \textit{0.94781} & 0.77509 \\\hline
+%   \end{tabular}
+%\end{table}
+
 \end{frame}
 
 
@@ -120,6 +109,10 @@ right,width=22mm]{Goettingen}
     \item La incorporación de expresiones y contenido no-verbal puede sumar a la expresividad, pero no debe utilizarse en exceso \pause
     \item El aprendizaje automático de reglas presenta una oportunidad (e.g. para sínt. por formantes, articulación)
   \end{itemize}
+\end{frame}
+
+\begin{frame}%<handout:0>
+  \titlepage
 \end{frame}
 
 
