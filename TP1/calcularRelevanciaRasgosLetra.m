@@ -1,10 +1,12 @@
 function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
-    UMBRAL      = 0.10;
+    %UMBRAL      = 0.10;
+    vectorizado = sort(mascara(:));
+    UMBRAL = vectorizado(62259);
+    
     INC_MIN     = 0.75; % Inclusión mínima para ser considerado un rasgo relevante
         
     mtotal      = mascara > UMBRAL;
-    totalPixels = sum(sum(mtotal));
-
+    
     % Píxeles que se muestran por cada rasgo
     mr1         = (mascara .* rasgosLetra.mr1) > UMBRAL;
     mr2         = (mascara .* rasgosLetra.mr2) > UMBRAL;
@@ -17,7 +19,9 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     mr9         = (mascara .* rasgosLetra.mr9) > UMBRAL;
     mr10        = (mascara .* rasgosLetra.mr10) > UMBRAL;
     mr11        = (mascara .* rasgosLetra.mr11) > UMBRAL;
-
+    
+    totalPixels = sum(sum(mr1+mr2+mr3+mr4+mr5+mr6+mr7+mr8+mr9+mr10+mr11));
+    
     % Importancia Relativa de cada rasgo
     ir1         = sum(sum(mr1))/totalPixels;
     ir2         = sum(sum(mr2))/totalPixels;
