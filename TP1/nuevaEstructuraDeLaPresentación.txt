@@ -1,0 +1,84 @@
+Cosas a mostrar
+====================
+
+Presentación
+-----------------
+
+
+* Demo orientada del experimento (Mostrar estímulos para valores significativos de las máscaras
+  + Un estímulo con una máscara random.
+  + Un estímulo con la máscara resultante.
+  + Un estímulo famoso con una máscara random.
+  + Un estímulo famoso con la máscara resultante.
+* Objetivo del experimento y resumen de las hipótesis.
+  + 
+* Qué se había hecho anteriormente? (usar un gráfico por cada uno y explicar)
+  + Resumen de Fiset (un pedazo de la Fig.2 o Fig 3)
+  + Resumen de Gosselin 2000 (Fig.2)
+  + Resumen de Pelli (Fig.4a y fórmula+gráfico para obtención de perímetro y superficie (Creado ad-hoc))
+
+* Diseño del experimento
+  + Sujetos
+      Cantidad, edades (21 y 33) y cantidad
+  + Estímulos
+    - Generación de un estímulo
+    - Cantidad de estímulos mostrados
+  + Variables
+    - Variables independiente
+      Letra mostrada (letra, tipografía, mayúscula/minúscula)
+      Posición y tamaño de las burbujas
+    - Variables dependientes
+      Respuesta (letra vista)
+      Tiempo de respuesta
+      Cantidad de burbujas necesarias 
+  + Información que se quiere obtener
+    - Zonas significativas
+
+* Los primeros pasos (el diseño inicial y los sujetos lo del jueves)
+  - Pocos bloques
+  - Muchas burbujas
+  - Muy poca información
+  - Muchos gastos en golosinas
+
+* Mejorando el experimento
+  - Correcciones de errores menores (randoms, cantidad de burbujas (no se mostraba en todas las bandas), etc.)
+  - Más bloques por sujeto (aunque más tiempo :()
+  - Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
+  - Filtrando casos en que no se llegó al 52%
+  - Más información significativa
+
+* Resultados
+
+
++ Lecciones Aprendidas
+
+Negativas  
+  - Muchos trials (y tiempo) para obtener datos significativos (150.000 trials por persona!.. imposible!..)
+Positivas
+  - Resulta una técnica útil para el muestreo de espacios de un estímulo determinado.
+
+
+
+
+Diagramas/Gráficos/Tablas a utilizar
+------------------------------
++ Armado de un estímulo
++ Reconocimiento de rasgos (letra normal, letra con los rasgos pintados, letra con máscara resultante, listado de rasgos relevantes (cantidad y importancia relativa)
++ Lista de letras utilizadas y complejidad (boxplot)
++ Cantidad de burbujas x complejidad (indicando tipografía con colores).
++ Distribución del tiempo.
++ Importancia relativa de cada rasgo.
++ Cantidad de burbujas para las letras famosas reconocidas, famosas no reconocidas, y no conocidas (ni F ni X)
++ 
+
+
+PENDIENTES
+=========
+
++ Filtrar los casos en que no se llegó al 52% (Miguel)
+  - Es indispensable para obtener la cantidad promedio de burbujas, pero también sería necesario para obtener resultado más confiables en el resto de las cosas (e.g., máscaras resultantes).
++ Actualizar presentación (Mailén)
++ Completar procesamiento de rasgos (Christian)
++ Agregar diagramas listados arriba (Todos)
++ Reunión el sábado 28/5 a las 14hs.
++ Ensayo de presentación simulación de preguntas posibles.

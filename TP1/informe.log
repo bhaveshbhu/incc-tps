@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  23 MAY 2011 19:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  25 MAY 2011 13:42
 entering extended mode
  %&-line parsing enabled.
 **informe.tex
@@ -272,7 +272,7 @@ File: graficos/letras.png Graphic file (type png)
 [2 <./graficos/letras.png>] [3] [4] (./informe.aux) ) 
 Here is how much of TeX's memory you used:
  3118 strings out of 495061
- 39037 string characters out of 1182621
+ 39037 string characters out of 1182622
  121368 words of memory out of 3000000
  6261 multiletter control sequences out of 15000+50000
  10434 words of font info for 41 fonts, out of 3000000 for 9000
