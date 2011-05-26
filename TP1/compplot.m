@@ -4,7 +4,7 @@ load 'datos.mat'
 comp = [];
 cantB = [];
 for l=1:27
-    for t=1
+    for t=1:2
         for m=1:2
           if abs(datos(l,t,m).accuracy-0.52)<0.1
               comp = [comp,log(complejidades(l,t,m))];
