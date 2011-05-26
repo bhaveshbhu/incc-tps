@@ -2,7 +2,7 @@
 function [datos, planos] = procesar(subjNames)
 
     if IsWin()
-        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
+        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ï¿½';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
         separator = '\';
     else
         separator = '/';
@@ -33,6 +33,9 @@ function [datos, planos] = procesar(subjNames)
     datos = repmat(estr,[length(letras), 3, 2]); %inicializo datos
     planos = repmat(plano,[length(letras), 3, 2]); %inicializo planos
     
+    cantPos = zeros(length(letras), 3 ,2);
+    cantTotal = zeros(length(letras), 3 ,2);
+    
 %     for letra=1:length(letras)
 %         for tipografia=1:3
 %             for mayuscula=1:2
@@ -42,11 +45,11 @@ function [datos, planos] = procesar(subjNames)
 %     end
     
     for i = 1:length(subjNames) % procesar cada sujeto
-        load(['datos', separator,subjNames(i).name]);
+        load(['datos_sujetos', separator,subjNames(i).name]);
         sujeto = resumenResultados.sujeto;
         vector = [];
         for bloque = 1:resumenResultados.cantBloques %procesar cada bloque del sujeto
-            load(['datos', separator,generarNombreArchivo(sujeto,bloque)]);
+            load(['datos_sujetos', separator,generarNombreArchivo(sujeto,bloque)]);
             for e = 1:length(results) %procesar cada estÃ­mulo
                 letra = find(letras==results(e).letra);
                 tipografia = results(e).tipografia;
@@ -62,6 +65,7 @@ function [datos, planos] = procesar(subjNames)
                 %agregar datos a la estructura
                 %
                 if (results(e).letra==results(e).respuesta) %si fue respuesta correcta agrego las mï¿½scaras a correct plane
+                    cantPos(letra,tipografia,mayuscula) = cantPos(letra,tipografia,mayuscula) + 1;
                     planos(letra,tipografia,mayuscula).correctplane1 = planos(letra,tipografia,mayuscula).correctplane1 + results(e).m1 ;
                     planos(letra,tipografia,mayuscula).correctplane2 = planos(letra,tipografia,mayuscula).correctplane2 + results(e).m2 ;
                     planos(letra,tipografia,mayuscula).correctplane3 = planos(letra,tipografia,mayuscula).correctplane3 + results(e).m3 ;
@@ -70,12 +74,13 @@ function [datos, planos] = procesar(subjNames)
                     datos(letra,tipografia,mayuscula).accuracy = datos(letra,tipografia,mayuscula).accuracy + 1; %cuento un acierto
                 end
                 % agrego las mï¿½scaras a totalplane
+                cantTotal(letra,tipografia,mayuscula) = cantTotal(letra,tipografia,mayuscula) + 1;
                 planos(letra,tipografia,mayuscula).totalplane1 = planos(letra,tipografia,mayuscula).totalplane1 + results(e).m1;
                 planos(letra,tipografia,mayuscula).totalplane2 = planos(letra,tipografia,mayuscula).totalplane2 + results(e).m2;
                 planos(letra,tipografia,mayuscula).totalplane3 = planos(letra,tipografia,mayuscula).totalplane3 + results(e).m3;
                 planos(letra,tipografia,mayuscula).totalplane4 = planos(letra,tipografia,mayuscula).totalplane4 + results(e).m4;
                 planos(letra,tipografia,mayuscula).totalplane5 = planos(letra,tipografia,mayuscula).totalplane5 + results(e).m5;
-
+                
                 datos(letra,tipografia,mayuscula).tiemporespuesta = datos(letra,tipografia,mayuscula).tiemporespuesta + results(e).tiempoRespuesta;
 
 
@@ -119,6 +124,22 @@ function [datos, planos] = procesar(subjNames)
                     end
                     datos(letra,tipografia,mayuscula).cantBurbujas = mean(maximos);
                     clear maximos;
+                    
+                    %normalizo planos
+                    if (cantPos(letra,tipografia,mayuscula) ~= 0)
+                        planos(letra,tipografia,mayuscula).correctplane1 = planos(letra,tipografia,mayuscula).correctplane1 / cantPos(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).correctplane2 = planos(letra,tipografia,mayuscula).correctplane2 / cantPos(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).correctplane3 = planos(letra,tipografia,mayuscula).correctplane3 / cantPos(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).correctplane4 = planos(letra,tipografia,mayuscula).correctplane4 / cantPos(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).correctplane5 = planos(letra,tipografia,mayuscula).correctplane5 / cantPos(letra,tipografia,mayuscula);
+                    end
+                    if (cantTotal(letra,tipografia,mayuscula) ~= 0)
+                        planos(letra,tipografia,mayuscula).totalplane1 = planos(letra,tipografia,mayuscula).totalplane1 / cantTotal(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).totalplane2 = planos(letra,tipografia,mayuscula).totalplane2 / cantTotal(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).totalplane3 = planos(letra,tipografia,mayuscula).totalplane3 / cantTotal(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).totalplane4 = planos(letra,tipografia,mayuscula).totalplane4 / cantTotal(letra,tipografia,mayuscula);
+                        planos(letra,tipografia,mayuscula).totalplane5 = planos(letra,tipografia,mayuscula).totalplane5 / cantTotal(letra,tipografia,mayuscula);
+                    end
                 end
             end
         end
