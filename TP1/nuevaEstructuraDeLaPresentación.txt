@@ -77,6 +77,7 @@ PENDIENTES
 
 + Filtrar los casos en que no se llegó al 52% (Miguel)
   - Es indispensable para obtener la cantidad promedio de burbujas, pero también sería necesario para obtener resultado más confiables en el resto de las cosas (e.g., máscaras resultantes).
++ Normalizar máscaras correctas e incorrectas por la cantidad de cada una.
 + Actualizar presentación (Mailén)
 + Completar procesamiento de rasgos (Christian)
 + Agregar diagramas listados arriba (Todos)
