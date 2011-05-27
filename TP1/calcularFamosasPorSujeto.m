@@ -28,4 +28,4 @@ for enc=1:length(encuestas)
 end
 
 
-save('famosasPorSujeto.mat','reconocimientoLetras');
+save('famosasPorSujeto.mat','reconocimientoLetras','-V7');
