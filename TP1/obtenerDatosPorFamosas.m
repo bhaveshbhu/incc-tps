@@ -27,7 +27,7 @@ for sujeto=1:length(reconocimientoLetras(1,1,1,:))
     cantConocidas       = 0;
     cantConocidasVistas = 0;
     for letra=1:27
-        for tipo=2:2
+        for tipo=3:3
             for may=1:2
                 if length(datos(letra,tipo,may).vector{sujeto})<1
                     continue;
