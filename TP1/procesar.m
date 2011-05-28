@@ -2,7 +2,7 @@
 function [datos, planos] = procesar(subjNames)
 
     if IsWin()
-        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ï¿½';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
+        letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z']; %PONER ï¿½!!!
         separator = '\';
     else
         separator = '/';
@@ -45,11 +45,11 @@ function [datos, planos] = procesar(subjNames)
 %     end
     
     for i = 1:length(subjNames) % procesar cada sujeto
-        load(['datos_sujetos', separator,subjNames(i).name]);
+        load(['datos', separator,subjNames(i).name]);
         sujeto = resumenResultados.sujeto;
         vector = [];
         for bloque = 1:resumenResultados.cantBloques %procesar cada bloque del sujeto
-            load(['datos_sujetos', separator,generarNombreArchivo(sujeto,bloque)]);
+            load(['datos', separator,generarNombreArchivo(sujeto,bloque)]);
             for e = 1:length(results) %procesar cada estÃ­mulo
                 letra = find(letras==results(e).letra);
                 tipografia = results(e).tipografia;

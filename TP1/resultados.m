@@ -1,13 +1,13 @@
 %resultados.m
 %
 % genera los resultados para todas las letras
-addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
+%addpath('/home/mmartinez/Documentos/incc/matlabPyrTools');
 if ~(exist('planos','var'))
     load 'planos.mat'
 end
 
 if IsWin()
-	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ï¿½';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
+	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'ñ';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
     separator = '\';
 else
 	letras=['a';'b';'c';'d';'e';'f';'g';'h';'i';'j';'k';'l';'m';'n';'Ã±';'o';'p';'q';'r';'s';'t';'u';'v';'w';'x';'y';'z'];
