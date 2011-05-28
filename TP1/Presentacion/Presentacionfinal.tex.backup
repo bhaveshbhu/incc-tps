@@ -1,12 +1,12 @@
 \documentclass{beamer}
 
-%\usepackage[utf8x]{inputenc}
-\usepackage{default}
+\usepackage[utf8x]{inputenc}
+%\usepackage{default}
 \usetheme{Frankfurt}
 
 \title{Detecci\'on de Rasgos en la Identificaci\'on de Letras Utilizando Bubbles}
 \subtitle{Intr. a Neurociencia Cognitiva y Computacional}
-\author[Martinez Soler,\\Gomez Mayol,\\Cossio Mercado]{Christian Cossio Mercado,\\Mail\'en G\'omez Mayol,\\Miguel Mart\'inez Soler}
+\author[Mart\'inez Soler,\\G\'omez Mayol,\\Cossio Mercado]{Christian Cossio Mercado,\\Mail\'en G\'omez Mayol,\\Miguel Mart\'inez Soler}
 \institute{Departamento de Computaci\'on - FCEyN, UBA}
 
 
@@ -19,7 +19,7 @@
 \end{frame}
 
 \section{Introducci\'on}
-\subsection{Experimento}
+\subsection{Demostración}
 
 %estímulo máscara random
 \begin{frame}
@@ -42,7 +42,7 @@
  \end{figure}
 \end{frame}
 
-%estímulo mástara famosa resultante
+%estímulo máscara famosa resultante
 \begin{frame}
  \begin{figure}
   \includegraphics[scale=.2]{graficos/letra.png}
@@ -71,43 +71,43 @@
 \subsection{Antecedentes}
 %Pelli
 \begin{frame}
+\frametitle{Feature Detection and Letter Identification(Pelli et al., 2006)}
 \begin{columns}[t]
 \column{.5\textwidth}
-\begin{block}{Feature Detection and Letter Identification (Pelli et al., 2006)}
+\title{Feature Detection and Letter Identification (Pelli et al., 2006)}
 \begin{itemize}
  \item Cookbook de cualquier experimento de reconocimiento de Letras
  \item Concepto de complejidad (Attneave)
 \end{itemize}
 
-\end{block}
+
 \column{.5\textwidth}
 
 \begin{figure}
- \includegraphics[scale=.20]{graficos/letras.png}
+ \includegraphics[width=\textwidth]{graficos/pelli4.png}
+\caption{Gráfico de eficiencia vs complejidad de varias tipografías distintas}
 \end{figure}
 
 \end{columns}
 \end{frame}
 
 %Gosselin
-
 \begin{frame}
-\begin{columns}[t]
-\column{.5\textwidth}
-\begin{block}{Bubbles (GosselinySchyns)}
-\begin{itemize}
-\item Cookbook de cualquier experimento con Bubbles
-\item Bubbles locas
-\end{itemize}
-
-\end{block}
-\column{.5\textwidth}
-
-\begin{figure}
-\includegraphics[scale=.20]{graficos/letras.png}
-\end{figure}
-
-\end{columns}
+ \frametitle{Bubbles: a technique to reveal the use of information in recognition task (Gosselin \& Schyns, 2001)}
+ \begin{columns}[t]
+  \column{.5\textwidth}
+   
+    \begin{itemize}
+    \item Cookbook de cualquier experimento con Bubbles
+    \item Bubbles locas
+    \end{itemize}
+  
+  \column{.5\textwidth}
+   \begin{figure}
+   \includegraphics[width=\textwidth]{graficos/gosselin2.png}
+\caption{Bubbles aplicada al reconocimiento de expresión (ENEX) y género (GENDER)}
+   \end{figure}
+  \end{columns}
 \end{frame}
 
 
@@ -118,14 +118,114 @@
 \begin{columns}[t]
  \column{.5\textwidth}
   \begin{figure}
-    \includegraphics[scale=.10]{graficos/letras.png}
+    \includegraphics[width=.6\textwidth]{graficos/fiset1.png}
+\caption[Fiset et al]{Clasificación de imágenes por observadores humanos}
   \end{figure}
   \column{.5\textwidth}
    \begin{figure}
-    \includegraphics[scale=.1]{graficos/letras.png}
+    \includegraphics[width=\textwidth]{graficos/fiset5.png}
+\caption{Uso relativo de 10 rasgos de letras para el reconocimiento de letras Arial}
    \end{figure}
 \end{columns}
 
 \end{frame}
+
+
+\section{Experimento}
+\subsection{Diseño}
+
+%Elección tipografías
+\begin{frame}
+\frametitle{Elecci\'on de tipograf\'ias}
+\begin{figure}
+\includegraphics[width=\textwidth]{graficos/letras.png}
+\caption{tipograf\'ias elegidas}
+\end{figure}
+\end{frame}
+
+%estímulos
+\begin{frame}
+\frametitle{Est\'imulos}
+\begin{figure}
+ \includegraphics[width=\textwidth]{graficos/estimulofinal.png}
+\caption{Armado del est\'imulo final}
+\end{figure}
+\end{frame}
+
+%Jueves
+\begin{frame}
+\frametitle{Primeros Pasos. Jueves}
+\begin{itemize}
+\item 13 sujetos
+ \item Pocos bloques
+\item Muchas burbujas
+\item Muy poca información
+\item Muchos gastos en golosinas
+\end{itemize}
+\textbf{Solución}: Ampliar set de datos y ajustar parámetros (bloques y burbujas)
+\end{frame}
+
+%Recauchutaje
+\begin{frame}
+ \frametitle{Rediseño}
+\begin{itemize}
+ \item Correcciones de errores menores (randoms, cantidad de burbujas (no se mostraba en todas las bandas), etc.)
+\item Más bloques por sujeto, por lo tanto, experimento más largo
+\item Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
+\item Filtrando casos en que no se llegó al 52\%
+\end{itemize}
+
+\end{frame}
+
+
+%Final
+\begin{frame}
+\frametitle{Etapa Final}
+\begin{itemize}
+\item 6 sujetos
+\item edades entre 21-33 años
+\item con estudios superiores
+\item se les mostraron alrededor de 2000 est\'imulos
+\item \underline{experimentadores sujetos}... 2500 est\'imulos
+\end{itemize}
+\end{frame}
+
+\section{Resultados}
+
+\begin{frame}
+ \frametitle{Cálculo de Rasgos}
+\begin{columns} [t]
+ \column{.5\textwidth}
+\begin{figure}
+ \includegraphics[width=.8\textwidth]{graficos/REFERENCIA.png}
+\caption{Código de colores para poder identificar los rasgos automáticamente}
+\end{figure}
+\column{.5\textwidth}
+\begin{figure}
+ \includegraphics[width=.5\textwidth]{graficos/letras.png}
+\caption{Uso relativo de los rasgos necesarios para identificar letras}
+\end{figure}
+\end{columns}
+\end{frame}
+
+
+
+%Discusión
+\section{Discusión}
+\begin{frame}
+ \frametitle{Dicusión?}
+\begin{itemize}
+\item Cantidad de respuestas necesarias (o estímulos a mostrar): 156.000= 3.9 días de experimentación continua.
+\item Resulta una técnica útil para el muestreo de espacios de un estímulo determinado
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+ \frametitle{Trabajos Futuros}
+\begin{itemize}
+ \item Bubbles en habla
+\end{itemize}
+\end{frame}
+
 
 \end{document}
