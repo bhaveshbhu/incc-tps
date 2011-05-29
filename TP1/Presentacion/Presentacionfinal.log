@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  28 MAY 2011 21:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.24)  29 MAY 2011 15:54
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -329,7 +329,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-(/etc/texmf/tex/latex/config/hyperref.cfg
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 (/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
@@ -822,20 +822,29 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 [2
 
  <./graficos/letra.png>]
+(/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
+)
+<graficos/pelli4.png, id=113, 632.3625pt x 574.145pt>
+File: graficos/pelli4.png Graphic file (type png)
+
+<use graficos/pelli4.png>
+Overfull \vbox (19.9186pt too high) detected at line 56
+ []
+
+
 Overfull \hbox (132.00443pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [3
 
-] (/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
-)
-<graficos/pelli4.png, id=144, 632.3625pt x 574.145pt>
-File: graficos/pelli4.png Graphic file (type png)
+ <./graficos/pelli4.png>]
+<graficos/gosselin2.png, id=142, 608.2725pt x 546.04pt>
+File: graficos/gosselin2.png Graphic file (type png)
 
-<use graficos/pelli4.png>
-Overfull \vbox (19.9186pt too high) detected at line 73
+<use graficos/gosselin2.png>
+Overfull \vbox (20.6611pt too high) detected at line 76
  []
 
 
@@ -845,12 +854,16 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 
 [4
 
- <./graficos/pelli4.png>]
-<graficos/gosselin2.png, id=172, 608.2725pt x 546.04pt>
-File: graficos/gosselin2.png Graphic file (type png)
+ <./graficos/gosselin2.png>]
+<graficos/fiset1.png, id=170, 360.34625pt x 375.4025pt>
+File: graficos/fiset1.png Graphic file (type png)
 
-<use graficos/gosselin2.png>
-Overfull \vbox (20.6611pt too high) detected at line 93
+<use graficos/fiset1.png>
+<graficos/fiset5.png, id=171, 544.0325pt x 501.875pt>
+File: graficos/fiset5.png Graphic file (type png)
+
+<use graficos/fiset5.png>
+Overfull \vbox (22.41411pt too high) detected at line 96
  []
 
 
@@ -860,29 +873,17 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 
 [5
 
- <./graficos/gosselin2.png>]
-<graficos/fiset1.png, id=199, 360.34625pt x 375.4025pt>
-File: graficos/fiset1.png Graphic file (type png)
-
-<use graficos/fiset1.png>
-<graficos/fiset5.png, id=200, 544.0325pt x 501.875pt>
-File: graficos/fiset5.png Graphic file (type png)
-
-<use graficos/fiset5.png>
-Overfull \vbox (22.41411pt too high) detected at line 113
- []
-
-
+ <./graficos/fiset1.png> <./graficos/fiset5.png>]
 Overfull \hbox (132.00443pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [6
 
- <./graficos/fiset1.png> <./graficos/fiset5.png>]
-<graficos/letras.png, id=228, 702.625pt x 184.69pt>
+] <graficos/letras.png, id=229, 702.625pt x 184.69pt>
 File: graficos/letras.png Graphic file (type png)
- <use graficos/letras.png>
+
+<use graficos/letras.png>
 Overfull \hbox (132.00443pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -890,7 +891,7 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 [7
 
  <./graficos/letras.png>]
-<graficos/estimulofinal.png, id=259, 1102.1175pt x 503.8825pt>
+<graficos/estimulofinal.png, id=261, 1102.1175pt x 503.8825pt>
 File: graficos/estimulofinal.png Graphic file (type png)
 
 <use graficos/estimulofinal.png>
@@ -929,11 +930,11 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 [12
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 174.
+LaTeX Font Info:    Try loading font information for U+msa on input line 177.
  (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 174.
+LaTeX Font Info:    Try loading font information for U+msb on input line 177.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -944,7 +945,7 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 
 [13
 
-] <graficos/REFERENCIA.png, id=416, 449.68pt x 364.36125pt>
+] <graficos/REFERENCIA.png, id=418, 449.68pt x 364.36125pt>
 File: graficos/REFERENCIA.png Graphic file (type png)
 
 <use graficos/REFERENCIA.png>
@@ -973,7 +974,7 @@ Overfull \hbox (132.00443pt too wide) has occurred while \output is active
 ]
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 216.
+(hyperref)                setting the option has no effect on input line 219.
 
 
 Overfull \hbox (132.00443pt too wide) has occurred while \output is active
@@ -999,20 +1000,26 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 13546 strings out of 495061
- 237067 string characters out of 1182621
+ 13548 strings out of 495061
+ 237133 string characters out of 1182621
  324353 words of memory out of 3000000
  16313 multiletter control sequences out of 15000+50000
  11164 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,57p,334b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Presentacionfinal.pdf (17 pages, 742909 bytes).
+pdfTeX warning (dest): name{Outline0.2.1.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.3.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on Presentacionfinal.pdf (17 pages, 742912 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 548 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
