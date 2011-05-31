@@ -22,7 +22,7 @@ for i = 1:length(comp3)
 end
 %plot3(comp1,cantB1, acc1,'or',comp2,cantB2, acc2,'og',comp3,cantB3, acc3,'ob');
 % plot(comp1,cantB1,'x');
-xlabel('Accuracy');
-ylabel('Cantidad de Bubbles');
-zlabel('Accuracy');
+xlabel('%Aciertos');
+ylabel('#Bubbles');
+
 grid on;

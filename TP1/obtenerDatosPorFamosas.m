@@ -35,7 +35,7 @@ for sujeto=1:length(reconocimientoLetras(1,1,1,:))
                 burbujas        = max([datos(letra,tipo,may).vector{sujeto}.cantBurbujas]);
                 respCorrectas   = ([datos(letra,tipo,may).vector{sujeto}.respuesta] == datos(letra,tipo,may).letra);
                 accuracy        = sum(respCorrectas)/length(respCorrectas);
-                tiempoRespuesta = mean([datos(letra,tipo,may).vector{sujeto}.tiemporespuesta]);
+                tiempoRespuesta = median([datos(letra,tipo,may).vector{sujeto}.tiemporespuesta]);
                 elemento = struct('letra',letra,'tipografia',tipo, 'mayuscula', may, 'burbujas', burbujas, 'complejidad', complejidades(letra,tipo,may), 'accuracy', accuracy, 'tiempoRespuesta', tiempoRespuesta );
                 switch reconocimientoLetras(letra,tipo,may,sujeto)
                     case -1

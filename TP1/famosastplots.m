@@ -24,3 +24,6 @@ axis([0 3 0 100]);
 subplot(1,2,2);
 misdatos = [[datosNoConocidas',ones(length(datosNoConocidas),1)*-1];[datosConocidas',zeros(length(datosConocidas),1)];[datosConocidasVistas',ones(length(datosConocidasVistas),1)]];
 boxplot(misdatos(:,1),misdatos(:,2));
+[mean(datosNoConocidas), std(datosNoConocidas)]
+[mean(datosConocidas), std(datosConocidas)]
+[mean(datosConocidasVistas), std(datosConocidasVistas)]

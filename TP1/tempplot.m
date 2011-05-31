@@ -16,6 +16,9 @@ for l=1:27
     end
 end
 
-[counts, bins] = hist(dist,[0.5,1,1.5,3,5,15,30]);
-plot([0.5,1,1.5,3,5,15,30],counts)
+bin = (1:90)/8;
+[counts, bins] = hist(dist,bin);
+bar(bin,counts)
+xlabel('Tiempo (s)');
+ylabel('#Estímulos');
     
