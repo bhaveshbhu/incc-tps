@@ -22,17 +22,20 @@ n3 = n3/length(datosConocidasVistas);
 % [n3, conocidasVistas] = hist([datosPorFamosas(sujetos).conocidasVistas(:).burbujas]./log([datosPorFamosas(sujetos).conocidasVistas(:).complejidad])); 
 subplot(2,2,1);
 bar(noConocidas, n1, 'r'); % Plot in red 
+title('No Conocidas','FontWeight','Bold');
 ylabel('%Letras'); xlabel('max(#Bubbles) / log(complejidad)');
 subplot(2,2,2);
 bar(conocidas, n2, 'g'); % Plot in green 
 ylabel('%Letras'); xlabel('max(#Bubbles) / log(complejidad)');
+title('Conocidas no vistas en el experimento','FontWeight','Bold');
 subplot(2,2,3);
 bar(conocidasVistas, n3, 'b'); % Plot in blue 
 ylabel('%Letras'); xlabel('max(#Bubbles) / log(complejidad)');
+title('Conocidas vistas en el experimento','FontWeight','Bold');
 subplot(2,2,4);
 misdatos = [[datosNoConocidas',ones(length(datosNoConocidas),1)*-1];[datosConocidas',zeros(length(datosConocidas),1)];[datosConocidasVistas',ones(length(datosConocidasVistas),1)]];
 boxplot(misdatos(:,1),misdatos(:,2),'labels',{'No Conocidas','No Vistas','Vistas'});
-ylabel('Tiempo de respuesta (s)');
+ylabel('max(#Bubbles) / log(complejidad)');
 [mean(datosNoConocidas), std(datosNoConocidas)]
 [mean(datosConocidas), std(datosConocidas)]
 [mean(datosConocidasVistas), std(datosConocidasVistas)]
