@@ -217,7 +217,7 @@
 		\item Correcciones de errores menores (randoms, cantidad de burbujas, burbujas por banda)
 		\item Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
 		\item Filtrando casos en que no se llegó al 52\% \pause
-		\item Se tiró los datos anteriores, utilizando sólo los nuevos
+		\item Se descartó los datos anteriores, utilizando sólo los nuevos
 		\item Medimos la performance a través de tres variables
 		\begin{itemize}
 			\item Cant. de Burbujas ($\downarrow$)
@@ -327,7 +327,7 @@
 	\begin{frame}
 	\frametitle{Lecciones Aprendidas}
 	    \begin{itemize}
-	    \item Cantidad de respuestas necesarias (o estímulos a mostrar): 156.000= 3.9 días de experimentación continua.
+	    \item Cantidad de respuestas necesarias (o estímulos a mostrar): $156.000 = 4$ días de experimentación continua.
 	    \item Resulta una técnica útil para el muestreo de espacios sin limitación en la cantidad de dimensiones
 	    \end{itemize}
 	\end{frame}

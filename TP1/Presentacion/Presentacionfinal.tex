@@ -217,7 +217,7 @@
 		\item Correcciones de errores menores (randoms, cantidad de burbujas, burbujas por banda)
 		\item Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
 		\item Filtrando casos en que no se llegó al 52\% \pause
-		\item Se tiró los datos anteriores, utilizando sólo los nuevos
+		\item Se descartó los datos anteriores, utilizando sólo los nuevos
 		\item Medimos la performance a través de tres variables
 		\begin{itemize}
 			\item Cant. de Burbujas ($\downarrow$)
@@ -254,7 +254,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Aciertos}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Fiables.png}
 		%\caption{Distribución de Tiempos de Respuesta}
 	    \end{figure}
 	\end{frame}
@@ -262,7 +262,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Complejidad}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Todos.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Fiables.png}
 		%\caption{Cantidad de Burbujas vs. Log(Complejidad)}
 	    \end{figure}
 	\end{frame}
@@ -346,8 +346,10 @@
 
 	  \begin{block}{Trabajo Futuro}
 	   \begin{itemize}
-		\item Bubbles en habla (e.g., detección de rasgos para expresividad o emociones)
-	    
+		\item Bubbles para habla
+		    \begin{itemize}
+		      \item detección de rasgos para expresividad o emociones
+		    \end{itemize}
 	    \end{itemize}                     
 	  \end{block}	    
 	\end{frame}
@@ -362,7 +364,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Complejidad}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Fiables.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Todos.png}
 		%\caption{Cantidad de Burbujas vs. Log(Complejidad)}
 	    \end{figure}
 	\end{frame}
@@ -370,7 +372,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Aciertos}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Fiables.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
 		%\caption{Distribución de Tiempos de Respuesta}
 	    \end{figure}
 	\end{frame}
