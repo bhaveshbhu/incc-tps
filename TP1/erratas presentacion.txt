@@ -4,3 +4,4 @@ erratas:
 - p 35. debería llamarse histograma de "eficiencia" para letras famosas o algo así. No medimos complejidad. Sólo normalizamos por ella.
 	- En el boxplot está mal el label del eje Y. Va max(#Bubbles) / log(Complejidad)
 - p 33. el gráfico no es sobre tiempos de respuesta (ver título debajo del gráfico)
+- en conclusiones, Bubbles va en plural
