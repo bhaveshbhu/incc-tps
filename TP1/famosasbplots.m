@@ -37,5 +37,5 @@ ylabel('Tiempo de respuesta (s)');
 [mean(datosConocidas), std(datosConocidas)]
 [mean(datosConocidasVistas), std(datosConocidasVistas)]
 
-%bubblesFamosas = [ones(length(datosNoConocidas),1)*-1,datosNoConocidas';zeros(length(datosConocidas),1),datosConocidas';ones(length(datosConocidasVistas),1),datosConocidasVistas'];
-%save4spss(bubblesFamosas, ['Grupo','bubbles'], 'bubblesfamosas.dat');   
+bubblesFamosas = [ones(length(datosNoConocidas),1)*-1,datosNoConocidas';zeros(length(datosConocidas),1),datosConocidas';ones(length(datosConocidasVistas),1),datosConocidasVistas'];
+save4spss(bubblesFamosas, ['Grupo','bubbles'], 'bubblesfamosas.dat');   
