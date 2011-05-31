@@ -218,6 +218,13 @@
 		\item Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
 		\item Filtrando casos en que no se llegó al 52\% \pause
 		\item Se tiró los datos anteriores, utilizando sólo los nuevos
+		\item Medimos la performance a través de tres variables
+		\begin{itemize}
+			\item Cant. de Burbujas ($\downarrow$)
+			\item Tiempo de Respuesta ($\downarrow$)
+			\item \% de Aciertos ($\uparrow$)
+		\end{itemize}
+    
 	    \end{itemize}
 	\end{frame}
 
@@ -248,7 +255,7 @@
 	\frametitle{Burbujas vs. Aciertos}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
-		\caption{Distribución de Tiempos de Respuesta}
+		%\caption{Distribución de Tiempos de Respuesta}
 	    \end{figure}
 	\end{frame}
 
@@ -261,7 +268,7 @@
 	\end{frame}
 
  	\begin{frame}
-	\frametitle{Relación de Complejidad por Tipografías Famosas}
+	\frametitle{Performance por Burbujas, Tipografías Famosas}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/BubblesLogComplejidad_PorFamosas.png}
 		%\caption{Distribución de Tiempos de Respuesta}
@@ -277,7 +284,7 @@
 	\end{frame}
 
    	\begin{frame}
-	\frametitle{Tiempo de Respuesta por Tipografías Famosas}
+	\frametitle{Performance por Tiempo de Respuesta, Tipografías Famosas}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/tiempoRespuesta_PorFamosas.png}
 		%\caption{Distribución de Tiempos de Respuesta}
@@ -304,14 +311,15 @@
 	\begin{frame}
 	\frametitle{Conclusiones}
 	    \begin{itemize}
-		\item Se mostró una diferencia significativa en el tiempo de respuesta de letras no conocidas, conocidas y conocidas vistas durante el experimento.
-		\item Existe una mejora en los tiempos inclusive para aquellas letras conocidas pero no vistas, con respecto a las no conocidas \alert{(!)}
-		\item Se ve que existe una correlación entre Complejidad y Cant. Burbujas (\alert{\bf$\uparrow$}Complejidad, \alert{\bf$\uparrow$}Cant. de Burbujas necesarias)
+		\item Diferencia significativa en tiempo de respuesta de letras no conocidas, conocidas y conocidas vistas
+		\item Mejora en los tiempos inclusive para letras conocidas pero \emph{no vistas} vs. las no conocidas \alert{(!)}
+		\item Diferencia significativa de burbujas requeridas para letra no conocidas y conocidas.
 		\begin{itemize}
-		    \item Aunque no se pudo demostrar estadísticamente\ldots
+		    \item No se pudo demostrar la significatividad entre no conocidas y conocidas vistas en el experimento\ldots
 		\end{itemize}
-		\item Bubble resultó ser una técnica interesante para recorrer espacio de búsquedas de imágenes para obtener rasgos de identificación
-    		\item 
+		\item Correlación entre log(Complejidad) y Cant. Burbujas (\alert{\bf$\uparrow$}Complejidad, \alert{\bf$\uparrow$}Cant. de Burbujas)
+		\item Correlación inversa entre Cant. de Burbujas y \% de Aciertos (\alert{\bf$\downarrow$}Cant. de Burbujas, \alert{\bf$\uparrow$}\% de Aciertos)
+		\item Bubbles fue una técnica interesante para recorrer espacio de búsquedas de imágenes y obtener rasgos de identificación
 	    \end{itemize}
 	\end{frame}
 
@@ -332,6 +340,7 @@
 		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones (total,)
 		\item Ajuste de cantidad de burbujas ascendente y descendente
   		\item Utilización del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
+		\item Preguntar por letras conocidas mostrando un ejemplo para cada una de ellas. 
 	    \end{itemize}
 	  \end{block} \pause
 
@@ -374,10 +383,10 @@
 	\begin{table}
 	  \begin{tabular}[t]{|l|l|r|r|r|}
 	    \hline
-		 & \textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
-		\textbf{T\_RESP} & No Conocidas & 1439 & 1128.38 & 1623740 \\ \hline
-		  & Conocidas & 769 & 1059.81 & 814996 \\ \hline
-		  & \textit{Total} & 2208 &   &   \\ \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		No Conocidas & 1439 & 1128.38 & 1623740 \\ \hline
+		Conocidas & 769 & 1059.81 & 814996 \\ \hline
+		\textit{Total} & 2208 &   &   \\ \hline
 	  \end{tabular}   \begin{tabular}[t]{|l|r|}
 	    \hline
 		& \textbf{T\_RESP} \\ \hline
@@ -389,12 +398,12 @@
 	\end{table}
 
 	\begin{table}
-	  \begin{tabular}[t]{|l|l|r|r|r|}
+	  \begin{tabular}[t]{|l|r|r|r|}
 	    \hline
-		  & \textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
-		\textbf{T\_RESP} & Conocidas & 769 & 750.4 & 577060.5 \\ \hline
-		  & Conocidas Vistas & 660 & 673.75 & 444674.5 \\ \hline
-		  & \textit{Total} & 1429 &   &   \\ \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		Conocidas & 769 & 750.4 & 577060.5 \\ \hline
+		Conocidas Vistas & 660 & 673.75 & 444674.5 \\ \hline
+		\textit{Total} & 1429 &   &   \\ \hline
 	  \end{tabular}   \begin{tabular}[t]{|l|r|}
 	    \hline
 		& \textbf{T\_RESP} \\ \hline
@@ -408,10 +417,10 @@
 	\begin{table}
 	  \begin{tabular}[t]{|l|l|r|r|r|}
 	    \hline
-		& \textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
-	      \textbf{T\_RESP} & No Conocidas & 1439 & 1104.78 & 1589772 \\ \hline
-		& Conocidas Vistas & 660 & 930.57 & 614178 \\ \hline
-		& \textit{Total} & 2099 &   &   \\ \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		No Conocidas & 1439 & 1104.78 & 1589772 \\ \hline
+		Conocidas Vistas & 660 & 930.57 & 614178 \\ \hline
+		\textit{Total} & 2099 &   &   \\ \hline
 	  \end{tabular}   \begin{tabular}[t]{|l|r|}
 	    \hline
 		& \textbf{T\_RESP} \\ \hline
@@ -436,10 +445,45 @@
 	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
 	    \hline
 		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
-		  & F & Sig. & t & gl & Sig. (bilateral) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% confianz. para la dif.} \\ \hline
+		  & F & Sig. & t & gl & Sig. (bil.) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% conf. para la dif.} \\ \hline
 		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
 		Varianzas iguales & 2.797 & 0.095 & 1.998 & 2206 & 0.046 & 0.0269 & 0.0134 & 0.0005 & 0.0532 \\ \hline
 		Varianzas no iguales &   &   & 2.041 & 1665.884 & 0.041 & 0.0269 & 0.0132 & 0.001 & 0.0527 \\ \hline
+	  \end{tabular}
+	\end{table}
+
+	\begin{table}
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+	    \hline
+		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
+		Conocida  & 769 & 0.8495 & 0.2874 & 0.0104 \\ \hline
+		Conocida Vista & 660 & 0.796 & 0.2779 & 0.0108 \\ \hline
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+	    \hline
+		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
+		  & F & Sig. & t & gl & Sig. (bil.) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% conf. para la dif.} \\ \hline
+		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
+	    Varianzas iguales & 2.858 & 0.091 & 3.558 & 1427 & 0 & 0.0534 & 0.015 & 0.024 & 0.0829 \\ \hline
+	    Varianzas no iguales &   &   & 3.567 & 1406.885 & 0 & 0.0534 & 0.015 & 0.0241 & 0.0828 \\ \hline
+	  \end{tabular}
+	\end{table}
+
+	\begin{table}
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+	    \hline
+		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
+		No Conocida & 1439 & 0.8764 & 0.3082 & 0.0081 \\ \hline
+		Conocida Vista & 660 & 0.796 & 0.2779 & 0.0108 \\ \hline
+
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+	    \hline
+		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
+		  & F & Sig. & t & gl & Sig. (bil.) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% conf. para la dif.} \\ \hline
+		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
+	Varianzas iguales & 11.449 & 0.001 & 5.714 & 2097 & 0 & 0.0803 & 0.0141 & 0.0527 & 0.1079 \\ \hline
+	Varianzas no iguales &   &   & 5.937 & 1406.88 & 0 & 0.0803 & 0.0135 & 0.0538 & 0.1068 \\ \hline
 	  \end{tabular}
 	\end{table}
       \end{frame}

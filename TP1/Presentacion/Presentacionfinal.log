@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  31 MAY 2011 01:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  31 MAY 2011 13:01
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -329,7 +329,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-(/etc/texmf/tex/latex/config/hyperref.cfg
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 (/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
@@ -984,31 +984,31 @@ File: graficos/estimulofinal.png Graphic file (type png)
 ] [32
 
 ]
-<graficos/bubblesVsAciertos_Todos.png, id=1030, 144.54pt x 78.2925pt>
+<graficos/bubblesVsAciertos_Todos.png, id=1031, 144.54pt x 78.2925pt>
 File: graficos/bubblesVsAciertos_Todos.png Graphic file (type png)
 
 <use graficos/bubblesVsAciertos_Todos.png> [33
 
  <./graficos/bubblesVsAciertos_Todos.png (PNG copy)>]
-<graficos/bubblesVsLogComplejidad_Todos.png, id=1061, 144.54pt x 77.5698pt>
+<graficos/bubblesVsLogComplejidad_Todos.png, id=1062, 144.54pt x 77.5698pt>
 File: graficos/bubblesVsLogComplejidad_Todos.png Graphic file (type png)
 
 <use graficos/bubblesVsLogComplejidad_Todos.png> [34
 
  <./graficos/bubblesVsLogComplejidad_Todos.png (PNG copy)>]
-<graficos/BubblesLogComplejidad_PorFamosas.png, id=1090, 146.58765pt x 78.5334p
+<graficos/BubblesLogComplejidad_PorFamosas.png, id=1091, 146.58765pt x 78.5334p
 t>
 File: graficos/BubblesLogComplejidad_PorFamosas.png Graphic file (type png)
  <use graficos/BubblesLogComplejidad_PorFamosas.png> [35
 
  <./graficos/BubblesLogComplejidad_PorFamosas.png (PNG copy)>]
-<graficos/tiempoRespuesta_dist.png, id=1119, 151.0443pt x 77.8107pt>
+<graficos/tiempoRespuesta_dist.png, id=1120, 151.0443pt x 77.8107pt>
 File: graficos/tiempoRespuesta_dist.png Graphic file (type png)
 
 <use graficos/tiempoRespuesta_dist.png> [36
 
  <./graficos/tiempoRespuesta_dist.png (PNG copy)>]
-<graficos/tiempoRespuesta_PorFamosas.png, id=1148, 148.6353pt x 85.2786pt>
+<graficos/tiempoRespuesta_PorFamosas.png, id=1149, 148.6353pt x 85.2786pt>
 File: graficos/tiempoRespuesta_PorFamosas.png Graphic file (type png)
 
 <use graficos/tiempoRespuesta_PorFamosas.png> [37
@@ -1030,18 +1030,18 @@ File: graficos/tiempoRespuesta_PorFamosas.png Graphic file (type png)
 ]
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 346.
+(hyperref)                setting the option has no effect on input line 355.
 
 [45
 
 ]
-<graficos/bubblesVsLogComplejidad_Fiables.png, id=1399, 144.54pt x 77.8107pt>
+<graficos/bubblesVsLogComplejidad_Fiables.png, id=1401, 144.54pt x 77.8107pt>
 File: graficos/bubblesVsLogComplejidad_Fiables.png Graphic file (type png)
 
 <use graficos/bubblesVsLogComplejidad_Fiables.png> [46
 
  <./graficos/bubblesVsLogComplejidad_Fiables.png (PNG copy)>]
-<graficos/bubblesVsAciertos_Fiables.png, id=1429, 144.54pt x 78.17204pt>
+<graficos/bubblesVsAciertos_Fiables.png, id=1431, 144.54pt x 78.17204pt>
 File: graficos/bubblesVsAciertos_Fiables.png Graphic file (type png)
 
 <use graficos/bubblesVsAciertos_Fiables.png> [47
@@ -1049,17 +1049,17 @@ File: graficos/bubblesVsAciertos_Fiables.png Graphic file (type png)
  <./graficos/bubblesVsAciertos_Fiables.png (PNG copy)>] [48
 
 ]
-Overfull \hbox (12.3383pt too wide) in paragraph at lines 480--480
+Overfull \hbox (12.3383pt too wide) in paragraph at lines 489--489
  [] 
  []
 
 
-Overfull \hbox (12.3383pt too wide) in paragraph at lines 480--480
+Overfull \hbox (12.3383pt too wide) in paragraph at lines 489--489
  [] 
  []
 
 
-Overfull \hbox (9.68202pt too wide) in paragraph at lines 480--480
+Overfull \hbox (9.68202pt too wide) in paragraph at lines 489--489
  [] 
  []
 
@@ -1082,11 +1082,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 14361 strings out of 495061
- 249629 string characters out of 1182621
- 365056 words of memory out of 3000000
- 17038 multiletter control sequences out of 15000+50000
- 8810 words of font info for 33 fonts, out of 3000000 for 9000
+ 14383 strings out of 495061
+ 249906 string characters out of 1182622
+ 365057 words of memory out of 3000000
+ 17054 multiletter control sequences out of 15000+50000
+ 12320 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,57p,352b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
@@ -1095,11 +1095,13 @@ live/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Presentacionfinal.pdf (49 pages, 1674289 bytes).
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Presentacionfinal.pdf (49 pages, 1692068 bytes).
 PDF statistics:
- 1571 PDF objects out of 1728 (max. 8388607)
+ 1579 PDF objects out of 1728 (max. 8388607)
  117 named destinations out of 1000 (max. 500000)
  299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -218,6 +218,13 @@
 		\item Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
 		\item Filtrando casos en que no se llegó al 52\% \pause
 		\item Se tiró los datos anteriores, utilizando sólo los nuevos
+		\item Medimos la performance a través de tres variables
+		\begin{itemize}
+			\item Cant. de Burbujas ($\downarrow$)
+			\item Tiempo de Respuesta ($\downarrow$)
+			\item \% de Aciertos ($\uparrow$)
+		\end{itemize}
+    
 	    \end{itemize}
 	\end{frame}
 
@@ -248,7 +255,7 @@
 	\frametitle{Burbujas vs. Aciertos}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
-		\caption{Distribución de Tiempos de Respuesta}
+		%\caption{Distribución de Tiempos de Respuesta}
 	    \end{figure}
 	\end{frame}
 
@@ -261,7 +268,7 @@
 	\end{frame}
 
  	\begin{frame}
-	\frametitle{Relación de Complejidad por Tipografías Famosas}
+	\frametitle{Performance por Burbujas, Tipografías Famosas}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/BubblesLogComplejidad_PorFamosas.png}
 		%\caption{Distribución de Tiempos de Respuesta}
@@ -277,7 +284,7 @@
 	\end{frame}
 
    	\begin{frame}
-	\frametitle{Tiempo de Respuesta por Tipografías Famosas}
+	\frametitle{Performance por Tiempo de Respuesta, Tipografías Famosas}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/tiempoRespuesta_PorFamosas.png}
 		%\caption{Distribución de Tiempos de Respuesta}
@@ -304,14 +311,15 @@
 	\begin{frame}
 	\frametitle{Conclusiones}
 	    \begin{itemize}
-		\item Se mostró una diferencia significativa en el tiempo de respuesta de letras no conocidas, conocidas y conocidas vistas durante el experimento.
-		\item Existe una mejora en los tiempos inclusive para aquellas letras conocidas pero no vistas, con respecto a las no conocidas \alert{(!)}
-		\item Se ve que existe una correlación entre Complejidad y Cant. Burbujas (\alert{\bf$\uparrow$}Complejidad, \alert{\bf$\uparrow$}Cant. de Burbujas necesarias)
+		\item Diferencia significativa en tiempo de respuesta de letras no conocidas, conocidas y conocidas vistas
+		\item Mejora en los tiempos inclusive para letras conocidas pero \emph{no vistas} vs. las no conocidas \alert{(!)}
+		\item Diferencia significativa de burbujas requeridas para letra no conocidas y conocidas.
 		\begin{itemize}
-		    \item Aunque no se pudo demostrar estadísticamente\ldots
+		    \item No se pudo demostrar la significatividad entre no conocidas y conocidas vistas en el experimento\ldots
 		\end{itemize}
-		\item Bubble resultó ser una técnica interesante para recorrer espacio de búsquedas de imágenes para obtener rasgos de identificación
-    		\item 
+		\item Correlación entre log(Complejidad) y Cant. Burbujas (\alert{\bf$\uparrow$}Complejidad, \alert{\bf$\uparrow$}Cant. de Burbujas)
+		\item Correlación inversa entre Cant. de Burbujas y \% de Aciertos (\alert{\bf$\downarrow$}Cant. de Burbujas, \alert{\bf$\uparrow$}\% de Aciertos)
+		\item Bubbles fue una técnica interesante para recorrer espacio de búsquedas de imágenes y obtener rasgos de identificación
 	    \end{itemize}
 	\end{frame}
 
@@ -319,7 +327,7 @@
 	\begin{frame}
 	\frametitle{Lecciones Aprendidas}
 	    \begin{itemize}
-	    \item Cantidad de respuestas necesarias (o estímulos a mostrar): 156.000= 3.9 días de experimentación continua.
+	    \item Cantidad de respuestas necesarias (o estímulos a mostrar): $156.000 = 4$ días de experimentación continua.
 	    \item Resulta una técnica útil para el muestreo de espacios sin limitación en la cantidad de dimensiones
 	    \end{itemize}
 	\end{frame}
@@ -332,6 +340,7 @@
 		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones (total,)
 		\item Ajuste de cantidad de burbujas ascendente y descendente
   		\item Utilización del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
+		\item Preguntar por letras conocidas mostrando un ejemplo para cada una de ellas. 
 	    \end{itemize}
 	  \end{block} \pause
 
