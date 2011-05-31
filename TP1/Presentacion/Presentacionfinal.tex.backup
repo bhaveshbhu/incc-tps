@@ -31,6 +31,11 @@
 	\begin{itemize}
 		\item \textbf{Identificar rasgos utilizados por las personas para identificar letras presentadas en distintas tipograf\'ias}\pause
 		\item \alert{¿Cómo lo hacemos?}
+		\begin{figure}
+		  \includegraphics[height=0.4\textheight]{graficos/elGrito.jpg}
+		  %\caption{Eficiencia vs complejidad para distintas tipografías}
+		\end{figure}
+
 	\end{itemize}
       \end{frame}
 
@@ -171,18 +176,13 @@
 
 	%RASGOS
 	\begin{frame}
-	\frametitle{Identificaci\'on de Rasgos}
+	\frametitle{Definici\'on de Rasgos}
 	\begin{columns} [t]
-	\column{.5\textwidth}
-	\begin{figure}
-	\includegraphics[width=.8\textwidth]{graficos/REFERENCIA.png}
-	\caption{Identificaci\'on de rasgos para la letra \~n}
-	\end{figure}
-	\column{.5\textwidth}
-	\begin{figure}
-	\includegraphics[width=.5\textwidth]{graficos/letras.png}
-	\caption{Uso relativo de los rasgos necesarios para identificar letras}
-	\end{figure}
+	      \column{1\textwidth}
+	      \begin{figure}
+		  \includegraphics[height=.7\textheight]{graficos/REFERENCIA.png}
+		  \caption{Identificaci\'on de rasgos para la letra \~n}
+		  \end{figure}
 	\end{columns}
 	\end{frame}
 
@@ -254,7 +254,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Aciertos}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Fiables.png}
 		%\caption{Distribución de Tiempos de Respuesta}
 	    \end{figure}
 	\end{frame}
@@ -262,7 +262,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Complejidad}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Todos.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Fiables.png}
 		%\caption{Cantidad de Burbujas vs. Log(Complejidad)}
 	    \end{figure}
 	\end{frame}
@@ -293,11 +293,82 @@
 
  	\begin{frame}
 	\frametitle{Rasgos Detectados}
+	\begin{columns}[t]
+	\column{.40\textwidth}
+	\begin{figure}
+	    \includegraphics[width=\textwidth]{graficos/rasgos_resultadosG.png}
+	    %\caption{Distribución de Tiempos de Respuesta}
+	\end{figure}
 
-	\end{frame}
+	\column{.60\textwidth}
+	\begin{table}
+	\small
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+		\hline
+		\textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
+		r1 & Terminaciones	& 0.76 &  0.140 \\ \hline
+		r4 & Horizontal 	& 1.00 &  0.021 \\ \hline
+		r5 & Vertical 		& 1.00 &  0.079 \\ \hline
+		r6 & Cur.Ab.Der 	& 0.63 &  0.630 \\ \hline
+		r7 & Intersecciones 	& 1.00 &  0.130 \\ \hline
+	  \end{tabular}
+	  %\caption{Rasgos para Sujetos}
+	\end{table}
+	\begin{table}
+	\small	
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+		\hline
+		\textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
+		r1  & Terminaciones	& 0.72 & 0.159\\ \hline
+		r4  & Horizontal 	& 1.00 & 0.025\\ \hline
+		r5  & Vertical 		& 1.00 & 0.094\\ \hline
+		r6  & Cur.Ab.Der  	& 0.50 & 0.597\\ \hline
+		r7  &  Intersecciones 	& 0.80 & 0.125\\ \hline
+	  \end{tabular}
+	  %\caption{Rasgos para Observador Ideal}
+	\end{table}
+      \end{columns}
+\end{frame}
 
  	\begin{frame}
-	\frametitle{Rasgos para \~N}
+	\frametitle{Rasgos para `n' vs. `\~n'}
+	  \begin{columns}[t]
+	  \column{.40\textwidth}
+	  \begin{figure}
+	      \includegraphics[width=\textwidth]{graficos/rasgos_resultadosEnieHumano.png}
+	      %\caption{Distribución de Tiempos de Respuesta}
+	  \end{figure}
+
+	  \column{.60\textwidth}
+	  \begin{table}
+	  \small
+	    \begin{tabular}[t]{|r|r|r|r|r|}
+		  \hline
+		  \textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
+		  r1 & Terminaciones	& 0.76 &  0.140 \\ \hline
+		  r4 & Horizontal 	& 1.00 &  0.021 \\ \hline
+		  r5 & Vertical 		& 1.00 &  0.079 \\ \hline
+		  r6 & Cur.Ab.Der 	& 0.63 &  0.630 \\ \hline
+		  r7 & Intersecciones 	& 1.00 &  0.130 \\ \hline
+	    \end{tabular}
+	    %\caption{Rasgos para Sujetos}
+	  \end{table}
+	  \begin{table}
+	  \small	
+	    \begin{tabular}[t]{|r|r|r|r|r|}
+		  \hline
+		  \textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
+		  r1  & Terminaciones	& 0.72 & 0.159\\ \hline
+		  r4  & Horizontal 	& 1.00 & 0.025\\ \hline
+		  r5  & Vertical 		& 1.00 & 0.094\\ \hline
+		  r6  & Cur.Ab.Der  	& 0.50 & 0.597\\ \hline
+		  r7  &  Intersecciones 	& 0.80 & 0.125\\ \hline
+	    \end{tabular}
+	    %\caption{Rasgos para Observador Ideal}
+	  \end{table}
+	\end{columns}
+
+
 
 	\end{frame}
 
@@ -327,8 +398,9 @@
 	\begin{frame}
 	\frametitle{Lecciones Aprendidas}
 	    \begin{itemize}
-	    \item Cantidad de respuestas necesarias (o estímulos a mostrar): $156.000 = 4$ días de experimentación continua.
-	    \item Resulta una técnica útil para el muestreo de espacios sin limitación en la cantidad de dimensiones
+	    \item Cantidad de ensayos por persona necesarias debe ser grande ($162000 \approx 4$ días de experimentación continua\alert{!})
+	    \item Los descansos entre bloques fueron útiles para reducir el cansancio y el aburrimiento
+	    \item Guardar mejor los datos obtenidos, para acelerar el procesamiento (500MB/sujeto)
 	    \end{itemize}
 	\end{frame}
 
@@ -337,7 +409,8 @@
 	\frametitle{¿C\'omo Seguimos?}
 	  \begin{block}{Temas Pendientes}
 	    \begin{itemize}
-		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones (total,)
+		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones (equivalente a Fise)
+		\item Cantidad de burbujas inicial en función de complejidad de cada letra
 		\item Ajuste de cantidad de burbujas ascendente y descendente
   		\item Utilización del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
 		\item Preguntar por letras conocidas mostrando un ejemplo para cada una de ellas. 
@@ -346,8 +419,10 @@
 
 	  \begin{block}{Trabajo Futuro}
 	   \begin{itemize}
-		\item Bubbles en habla (e.g., detección de rasgos para expresividad o emociones)
-	    
+		\item Bubbles para habla
+		    \begin{itemize}
+		      \item detección de rasgos para expresividad o emociones
+		    \end{itemize}
 	    \end{itemize}                     
 	  \end{block}	    
 	\end{frame}
@@ -362,7 +437,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Complejidad}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Fiables.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Todos.png}
 		%\caption{Cantidad de Burbujas vs. Log(Complejidad)}
 	    \end{figure}
 	\end{frame}
@@ -370,7 +445,7 @@
  	\begin{frame}
 	\frametitle{Burbujas vs. Aciertos}
 	    \begin{figure}
-		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Fiables.png}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
 		%\caption{Distribución de Tiempos de Respuesta}
 	    \end{figure}
 	\end{frame}
