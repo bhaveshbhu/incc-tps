@@ -18,7 +18,7 @@ sujetos = repmat([],9,1);
 
 %sujetos(1).name = 'ideal_23-May-2011_7635266_0.mat';
 
-[datos, planos] = procesarfiables(sujetos);
+[datos, planos] = procesar(sujetos);
 
 save('datosf.mat', 'datos');
 save('planosf.mat', 'planos');

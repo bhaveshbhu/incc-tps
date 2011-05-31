@@ -10,15 +10,17 @@ error = 0.5;
 clear temp;
 clear error;
 %plot(comp1,cantB1,'.r',comp2,cantB2,'.m',comp3,cantB3,'.b');
-plot(comp1,cantB1,'.r',comp2,cantB2,'.m',comp3,cantB3,'.b');
+plot([comp1,comp2,comp3],[cantB1,cantB2,cantB3],'w');
+hold on;
+plot(comp1,cantB1,'.r',comp2,cantB2,'.b',comp3,cantB3,'.k');
 for i = 1:length(comp1)
     text(comp1(i),cantB1(i)+0.25,text1(i), 'Color', 'Red');
 end
 for i = 1:length(comp2)
-    text(comp2(i),cantB2(i)+0.25,text2(i), 'Color', 'Magenta');
+    text(comp2(i),cantB2(i)+0.25,text2(i), 'Color', 'Blue');
 end
 for i = 1:length(comp3)
-    text(comp3(i),cantB3(i)+0.25,text3(i), 'Color', 'Blue');
+    text(comp3(i),cantB3(i)+0.25,text3(i), 'Color', 'Black');
 end
 %plot3(comp1,cantB1, acc1,'or',comp2,cantB2, acc2,'og',comp3,cantB3, acc3,'ob');
 % plot(comp1,cantB1,'x');
