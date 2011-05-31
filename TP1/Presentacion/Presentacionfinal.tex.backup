@@ -421,7 +421,6 @@
 	      Sig. asintót. (bilateral) & 0 \\ \hline
 	  \end{tabular}
 	\end{table}
-
       \end{frame}
 
       \begin{frame}
@@ -431,16 +430,17 @@
 	  \begin{tabular}[t]{|r|r|r|r|r|}
 	    \hline
 		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
-		-1 & 1439 & 0.8764 & 0.3082 & 0.0081 \\ \hline
-		0 & 769 & 0.8495 & 0.2874 & 0.0104 \\ \hline
-	  \end{tabular} \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+		No Conocida & 1439 & 0.8764 & 0.3082 & 0.0081 \\ \hline
+		Conocida & 769 & 0.8495 & 0.2874 & 0.0104 \\ \hline
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
 	    \hline
-		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{c}{Prueba T para la igualdad de medias}  \\ \hline
-		  & F & Sig. & t & gl & Sig. (bilateral) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{c}{95\% Int. de conf. para la dif.} \\ \hline
+		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
+		  & F & Sig. & t & gl & Sig. (bilateral) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% confianz. para la dif.} \\ \hline
 		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
 		Varianzas iguales & 2.797 & 0.095 & 1.998 & 2206 & 0.046 & 0.0269 & 0.0134 & 0.0005 & 0.0532 \\ \hline
 		Varianzas no iguales &   &   & 2.041 & 1665.884 & 0.041 & 0.0269 & 0.0132 & 0.001 & 0.0527 \\ \hline
-	  \end{tabular}   
+	  \end{tabular}
 	\end{table}
       \end{frame}
 

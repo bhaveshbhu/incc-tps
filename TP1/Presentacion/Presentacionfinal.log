@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  31 MAY 2011 01:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  31 MAY 2011 01:47
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -1049,7 +1049,17 @@ File: graficos/bubblesVsAciertos_Fiables.png Graphic file (type png)
  <./graficos/bubblesVsAciertos_Fiables.png (PNG copy)>] [48
 
 ]
-Overfull \hbox (32.15623pt too wide) in paragraph at lines 445--445
+Overfull \hbox (12.3383pt too wide) in paragraph at lines 480--480
+ [] 
+ []
+
+
+Overfull \hbox (12.3383pt too wide) in paragraph at lines 480--480
+ [] 
+ []
+
+
+Overfull \hbox (9.68202pt too wide) in paragraph at lines 480--480
  [] 
  []
 
@@ -1074,7 +1084,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  14361 strings out of 495061
  249629 string characters out of 1182621
- 350056 words of memory out of 3000000
+ 365056 words of memory out of 3000000
  17038 multiletter control sequences out of 15000+50000
  8810 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -1087,7 +1097,7 @@ c/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.p
 fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sh
 are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Presentacionfinal.pdf (49 pages, 1672901 bytes).
+Output written on Presentacionfinal.pdf (49 pages, 1674289 bytes).
 PDF statistics:
  1571 PDF objects out of 1728 (max. 8388607)
  117 named destinations out of 1000 (max. 500000)
