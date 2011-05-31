@@ -87,7 +87,7 @@
 	  \column{.35\textwidth}
 	    \begin{itemize}
 		  \item<2->Variables en juego
-		  \only<2-2>{
+		  \only<2>{
 		    \begin{itemize}
 		      \item estímulo
 		      \item dimensiones del estímulo
@@ -96,7 +96,7 @@
 		    \end{itemize}
 		  }
 	    \end{itemize}
-	    \uncover<3->{
+	    \only<3->{
 		\begin{figure}
 		  \includegraphics[width=\textwidth]{graficos/gosselin2.png}
 		  \caption{Reconocimiento de expresión (ENEX) y género (GENDER)}
@@ -217,7 +217,7 @@
 		\item Correcciones de errores menores (randoms, cantidad de burbujas, burbujas por banda)
 		\item Mejora en la cantidad de burbujas inicial (mayor complejidad, mayor cantidad de burbujas iniciales)
 		\item Filtrando casos en que no se llegó al 52\% \pause
-		\item Se tiró los datos anteriores, reemplazando con los nuevos
+		\item Se tiró los datos anteriores, utilizando sólo los nuevos
 	    \end{itemize}
 	\end{frame}
 
@@ -229,7 +229,7 @@
 		\item Edades entre 21-33 años
 		\item Con estudios universitarios
 		\item 1700 ensayos por persona\pause
-		\item Para completar datos \ldots\pause también fuimos sujetos (2500 ensayos)
+		\item Para completar datos \ldots\pause también fuimos sujetos! (2500 ensayos)
 	    \end{itemize}
 	\end{frame}
 
@@ -245,13 +245,43 @@
   \frame{\partpage}
   \section{Gr\'aficos y Tablas}
  	\begin{frame}
-	\frametitle{Letras famosas}
-
+	\frametitle{Burbujas vs. Aciertos}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
+		\caption{Distribución de Tiempos de Respuesta}
+	    \end{figure}
 	\end{frame}
-  
- 	\begin{frame}
-	\frametitle{Burbujas/Tiempo vs. Complejidad}
 
+ 	\begin{frame}
+	\frametitle{Burbujas vs. Complejidad}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Todos.png}
+		%\caption{Cantidad de Burbujas vs. Log(Complejidad)}
+	    \end{figure}
+	\end{frame}
+
+ 	\begin{frame}
+	\frametitle{Relación de Complejidad por Tipografías Famosas}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/BubblesLogComplejidad_PorFamosas.png}
+		%\caption{Distribución de Tiempos de Respuesta}
+	    \end{figure}
+	\end{frame}
+
+   	\begin{frame}
+	\frametitle{Tiempos de Respuesta}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/tiempoRespuesta_dist.png}
+		\caption{Distribución de Tiempos de Respuesta}
+	    \end{figure}
+	\end{frame}
+
+   	\begin{frame}
+	\frametitle{Tiempo de Respuesta por Tipografías Famosas}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/tiempoRespuesta_PorFamosas.png}
+		%\caption{Distribución de Tiempos de Respuesta}
+	    \end{figure}
 	\end{frame}
 
  	\begin{frame}
@@ -264,13 +294,24 @@
 
 	\end{frame}
 
+ 	\begin{frame}
+	\frametitle{Identificaci\'on Humana vs. Observador Ideal}
+
+	\end{frame}
+
 
   \section{Conclusiones}
 	\begin{frame}
 	\frametitle{Conclusiones}
 	    \begin{itemize}
-	    \item Cantidad de respuestas necesarias (o estímulos a mostrar): 156.000= 3.9 días de experimentación continua.
-	    \item Resulta una técnica útil para el muestreo de espacios sin limitación en la cantidad de dimensiones
+		\item Se mostró una diferencia significativa en el tiempo de respuesta de letras no conocidas, conocidas y conocidas vistas durante el experimento.
+		\item Existe una mejora en los tiempos inclusive para aquellas letras conocidas pero no vistas, con respecto a las no conocidas \alert{(!)}
+		\item Se ve que existe una correlación entre Complejidad y Cant. Burbujas (\alert{\bf$\uparrow$}Complejidad, \alert{\bf$\uparrow$}Cant. de Burbujas necesarias)
+		\begin{itemize}
+		    \item Aunque no se pudo demostrar estadísticamente\ldots
+		\end{itemize}
+		\item Bubble resultó ser una técnica interesante para recorrer espacio de búsquedas de imágenes para obtener rasgos de identificación
+    		\item 
 	    \end{itemize}
 	\end{frame}
 
@@ -288,7 +329,9 @@
 	\frametitle{¿C\'omo Seguimos?}
 	  \begin{block}{Temas Pendientes}
 	    \begin{itemize}
-		\item 
+		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones (total,)
+		\item Ajuste de cantidad de burbujas ascendente y descendente
+  		\item Utilización del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
 	    \end{itemize}
 	  \end{block} \pause
 
@@ -306,20 +349,99 @@
 
 \appendix
 \section{\appendixname}
-    \subsection{Material Adicional}
-	\begin{frame}
-	  \frametitle{Gr\'aficos}
-
+    \subsection{Gr\'aficos s\'olo con Datos de Sujetos}
+ 	\begin{frame}
+	\frametitle{Burbujas vs. Complejidad}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsLogComplejidad_Fiables.png}
+		%\caption{Cantidad de Burbujas vs. Log(Complejidad)}
+	    \end{figure}
 	\end{frame}
+
+ 	\begin{frame}
+	\frametitle{Burbujas vs. Aciertos}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Fiables.png}
+		%\caption{Distribución de Tiempos de Respuesta}
+	    \end{figure}
+	\end{frame}
+
     \subsection{Tests de Significatividad}
-	\begin{frame}
-	  \frametitle{Burbujas vs. Complejidad}
 
-	\end{frame}
+      \begin{frame}
+      \tiny
+	  \frametitle{Tiempo de Respuesta vs. Complejidad:\\Test de Mann-Whitney}
+	\begin{table}
+	  \begin{tabular}[t]{|l|l|r|r|r|}
+	    \hline
+		 & \textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		\textbf{T\_RESP} & No Conocidas & 1439 & 1128.38 & 1623740 \\ \hline
+		  & Conocidas & 769 & 1059.81 & 814996 \\ \hline
+		  & \textit{Total} & 2208 &   &   \\ \hline
+	  \end{tabular}   \begin{tabular}[t]{|l|r|}
+	    \hline
+		& \textbf{T\_RESP} \\ \hline
+	      U de Mann-Whitney & 518931 \\ \hline
+	      W de Wilcoxon & 814996 \\ \hline
+	      Z & -2.408 \\ \hline
+	      Sig. asintót. (bilateral) & 0.02 \\ \hline
+	  \end{tabular}
+	\end{table}
 
-	\begin{frame}
-	  \frametitle{Tiempo de Respuesta vs. Complejidad}
+	\begin{table}
+	  \begin{tabular}[t]{|l|l|r|r|r|}
+	    \hline
+		  & \textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		\textbf{T\_RESP} & Conocidas & 769 & 750.4 & 577060.5 \\ \hline
+		  & Conocidas Vistas & 660 & 673.75 & 444674.5 \\ \hline
+		  & \textit{Total} & 1429 &   &   \\ \hline
+	  \end{tabular}   \begin{tabular}[t]{|l|r|}
+	    \hline
+		& \textbf{T\_RESP} \\ \hline
+	      U de Mann-Whitney & 226544.5 \\ \hline
+	      W de Wilcoxon & 444674.5 \\ \hline
+	      Z & -3.501 \\ \hline
+	      Sig. asintót. (bilateral) & 0 \\ \hline
+	  \end{tabular}
+	\end{table}
 
-	\end{frame}
+	\begin{table}
+	  \begin{tabular}[t]{|l|l|r|r|r|}
+	    \hline
+		& \textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+	      \textbf{T\_RESP} & No Conocidas & 1439 & 1104.78 & 1589772 \\ \hline
+		& Conocidas Vistas & 660 & 930.57 & 614178 \\ \hline
+		& \textit{Total} & 2099 &   &   \\ \hline
+	  \end{tabular}   \begin{tabular}[t]{|l|r|}
+	    \hline
+		& \textbf{T\_RESP} \\ \hline
+	      U de Mann-Whitney & 396048 \\ \hline
+	      W de Wilcoxon & 614178 \\ \hline
+	      Z & -6.114 \\ \hline
+	      Sig. asintót. (bilateral) & 0 \\ \hline
+	  \end{tabular}
+	\end{table}
+      \end{frame}
+
+      \begin{frame}
+      \tiny
+	  \frametitle{Tiempo de Respuesta vs. Complejidad:\\Test de Student}
+	\begin{table}
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+	    \hline
+		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
+		No Conocida & 1439 & 0.8764 & 0.3082 & 0.0081 \\ \hline
+		Conocida & 769 & 0.8495 & 0.2874 & 0.0104 \\ \hline
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+	    \hline
+		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
+		  & F & Sig. & t & gl & Sig. (bilateral) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% confianz. para la dif.} \\ \hline
+		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
+		Varianzas iguales & 2.797 & 0.095 & 1.998 & 2206 & 0.046 & 0.0269 & 0.0134 & 0.0005 & 0.0532 \\ \hline
+		Varianzas no iguales &   &   & 2.041 & 1665.884 & 0.041 & 0.0269 & 0.0132 & 0.001 & 0.0527 \\ \hline
+	  \end{tabular}
+	\end{table}
+      \end{frame}
 
 \end{document}

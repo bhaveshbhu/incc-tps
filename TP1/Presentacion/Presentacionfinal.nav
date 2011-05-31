@@ -67,41 +67,51 @@
 \headcommand {\beamer@framepages {35}{35}}
 \headcommand {\slideentry {4}{0}{11}{36/36}{}{3}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\sectionentry {5}{Conclusiones}{37}{Conclusiones}{3}}
-\headcommand {\beamer@sectionpages {33}{36}}
-\headcommand {\beamer@subsectionpages {33}{36}}
-\headcommand {\slideentry {5}{0}{12}{37/37}{}{3}}
+\headcommand {\slideentry {4}{0}{12}{37/37}{}{3}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\sectionentry {6}{Lecciones Aprendidas}{38}{Lecciones Aprendidas}{3}}
-\headcommand {\beamer@sectionpages {37}{37}}
-\headcommand {\beamer@subsectionpages {37}{37}}
-\headcommand {\slideentry {6}{0}{13}{38/38}{}{3}}
+\headcommand {\slideentry {4}{0}{13}{38/38}{}{3}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\sectionentry {7}{Pendientes y Trabajos Futuros}{39}{Pendientes y Trabajos Futuros}{3}}
-\headcommand {\beamer@sectionpages {38}{38}}
-\headcommand {\beamer@subsectionpages {38}{38}}
-\headcommand {\slideentry {7}{0}{14}{39/40}{}{3}}
-\headcommand {\beamer@framepages {39}{40}}
-\headcommand {\slideentry {7}{0}{15}{41/41}{}{3}}
+\headcommand {\slideentry {4}{0}{14}{39/39}{}{3}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {4}{0}{15}{40/40}{}{3}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\sectionentry {5}{Conclusiones}{41}{Conclusiones}{3}}
+\headcommand {\beamer@sectionpages {33}{40}}
+\headcommand {\beamer@subsectionpages {33}{40}}
+\headcommand {\slideentry {5}{0}{16}{41/41}{}{3}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\partentry {Ap\'{e}ndice}{4}}
-\headcommand {\beamer@partpages {32}{41}}
-\headcommand {\beamer@sectionpages {39}{41}}
-\headcommand {\beamer@subsectionpages {39}{41}}
-\headcommand {\beamer@appendixpages {42}}
-\headcommand {\sectionentry {8}{Ap\'{e}ndice}{42}{Ap\'{e}ndice}{4}}
-\headcommand {\beamer@sectionpages {42}{41}}
-\headcommand {\beamer@subsectionpages {42}{41}}
-\headcommand {\beamer@subsectionentry {4}{8}{1}{42}{Material Adicional}}\headcommand {\beamer@subsectionpages {42}{41}}
-\headcommand {\slideentry {8}{1}{1}{42/42}{Material Adicional}{4}}
+\headcommand {\sectionentry {6}{Lecciones Aprendidas}{42}{Lecciones Aprendidas}{3}}
+\headcommand {\beamer@sectionpages {41}{41}}
+\headcommand {\beamer@subsectionpages {41}{41}}
+\headcommand {\slideentry {6}{0}{17}{42/42}{}{3}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@subsectionentry {4}{8}{2}{43}{Tests de Significatividad}}\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\slideentry {8}{2}{1}{43/43}{Tests de Significatividad}{4}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {8}{2}{2}{44/44}{Tests de Significatividad}{4}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@partpages {42}{44}}
-\headcommand {\beamer@subsectionpages {43}{44}}
-\headcommand {\beamer@sectionpages {42}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\def \inserttotalframenumber {27}}
+\headcommand {\sectionentry {7}{Pendientes y Trabajos Futuros}{43}{Pendientes y Trabajos Futuros}{3}}
+\headcommand {\beamer@sectionpages {42}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\slideentry {7}{0}{18}{43/44}{}{3}}
+\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\slideentry {7}{0}{19}{45/45}{}{3}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\partentry {Ap\'{e}ndice}{4}}
+\headcommand {\beamer@partpages {32}{45}}
+\headcommand {\beamer@sectionpages {43}{45}}
+\headcommand {\beamer@subsectionpages {43}{45}}
+\headcommand {\beamer@appendixpages {46}}
+\headcommand {\sectionentry {8}{Ap\'{e}ndice}{46}{Ap\'{e}ndice}{4}}
+\headcommand {\beamer@sectionpages {46}{45}}
+\headcommand {\beamer@subsectionpages {46}{45}}
+\headcommand {\beamer@subsectionentry {4}{8}{1}{46}{Gr\'aficos s\'olo con Datos de Sujetos}}\headcommand {\beamer@subsectionpages {46}{45}}
+\headcommand {\slideentry {8}{1}{1}{46/46}{Gr\'aficos s\'olo con Datos de Sujetos}{4}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {8}{1}{2}{47/47}{Gr\'aficos s\'olo con Datos de Sujetos}{4}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@subsectionentry {4}{8}{2}{48}{Tests de Significatividad}}\headcommand {\beamer@subsectionpages {46}{47}}
+\headcommand {\slideentry {8}{2}{1}{48/48}{Tests de Significatividad}{4}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {8}{2}{2}{49/49}{Tests de Significatividad}{4}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@partpages {46}{49}}
+\headcommand {\beamer@subsectionpages {48}{49}}
+\headcommand {\beamer@sectionpages {46}{49}}
+\headcommand {\beamer@documentpages {49}}
+\headcommand {\def \inserttotalframenumber {32}}

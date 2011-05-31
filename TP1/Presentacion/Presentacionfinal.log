@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  30 MAY 2011 22:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  31 MAY 2011 01:37
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -867,30 +867,22 @@ File: graficos/pelli4.png Graphic file (type png)
 <graficos/estimuloGosseling.png, id=334, 922.44624pt x 421.575pt>
 File: graficos/estimuloGosseling.png Graphic file (type png)
 
-<use graficos/estimuloGosseling.png>
-<graficos/gosselin2.png, id=335, 608.2725pt x 546.04pt>
-File: graficos/gosselin2.png Graphic file (type png)
+<use graficos/estimuloGosseling.png> [9
 
-<use graficos/gosselin2.png> [9
-
- <./graficos/estimuloGosseling.png> <./graficos/gosselin2.png>]
+ <./graficos/estimuloGosseling.png>]
 File: graficos/estimuloGosseling.png Graphic file (type png)
- <use graficos/estimuloGosseling.png>
-File: graficos/gosselin2.png Graphic file (type png)
 
-<use graficos/gosselin2.png>
-Overfull \vbox (51.63704pt too high) detected at line 106
- []
-
-[10
+<use graficos/estimuloGosseling.png> [10
 
 ]
 File: graficos/estimuloGosseling.png Graphic file (type png)
  <use graficos/estimuloGosseling.png>
+<graficos/gosselin2.png, id=395, 608.2725pt x 546.04pt>
 File: graficos/gosselin2.png Graphic file (type png)
- <use graficos/gosselin2.png> [11
 
-]
+<use graficos/gosselin2.png> [11
+
+ <./graficos/gosselin2.png>]
 <graficos/fiset1.png, id=424, 360.34625pt x 375.4025pt>
 File: graficos/fiset1.png Graphic file (type png)
 
@@ -991,35 +983,77 @@ File: graficos/estimulofinal.png Graphic file (type png)
 
 ] [32
 
-] [33
-
-] [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
-
 ]
-[39
+<graficos/bubblesVsAciertos_Todos.png, id=1030, 144.54pt x 78.2925pt>
+File: graficos/bubblesVsAciertos_Todos.png Graphic file (type png)
+
+<use graficos/bubblesVsAciertos_Todos.png> [33
+
+ <./graficos/bubblesVsAciertos_Todos.png (PNG copy)>]
+<graficos/bubblesVsLogComplejidad_Todos.png, id=1061, 144.54pt x 77.5698pt>
+File: graficos/bubblesVsLogComplejidad_Todos.png Graphic file (type png)
+
+<use graficos/bubblesVsLogComplejidad_Todos.png> [34
+
+ <./graficos/bubblesVsLogComplejidad_Todos.png (PNG copy)>]
+<graficos/BubblesLogComplejidad_PorFamosas.png, id=1090, 146.58765pt x 78.5334p
+t>
+File: graficos/BubblesLogComplejidad_PorFamosas.png Graphic file (type png)
+ <use graficos/BubblesLogComplejidad_PorFamosas.png> [35
+
+ <./graficos/BubblesLogComplejidad_PorFamosas.png (PNG copy)>]
+<graficos/tiempoRespuesta_dist.png, id=1119, 151.0443pt x 77.8107pt>
+File: graficos/tiempoRespuesta_dist.png Graphic file (type png)
+
+<use graficos/tiempoRespuesta_dist.png> [36
+
+ <./graficos/tiempoRespuesta_dist.png (PNG copy)>]
+<graficos/tiempoRespuesta_PorFamosas.png, id=1148, 148.6353pt x 85.2786pt>
+File: graficos/tiempoRespuesta_PorFamosas.png Graphic file (type png)
+
+<use graficos/tiempoRespuesta_PorFamosas.png> [37
+
+ <./graficos/tiempoRespuesta_PorFamosas.png (PNG copy)>] [38
+
+] [39
 
 ] [40
 
-]
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 303.
-
-[41
+] [41
 
 ] [42
 
 ] [43
 
 ] [44
+
+]
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 346.
+
+[45
+
+]
+<graficos/bubblesVsLogComplejidad_Fiables.png, id=1399, 144.54pt x 77.8107pt>
+File: graficos/bubblesVsLogComplejidad_Fiables.png Graphic file (type png)
+
+<use graficos/bubblesVsLogComplejidad_Fiables.png> [46
+
+ <./graficos/bubblesVsLogComplejidad_Fiables.png (PNG copy)>]
+<graficos/bubblesVsAciertos_Fiables.png, id=1429, 144.54pt x 78.17204pt>
+File: graficos/bubblesVsAciertos_Fiables.png Graphic file (type png)
+
+<use graficos/bubblesVsAciertos_Fiables.png> [47
+
+ <./graficos/bubblesVsAciertos_Fiables.png (PNG copy)>] [48
+
+]
+Overfull \hbox (32.15623pt too wide) in paragraph at lines 445--445
+ [] 
+ []
+
+[49
 
 ]
 \tf@nav=\write5
@@ -1038,11 +1072,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 14304 strings out of 495061
- 247956 string characters out of 1182621
- 343057 words of memory out of 3000000
- 16998 multiletter control sequences out of 15000+50000
- 8516 words of font info for 32 fonts, out of 3000000 for 9000
+ 14361 strings out of 495061
+ 249629 string characters out of 1182621
+ 350056 words of memory out of 3000000
+ 17038 multiletter control sequences out of 15000+50000
+ 8810 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,57p,352b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
@@ -1051,10 +1085,11 @@ live/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Presentacionfinal.pdf (44 pages, 2206807 bytes).
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Presentacionfinal.pdf (49 pages, 1672901 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1571 PDF objects out of 1728 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
