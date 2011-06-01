@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  1 JUN 2011 00:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  1 JUN 2011 00:53
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -852,11 +852,16 @@ File: graficos/bubblebobble.png Graphic file (type png)
 <use graficos/bubblebobble.png> [5
 
  <./graficos/bubblebobble.png (PNG copy)>]
-[6
+File: graficos/bubblebobble.png Graphic file (type png)
+
+<use graficos/bubblebobble.png> [6
+
+] [7
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 81.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 81.
@@ -864,52 +869,52 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<graficos/pelli4.png, id=271, 632.3625pt x 574.145pt>
-File: graficos/pelli4.png Graphic file (type png)
-
-<use graficos/pelli4.png> [7
-
- <./graficos/pelli4.png>]
+<graficos/pelli4.png, id=304, 632.3625pt x 574.145pt>
 File: graficos/pelli4.png Graphic file (type png)
 
 <use graficos/pelli4.png> [8
 
+ <./graficos/pelli4.png>]
+File: graficos/pelli4.png Graphic file (type png)
+
+<use graficos/pelli4.png> [9
+
 ]
 File: graficos/pelli4.png Graphic file (type png)
- <use graficos/pelli4.png> [9
+ <use graficos/pelli4.png> [10
 
 ]
-<graficos/estimuloGosseling.png, id=364, 922.44624pt x 421.575pt>
-File: graficos/estimuloGosseling.png Graphic file (type png)
-
-<use graficos/estimuloGosseling.png> [10
-
- <./graficos/estimuloGosseling.png>]
+<graficos/estimuloGosseling.png, id=394, 922.44624pt x 421.575pt>
 File: graficos/estimuloGosseling.png Graphic file (type png)
 
 <use graficos/estimuloGosseling.png> [11
 
+ <./graficos/estimuloGosseling.png>]
+File: graficos/estimuloGosseling.png Graphic file (type png)
+
+<use graficos/estimuloGosseling.png> [12
+
 ]
 File: graficos/estimuloGosseling.png Graphic file (type png)
  <use graficos/estimuloGosseling.png>
-<graficos/gosselin2.png, id=425, 608.2725pt x 546.04pt>
+<graficos/gosselin2.png, id=452, 608.2725pt x 546.04pt>
 File: graficos/gosselin2.png Graphic file (type png)
 
-<use graficos/gosselin2.png> [12
+<use graficos/gosselin2.png> [13
 
  <./graficos/gosselin2.png>]
-<graficos/fiset1.png, id=454, 360.34625pt x 375.4025pt>
+<graficos/fiset1.png, id=483, 360.34625pt x 375.4025pt>
 File: graficos/fiset1.png Graphic file (type png)
 
 <use graficos/fiset1.png>
-<graficos/fiset5.png, id=455, 519.9425pt x 491.8375pt>
+<graficos/fiset5.png, id=484, 519.9425pt x 491.8375pt>
 File: graficos/fiset5.png Graphic file (type png)
 
 <use graficos/fiset5.png>
 Overfull \vbox (19.82407pt too high) detected at line 145
  []
 
-[13
+[14
 
  <./graficos/fiset1.png> <./graficos/fiset5.png>]
 File: graficos/fiset1.png Graphic file (type png)
@@ -920,7 +925,7 @@ File: graficos/fiset5.png Graphic file (type png)
 Overfull \vbox (19.82407pt too high) detected at line 145
  []
 
-[14
+[15
 
 ]
 File: graficos/fiset1.png Graphic file (type png)
@@ -930,9 +935,7 @@ File: graficos/fiset5.png Graphic file (type png)
 Overfull \vbox (19.82407pt too high) detected at line 145
  []
 
-[15
-
-] [16
+[16
 
 ] [17
 
@@ -942,19 +945,21 @@ Overfull \vbox (19.82407pt too high) detected at line 145
 
 ] [20
 
+] [21
+
 ]
-<graficos/letras.png, id=689, 1003.75pt x 263.98625pt>
+<graficos/letras.png, id=719, 1003.75pt x 263.98625pt>
 File: graficos/letras.png Graphic file (type png)
 
 <use graficos/letras.png>
-<graficos/complejidadesBoxplot.png, id=690, 753.81625pt x 484.81125pt>
+<graficos/complejidadesBoxplot.png, id=720, 753.81625pt x 484.81125pt>
 File: graficos/complejidadesBoxplot.png Graphic file (type png)
 
 <use graficos/complejidadesBoxplot.png>
 Overfull \vbox (5.5333pt too high) detected at line 179
  []
 
-[21
+[22
 
  <./graficos/letras.png> <./graficos/complejidadesBoxplot.png (PNG copy)>]
 File: graficos/letras.png Graphic file (type png)
@@ -965,26 +970,24 @@ File: graficos/complejidadesBoxplot.png Graphic file (type png)
 Overfull \vbox (5.5333pt too high) detected at line 179
  []
 
-[22
+[23
 
-] <graficos/REFERENCIA.png, id=748, 329.23pt x 312.16624pt>
+] <graficos/REFERENCIA.png, id=778, 329.23pt x 312.16624pt>
 File: graficos/REFERENCIA.png Graphic file (type png)
 
 <use graficos/REFERENCIA.png>
 Overfull \vbox (2.34377pt too high) detected at line 191
  []
 
-[23
+[24
 
  <./graficos/REFERENCIA.png (PNG copy)>]
-<graficos/estimulofinal.png, id=777, 1102.1175pt x 503.8825pt>
+<graficos/estimulofinal.png, id=807, 1102.1175pt x 503.8825pt>
 File: graficos/estimulofinal.png Graphic file (type png)
 
-<use graficos/estimulofinal.png> [24
+<use graficos/estimulofinal.png> [25
 
- <./graficos/estimulofinal.png (PNG copy)>] [25
-
-] [26
+ <./graficos/estimulofinal.png (PNG copy)>] [26
 
 ] [27
 
@@ -1000,50 +1003,50 @@ File: graficos/estimulofinal.png Graphic file (type png)
 
 ] [33
 
+] [34
+
 ]
-<graficos/bubblesVsAciertos_Fiables.png, id=1061, 144.54pt x 78.17204pt>
+<graficos/bubblesVsAciertos_Fiables.png, id=1093, 144.54pt x 78.17204pt>
 File: graficos/bubblesVsAciertos_Fiables.png Graphic file (type png)
 
-<use graficos/bubblesVsAciertos_Fiables.png> [34
+<use graficos/bubblesVsAciertos_Fiables.png> [35
 
  <./graficos/bubblesVsAciertos_Fiables.png (PNG copy)>]
-<graficos/bubblesVsLogComplejidad_Fiables.png, id=1092, 1042.294pt x 528.374pt>
+<graficos/bubblesVsLogComplejidad_Fiables.png, id=1122, 1042.294pt x 528.374pt>
 File: graficos/bubblesVsLogComplejidad_Fiables.png Graphic file (type png)
-<use graficos/bubblesVsLogComplejidad_Fiables.png> [35
+<use graficos/bubblesVsLogComplejidad_Fiables.png> [36
 
  <./graficos/bubblesVsLogComplejidad_Fiables.png (PNG copy)>]
-<graficos/BubblesLogComplejidad_PorFamosas.png, id=1121, 144.54pt x 81.906pt>
+<graficos/BubblesLogComplejidad_PorFamosas.png, id=1151, 144.54pt x 81.906pt>
 File: graficos/BubblesLogComplejidad_PorFamosas.png Graphic file (type png)
 
-<use graficos/BubblesLogComplejidad_PorFamosas.png> [36
+<use graficos/BubblesLogComplejidad_PorFamosas.png> [37
 
  <./graficos/BubblesLogComplejidad_PorFamosas.png (PNG copy)>]
-<graficos/tiempoRespuesta_dist.png, id=1150, 151.0443pt x 77.8107pt>
+<graficos/tiempoRespuesta_dist.png, id=1181, 151.0443pt x 77.8107pt>
 File: graficos/tiempoRespuesta_dist.png Graphic file (type png)
 
-<use graficos/tiempoRespuesta_dist.png> [37
+<use graficos/tiempoRespuesta_dist.png> [38
 
  <./graficos/tiempoRespuesta_dist.png (PNG copy)>]
-<graficos/tiempoRespuesta_PorFamosas.png, id=1180, 148.6353pt x 85.2786pt>
+<graficos/tiempoRespuesta_PorFamosas.png, id=1210, 148.6353pt x 85.2786pt>
 File: graficos/tiempoRespuesta_PorFamosas.png Graphic file (type png)
 
-<use graficos/tiempoRespuesta_PorFamosas.png> [38
+<use graficos/tiempoRespuesta_PorFamosas.png> [39
 
  <./graficos/tiempoRespuesta_PorFamosas.png (PNG copy)>]
-<graficos/rasgos_resultadosG.png, id=1209, 220.825pt x 271.0125pt>
+<graficos/rasgos_resultadosG.png, id=1239, 220.825pt x 271.0125pt>
 File: graficos/rasgos_resultadosG.png Graphic file (type png)
 
-<use graficos/rasgos_resultadosG.png> [39
+<use graficos/rasgos_resultadosG.png> [40
 
  <./graficos/rasgos_resultadosG.png>]
-<graficos/rasgos_resultadosEnieHumano.png, id=1239, 178.6675pt x 254.9525pt>
+<graficos/rasgos_resultadosEnieHumano.png, id=1268, 178.6675pt x 254.9525pt>
 File: graficos/rasgos_resultadosEnieHumano.png Graphic file (type png)
 
-<use graficos/rasgos_resultadosEnieHumano.png> [40
+<use graficos/rasgos_resultadosEnieHumano.png> [41
 
- <./graficos/rasgos_resultadosEnieHumano.png>] [41
-
-] [42
+ <./graficos/rasgos_resultadosEnieHumano.png>] [42
 
 ] [43
 
@@ -1051,26 +1054,28 @@ File: graficos/rasgos_resultadosEnieHumano.png Graphic file (type png)
 
 ] [45
 
+] [46
+
 ]
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 435.
 
-[46
+[47
 
 ]
-<graficos/bubblesVsLogComplejidad_Todos.png, id=1437, 963.6pt x 501.072pt>
+<graficos/bubblesVsLogComplejidad_Todos.png, id=1468, 963.6pt x 501.072pt>
 File: graficos/bubblesVsLogComplejidad_Todos.png Graphic file (type png)
 
-<use graficos/bubblesVsLogComplejidad_Todos.png> [47
+<use graficos/bubblesVsLogComplejidad_Todos.png> [48
 
  <./graficos/bubblesVsLogComplejidad_Todos.png (PNG copy)>]
-<graficos/bubblesVsAciertos_Todos.png, id=1467, 144.54pt x 78.2925pt>
+<graficos/bubblesVsAciertos_Todos.png, id=1497, 144.54pt x 78.2925pt>
 File: graficos/bubblesVsAciertos_Todos.png Graphic file (type png)
 
-<use graficos/bubblesVsAciertos_Todos.png> [48
+<use graficos/bubblesVsAciertos_Todos.png> [49
 
- <./graficos/bubblesVsAciertos_Todos.png (PNG copy)>] [49
+ <./graficos/bubblesVsAciertos_Todos.png (PNG copy)>] [50
 
 ]
 Overfull \hbox (12.3383pt too wide) in paragraph at lines 569--569
@@ -1087,7 +1092,7 @@ Overfull \hbox (9.68202pt too wide) in paragraph at lines 569--569
  [] 
  []
 
-[50
+[51
 
 ]
 \tf@nav=\write5
@@ -1106,26 +1111,38 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 14405 strings out of 495061
- 250582 string characters out of 1182622
- 365055 words of memory out of 3000000
+ 14411 strings out of 495061
+ 250661 string characters out of 1182622
+ 365056 words of memory out of 3000000
  17069 multiletter control sequences out of 15000+50000
  12614 words of font info for 47 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,57p,352b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Presentacionfinal.pdf (50 pages, 5521448 bytes).
+pdfTeX warning (dest): name{Outline4.8.2.49} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline4.8.1.47} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline2.3.2.21} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline2.3.1.17} has been referenced but does not e
+xist, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Presentacionfinal.pdf (51 pages, 5528105 bytes).
 PDF statistics:
- 1615 PDF objects out of 1728 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
+ 1648 PDF objects out of 1728 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
  325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
