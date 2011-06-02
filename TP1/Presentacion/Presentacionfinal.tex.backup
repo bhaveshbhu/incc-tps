@@ -30,12 +30,10 @@
 	\frametitle{Objetivo del experimento}
 	\begin{itemize}
 		\item \textbf{Identificar rasgos utilizados por las personas para identificar letras presentadas en distintas tipograf\'ias}\pause
-		\item \alert{¿Cómo lo hacemos?}
-		\begin{figure}
-		  \includegraphics[height=0.4\textheight]{graficos/elGrito.jpg}
-		  %\caption{Eficiencia vs complejidad para distintas tipografías}
-		\end{figure}
-
+		\item \alert{¿Cómo lo hacemos?}\pause
+		  \begin{figure}
+			  \includegraphics[height=0.7\textheight]{graficos/bubblebobble.png}
+		  \end{figure}
 	\end{itemize}
       \end{frame}
 
@@ -44,8 +42,13 @@
       \begin{frame}
 	\frametitle{Todos Somos Sujetos}
 	\begin{itemize}
-		\item Vamos a intentar identificar algunas letras\ldots
+		\item Vamos a intentar identificar algunas letras\ldots\pause
+		\item A continuación vemos una foto de las expresiones en los primeros ensayos\pause
 	\end{itemize}
+	\begin{figure}
+		\includegraphics[height=0.6\textheight]{graficos/elGrito.jpg}
+		%\caption{Eficiencia vs complejidad para distintas tipografías}
+	\end{figure}
       \end{frame}
 
   %objetivos e hipótesis
@@ -203,10 +206,14 @@
 		\item Pocos bloques y ensayos (5 x 100, t $\approx$ 20min)
 		\item Se completa una encuesta al terminar (performance, tipografías famosas)
 		\item Muchas burbujas (todas las letras comienzan igual con la misma cantidad)
-		\item Muy poca información {\bf:-(} (para la mayoría no se alcanza un valor cercano al 52\% de aciertos)\pause
+		\item Muy poca información {\bf:-(}
+		\begin{itemize}
+		    \item Para la mayoría no se alcanza un valor cercano al 52\% de aciertos\pause
+		\end{itemize}
 		\item Muchos gastos en golosinas {\bf:-P}\pause
 	    \end{itemize}
-	\textbf{Posible Soluci\'on}: Ampliar la cantidad de ensayos y ajustar parámetros (bloques y burbujas)
+	\textbf{Posible Soluci\'on:} Aumentar la cantidad de ensayos y ajustar parámetros \\
+	(e.g., cant. burbujas)
 	\end{frame}
 
 	%Recauchutaje
@@ -345,11 +352,10 @@
 	    \begin{tabular}[t]{|r|r|r|r|r|}
 		  \hline
 		  \textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
-		  r1 & Terminaciones	& 0.76 &  0.140 \\ \hline
-		  r4 & Horizontal 	& 1.00 &  0.021 \\ \hline
-		  r5 & Vertical 		& 1.00 &  0.079 \\ \hline
-		  r6 & Cur.Ab.Der 	& 0.63 &  0.630 \\ \hline
-		  r7 & Intersecciones 	& 1.00 &  0.130 \\ \hline
+		    r1  & Terminaciones	& 0.89706 & 0.23431\\ \hline
+		    r5  & Vertical 	& 0.89859 & 0.40845\\ \hline
+		    r7  & Intersecciones & 0.93421 & 0.18182\\ \hline
+		    r11 & Cur.Ab.Abajo  & 0.85625 & 0.17542\\ \hline
 	    \end{tabular}
 	    %\caption{Rasgos para Sujetos}
 	  \end{table}
@@ -358,22 +364,23 @@
 	    \begin{tabular}[t]{|r|r|r|r|r|}
 		  \hline
 		  \textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
-		  r1  & Terminaciones	& 0.72 & 0.159\\ \hline
-		  r4  & Horizontal 	& 1.00 & 0.025\\ \hline
-		  r5  & Vertical 		& 1.00 & 0.094\\ \hline
-		  r6  & Cur.Ab.Der  	& 0.50 & 0.597\\ \hline
-		  r7  &  Intersecciones 	& 0.80 & 0.125\\ \hline
+		    r1  & Terminaciones	& 0.81771 & 0.19146\\ \hline
+		    r5  & Vertical 		& 0.59674 & 0.31220\\ \hline
+		    r7  & Intersecciones 	& 0.97468 & 0.18780\\ \hline
+		    r9  & Moño 	 	& 0.96226 & 0.18659\\ \hline
+		    r11  & Cur.Ab.Abajo  	& 0.68966 & 0.12195\\ \hline
 	    \end{tabular}
 	    %\caption{Rasgos para Observador Ideal}
 	  \end{table}
 	\end{columns}
 
-
-
 	\end{frame}
 
  	\begin{frame}
 	\frametitle{Identificaci\'on Humana vs. Observador Ideal}
+	
+	  \alert{GRAFICO DE IMPORTANCIA RELATIVA DE RASGOS POR TIPOGRAFÍA-MAY/MIN}
+
 
 	\end{frame}
 
@@ -409,18 +416,19 @@
 	\frametitle{¿C\'omo Seguimos?}
 	  \begin{block}{Temas Pendientes}
 	    \begin{itemize}
-		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones (equivalente a Fise)
+		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones
 		\item Cantidad de burbujas inicial en función de complejidad de cada letra
 		\item Ajuste de cantidad de burbujas ascendente y descendente
-  		\item Utilización del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
-		\item Preguntar por letras conocidas mostrando un ejemplo para cada una de ellas. 
+		\item Preguntar por letras conocidas mostrando ejemplos para cada una de ellas. 
 	    \end{itemize}
 	  \end{block} \pause
 
 	  \begin{block}{Trabajo Futuro}
 	   \begin{itemize}
+		\item Incorporación del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
 		\item Bubbles para habla
 		    \begin{itemize}
+		      \item rasgos relevantes para el reconocimiento de hablantes
 		      \item detección de rasgos para expresividad o emociones
 		    \end{itemize}
 	    \end{itemize}                     

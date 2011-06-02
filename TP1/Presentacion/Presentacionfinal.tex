@@ -30,7 +30,7 @@
 	\frametitle{Objetivo del experimento}
 	\begin{itemize}
 		\item \textbf{Identificar rasgos utilizados por las personas para identificar letras presentadas en distintas tipograf\'ias}\pause
-		\item \alert{¿Cómo lo hacemos?}
+		\item \alert{¿Cómo lo hacemos?}\pause
 		  \begin{figure}
 			  \includegraphics[height=0.7\textheight]{graficos/bubblebobble.png}
 		  \end{figure}
@@ -172,7 +172,6 @@
 	\frametitle{Elecci\'on de tipograf\'ias}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/letras.png}\\ \pause
-		\alert{CORREGIR LABELS}
 		\includegraphics[width=0.8\textheight]{graficos/complejidadesBoxplot.png}
 		%\caption{Tipograf\'ias y sus Complejidades}
 	    \end{figure}
@@ -302,39 +301,14 @@
  	\begin{frame}
 	\frametitle{Rasgos Detectados}
 	\begin{columns}[t]
-	\column{.40\textwidth}
+	\column{1\textwidth}
 	\begin{figure}
-	    \includegraphics[width=\textwidth]{graficos/rasgos_resultadosG.png}
+	    \includegraphics[width=\textwidth]{graficos/mascarasResultantes_enie_1_min.png}
 	    %\caption{Distribución de Tiempos de Respuesta}
 	\end{figure}
 
 	\column{.60\textwidth}
-	\begin{table}
-	\small
-	  \begin{tabular}[t]{|r|r|r|r|r|}
-		\hline
-		\textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
-		r1 & Terminaciones	& 0.76 &  0.140 \\ \hline
-		r4 & Horizontal 	& 1.00 &  0.021 \\ \hline
-		r5 & Vertical 		& 1.00 &  0.079 \\ \hline
-		r6 & Cur.Ab.Der 	& 0.63 &  0.630 \\ \hline
-		r7 & Intersecciones 	& 1.00 &  0.130 \\ \hline
-	  \end{tabular}
-	  %\caption{Rasgos para Sujetos}
-	\end{table}
-	\begin{table}
-	\small	
-	  \begin{tabular}[t]{|r|r|r|r|r|}
-		\hline
-		\textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
-		r1  & Terminaciones	& 0.72 & 0.159\\ \hline
-		r4  & Horizontal 	& 1.00 & 0.025\\ \hline
-		r5  & Vertical 		& 1.00 & 0.094\\ \hline
-		r6  & Cur.Ab.Der  	& 0.50 & 0.597\\ \hline
-		r7  &  Intersecciones 	& 0.80 & 0.125\\ \hline
-	  \end{tabular}
-	  %\caption{Rasgos para Observador Ideal}
-	\end{table}
+
       \end{columns}
 \end{frame}
 
@@ -379,10 +353,11 @@
 
  	\begin{frame}
 	\frametitle{Identificaci\'on Humana vs. Observador Ideal}
-	
-	  \alert{GRAFICO DE IMPORTANCIA RELATIVA DE RASGOS POR TIPOGRAFÍA-MAY/MIN}
-
-
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Famosas.png}\\
+		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Famosas_ideal.png}
+		%\caption{Tipograf\'ias y sus Complejidades}
+	    \end{figure}
 	\end{frame}
 
 
@@ -456,6 +431,22 @@
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/bubblesVsAciertos_Todos.png}
 		%\caption{Distribución de Tiempos de Respuesta}
+	    \end{figure}
+	\end{frame}
+
+      \subsection{Identificaci\'on Humana vs. Observador Ideal}
+ 	\begin{frame}
+	\frametitle{Identificaci\'on Humana vs. Observador Ideal}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Arial.png}\\
+		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Arial_ideal.png}
+	    \end{figure}
+	\end{frame}
+
+	\frametitle{Identificaci\'on Humana vs. Observador Ideal}
+	    \begin{figure}
+		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Kunstler.png}\\
+		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Kunstler_ideal.png}
 	    \end{figure}
 	\end{frame}
 
