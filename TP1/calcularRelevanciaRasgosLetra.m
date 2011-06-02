@@ -47,7 +47,7 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     rr9         = (sum(sum(mr9))/sum(sum(rasgosLetra.mr9)));
     rr10        = (sum(sum(mr10))/sum(sum(rasgosLetra.mr10)));
     rr11        = (sum(sum(mr11))/sum(sum(rasgosLetra.mr11)));
-    
+
     % Generación de resultados (Rasgos relevante o no, importancia relativa)
     relevanciaRasgos.r1  = struct('relevante',rr1,'importancia',ir1);
     relevanciaRasgos.r2  = struct('relevante',rr2,'importancia',ir2);
@@ -60,5 +60,5 @@ function relevanciaRasgos = calcularRelevanciaRasgosLetra(mascara,rasgosLetra)
     relevanciaRasgos.r9  = struct('relevante',rr9,'importancia',ir9);
     relevanciaRasgos.r10 = struct('relevante',rr10,'importancia',ir10);
     relevanciaRasgos.r11 = struct('relevante',rr11,'importancia',ir11);
-
+    
 end

@@ -1,7 +1,10 @@
-% ## CALCULAR IMPORTANCIA RELATIVA DE RASGOS POR TIPOGRAF√çA-MAY/MIN ## 
+% ## CALCULAR IMPORTANCIA RELATIVA DE RASGOS POR TIPOGRAF√?A-MAY/MIN ## 
 
 if ~(exist('aparicionesRasgos','var'))
     load('rasgos.mat');
+end
+if ~(exist('rasgosLetras','var'))
+    load ('relevanciaRasgos.mat');
 end
 
 impRelativaRasgos = zeros(3,2,11);

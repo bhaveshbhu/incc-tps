@@ -2,13 +2,29 @@ sujetos = 2;
 datosNoConocidas = [];
 datosConocidas = [];
 datosConocidasVistas = [];
+UMBRAL = 0.4;
 for sujetos = 1:6
-    datosNoConocidas = [datosNoConocidas, [datosPorFamosas(sujetos).noConocidas(:).burbujas]./log([datosPorFamosas(sujetos).noConocidas(:).complejidad])];
-    datosConocidas = [datosConocidas, [datosPorFamosas(sujetos).conocidas(:).burbujas]./log([datosPorFamosas(sujetos).conocidas(:).complejidad])];
-    datosConocidasVistas = [datosConocidasVistas, [datosPorFamosas(sujetos).conocidasVistas(:).burbujas]./log([datosPorFamosas(sujetos).conocidasVistas(:).complejidad])];
+%     datosNoConocidas = [datosNoConocidas, [datosPorFamosas(sujetos).noConocidas(:).burbujas]./log([datosPorFamosas(sujetos).noConocidas(:).complejidad])];
+      for i = 1:length(datosPorFamosas(sujetos).noConocidas)
+          if datosPorFamosas(sujetos).noConocidas(i).accuracy > UMBRAL
+            datosNoConocidas = [datosNoConocidas, [datosPorFamosas(sujetos).noConocidas(i).burbujas]./log([datosPorFamosas(sujetos).noConocidas(i).complejidad])];
+          end
+      end
+%     datosConocidas = [datosConocidas, [datosPorFamosas(sujetos).conocidas(:).burbujas]./log([datosPorFamosas(sujetos).conocidas(:).complejidad])];
+      for i = 1:length(datosPorFamosas(sujetos).conocidas)
+          if datosPorFamosas(sujetos).conocidas(i).accuracy > UMBRAL
+            datosConocidas = [datosConocidas, [datosPorFamosas(sujetos).conocidas(i).burbujas]./log([datosPorFamosas(sujetos).conocidas(i).complejidad])];
+          end
+      end
+%     datosConocidasVistas = [datosConocidasVistas, [datosPorFamosas(sujetos).conocidasVistas(:).burbujas]./log([datosPorFamosas(sujetos).conocidasVistas(:).complejidad])];
+      for i = 1:length(datosPorFamosas(sujetos).conocidasVistas)
+          if datosPorFamosas(sujetos).conocidasVistas(i).accuracy > UMBRAL
+            datosConocidasVistas = [datosConocidasVistas, [datosPorFamosas(sujetos).conocidasVistas(i).burbujas]./log([datosPorFamosas(sujetos).conocidasVistas(i).complejidad])];
+          end
+      end
 end
-bin = (1:40)/8;
 
+bin = (0:20)/4;
 [n1, noConocidas] = hist(datosNoConocidas,bin); 
 [n2, conocidas] = hist(datosConocidas, bin); 
 [n3, conocidasVistas] = hist(datosConocidasVistas,bin); 
