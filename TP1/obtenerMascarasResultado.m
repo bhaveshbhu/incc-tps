@@ -6,7 +6,7 @@ function mascarasResultado = obtenerMascarasResultado(mPlanos)
 	  for tipo=1:3
 		  for may=1:2
 			  [m1 m2 m3 m4 m5] = calcularPlano(letra,tipo,may,mPlanos);
-			  mascarasResultado(letra,tipo,may) = struct('mascaraResultante',(m1+m2+m3+m4+m5)/5, 'mascara1',m1, 'mascara2', m2, 'mascara3', m3, 'mascara4', m4, 'mascara5', m5);			  
+			  mascarasResultado(letra,tipo,may) = struct('mascaraResultante',max(cat(3,m1,m2,m3,m4,m5),[],3), 'mascara1',m1, 'mascara2', m2, 'mascara3', m3, 'mascara4', m4, 'mascara5', m5);			  
 		  end
 	  end
   end
