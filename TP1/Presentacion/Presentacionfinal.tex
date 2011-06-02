@@ -298,19 +298,28 @@
 	    \end{figure}
 	\end{frame}
 
+	\begin{frame}
+	\frametitle{Rasgos Detectados `n'}
+	    \begin{columns}[t]
+	    \column{1\textwidth}
+		\begin{figure}
+		    \includegraphics[width=\textwidth]{graficos/mascarasResultantes_n_1_min.png}
+		    %\caption{Distribución de Tiempos de Respuesta}
+		\end{figure}
+	    \end{columns}
+	\end{frame}
+
+
  	\begin{frame}
-	\frametitle{Rasgos Detectados}
-	\begin{columns}[t]
-	\column{1\textwidth}
-	\begin{figure}
-	    \includegraphics[width=\textwidth]{graficos/mascarasResultantes_enie_1_min.png}
-	    %\caption{Distribución de Tiempos de Respuesta}
-	\end{figure}
-
-	\column{.60\textwidth}
-
-      \end{columns}
-\end{frame}
+	\frametitle{Rasgos Detectados `\~n'}
+	    \begin{columns}[t]
+	    \column{1\textwidth}
+		\begin{figure}
+		    \includegraphics[width=\textwidth]{graficos/mascarasResultantes_enie_1_min.png}
+		    %\caption{Distribución de Tiempos de Respuesta}
+		\end{figure}
+	    \end{columns}
+	\end{frame}
 
  	\begin{frame}
 	\frametitle{Rasgos para `n' vs. `\~n'}
@@ -327,25 +336,23 @@
 	    \begin{tabular}[t]{|r|r|r|r|r|}
 		  \hline
 		  \textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
-		    r1  & Terminaciones	& 0.89706 & 0.23431\\ \hline
-		    r5  & Vertical 	& 0.89859 & 0.40845\\ \hline
-		    r7  & Intersecciones & 0.93421 & 0.18182\\ \hline
-		    r11 & Cur.Ab.Abajo  & 0.85625 & 0.17542\\ \hline
+		    r1  & Terminaciones	& 0.93627 & 0.24269\\ \hline
+		    r5  & Vertical 		& 0.90141 & 0.40661\\ \hline
+		    r7  & Intersecciones 	& 0.94079 & 0.18170\\ \hline
+		    r11  & Cur.Ab.Abajo  	& 0.83125 & 0.16900\\ \hline
 	    \end{tabular}
-	    %\caption{Rasgos para Sujetos}
 	  \end{table}
 	  \begin{table}
 	  \small	
 	    \begin{tabular}[t]{|r|r|r|r|r|}
 		  \hline
 		  \textbf{Id}  & \textbf{Rasgo} & \textbf{Inclusi\'on} & \textbf{Imp.Relativa} \\ \hline
-		    r1  & Terminaciones	& 0.81771 & 0.19146\\ \hline
-		    r5  & Vertical 		& 0.59674 & 0.31220\\ \hline
-		    r7  & Intersecciones 	& 0.97468 & 0.18780\\ \hline
-		    r9  & Moño 	 	& 0.96226 & 0.18659\\ \hline
-		    r11  & Cur.Ab.Abajo  	& 0.68966 & 0.12195\\ \hline
+		    r1  & Terminaciones	& 0.85417 & 0.19159\\ \hline
+		    r5  & Vertical 	& 0.64103 & 0.32126\\ \hline
+		    r7  & Intersecciones & 0.98734 & 0.18224\\ \hline
+		    r7  & Intersecciones & 1.00000 & 0.18575\\ \hline
+		    r11 & Cur.Ab.Abajo  & 0.70345 & 0.11916\\ \hline
 	    \end{tabular}
-	    %\caption{Rasgos para Observador Ideal}
 	  \end{table}
 	\end{columns}
 
@@ -384,6 +391,7 @@
 	    \item Cantidad de ensayos por persona necesarias debe ser grande ($162000 \approx 4$ días de experimentación continua\alert{!})
 	    \item Los descansos entre bloques fueron útiles para reducir el cansancio y el aburrimiento
 	    \item Guardar mejor los datos obtenidos, para acelerar el procesamiento (500MB/sujeto)
+	    \item Realizar las encuestas en forma electrónica
 	    \end{itemize}
 	\end{frame}
 
@@ -393,9 +401,12 @@
 	  \begin{block}{Temas Pendientes}
 	    \begin{itemize}
 		\item Aumentar la cantidad de ensayos por persona, y dividirlo en sesiones
-		\item Cantidad de burbujas inicial en función de complejidad de cada letra
-		\item Ajuste de cantidad de burbujas ascendente y descendente
-		\item Preguntar por letras conocidas mostrando ejemplos para cada una de ellas. 
+		\item Mejorar el ajuste de la Cant. de Burbujas vs. Log(Complejidad)
+		\begin{itemize}
+		      \item Cantidad de burbujas inicial en función de complejidad de cada letra
+		      \item Ajuste de cantidad de burbujas ascendente y descendente
+		\end{itemize}
+		\item Preguntar por letras conocidas mostrando ejemplos para cada una de ellas (encuesta)
 	    \end{itemize}
 	  \end{block} \pause
 
@@ -443,6 +454,7 @@
 	    \end{figure}
 	\end{frame}
 
+ 	\begin{frame}
 	\frametitle{Identificaci\'on Humana vs. Observador Ideal}
 	    \begin{figure}
 		\includegraphics[width=\textwidth]{graficos/importanciaRelativa_Kunstler.png}\\

@@ -75,43 +75,50 @@
 \headcommand {\beamer@framepages {42}{42}}
 \headcommand {\slideentry {4}{0}{15}{43/43}{}{3}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\sectionentry {5}{Conclusiones}{44}{Conclusiones}{3}}
-\headcommand {\beamer@sectionpages {36}{43}}
-\headcommand {\beamer@subsectionpages {36}{43}}
-\headcommand {\slideentry {5}{0}{16}{44/44}{}{3}}
+\headcommand {\slideentry {4}{0}{16}{44/44}{}{3}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\sectionentry {6}{Lecciones Aprendidas}{45}{Lecciones Aprendidas}{3}}
-\headcommand {\beamer@sectionpages {44}{44}}
-\headcommand {\beamer@subsectionpages {44}{44}}
-\headcommand {\slideentry {6}{0}{17}{45/45}{}{3}}
+\headcommand {\sectionentry {5}{Conclusiones}{45}{Conclusiones}{3}}
+\headcommand {\beamer@sectionpages {36}{44}}
+\headcommand {\beamer@subsectionpages {36}{44}}
+\headcommand {\slideentry {5}{0}{17}{45/45}{}{3}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\sectionentry {7}{Pendientes y Trabajos Futuros}{46}{Pendientes y Trabajos Futuros}{3}}
+\headcommand {\sectionentry {6}{Lecciones Aprendidas}{46}{Lecciones Aprendidas}{3}}
 \headcommand {\beamer@sectionpages {45}{45}}
 \headcommand {\beamer@subsectionpages {45}{45}}
-\headcommand {\slideentry {7}{0}{18}{46/47}{}{3}}
-\headcommand {\beamer@framepages {46}{47}}
-\headcommand {\slideentry {7}{0}{19}{48/48}{}{3}}
-\headcommand {\beamer@framepages {48}{48}}
-\headcommand {\partentry {Ap\'{e}ndice}{4}}
-\headcommand {\beamer@partpages {35}{48}}
-\headcommand {\beamer@sectionpages {46}{48}}
-\headcommand {\beamer@subsectionpages {46}{48}}
-\headcommand {\beamer@appendixpages {49}}
-\headcommand {\sectionentry {8}{Ap\'{e}ndice}{49}{Ap\'{e}ndice}{4}}
-\headcommand {\beamer@sectionpages {49}{48}}
-\headcommand {\beamer@subsectionpages {49}{48}}
-\headcommand {\beamer@subsectionentry {4}{8}{1}{49}{Gr\'aficos s\'olo con Datos de Sujetos}}\headcommand {\beamer@subsectionpages {49}{48}}
-\headcommand {\slideentry {8}{1}{1}{49/49}{Gr\'aficos s\'olo con Datos de Sujetos}{4}}
+\headcommand {\slideentry {6}{0}{18}{46/46}{}{3}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\sectionentry {7}{Pendientes y Trabajos Futuros}{47}{Pendientes y Trabajos Futuros}{3}}
+\headcommand {\beamer@sectionpages {46}{46}}
+\headcommand {\beamer@subsectionpages {46}{46}}
+\headcommand {\slideentry {7}{0}{19}{47/48}{}{3}}
+\headcommand {\beamer@framepages {47}{48}}
+\headcommand {\slideentry {7}{0}{20}{49/49}{}{3}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {8}{1}{2}{50/50}{Gr\'aficos s\'olo con Datos de Sujetos}{4}}
+\headcommand {\partentry {Ap\'{e}ndice}{4}}
+\headcommand {\beamer@partpages {35}{49}}
+\headcommand {\beamer@sectionpages {47}{49}}
+\headcommand {\beamer@subsectionpages {47}{49}}
+\headcommand {\beamer@appendixpages {50}}
+\headcommand {\sectionentry {8}{Ap\'{e}ndice}{50}{Ap\'{e}ndice}{4}}
+\headcommand {\beamer@sectionpages {50}{49}}
+\headcommand {\beamer@subsectionpages {50}{49}}
+\headcommand {\beamer@subsectionentry {4}{8}{1}{50}{Gr\'aficos s\'olo con Datos de Sujetos}}\headcommand {\beamer@subsectionpages {50}{49}}
+\headcommand {\slideentry {8}{1}{1}{50/50}{Gr\'aficos s\'olo con Datos de Sujetos}{4}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\beamer@subsectionentry {4}{8}{2}{51}{Tests de Significatividad}}\headcommand {\beamer@subsectionpages {49}{50}}
-\headcommand {\slideentry {8}{2}{1}{51/51}{Tests de Significatividad}{4}}
+\headcommand {\slideentry {8}{1}{2}{51/51}{Gr\'aficos s\'olo con Datos de Sujetos}{4}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {8}{2}{2}{52/52}{Tests de Significatividad}{4}}
+\headcommand {\beamer@subsectionentry {4}{8}{2}{52}{Identificaci\'on Humana vs. Observador Ideal}}\headcommand {\beamer@subsectionpages {50}{51}}
+\headcommand {\slideentry {8}{2}{1}{52/52}{Identificaci\'on Humana vs. Observador Ideal}{4}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\beamer@partpages {49}{52}}
-\headcommand {\beamer@subsectionpages {51}{52}}
-\headcommand {\beamer@sectionpages {49}{52}}
-\headcommand {\beamer@documentpages {52}}
-\headcommand {\def \inserttotalframenumber {32}}
+\headcommand {\slideentry {8}{2}{2}{53/53}{Identificaci\'on Humana vs. Observador Ideal}{4}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\beamer@subsectionentry {4}{8}{3}{54}{Tests de Significatividad}}\headcommand {\beamer@subsectionpages {52}{53}}
+\headcommand {\slideentry {8}{3}{1}{54/54}{Tests de Significatividad}{4}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {8}{3}{2}{55/55}{Tests de Significatividad}{4}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@partpages {50}{55}}
+\headcommand {\beamer@subsectionpages {54}{55}}
+\headcommand {\beamer@sectionpages {50}{55}}
+\headcommand {\beamer@documentpages {55}}
+\headcommand {\def \inserttotalframenumber {35}}
