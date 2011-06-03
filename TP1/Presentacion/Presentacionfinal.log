@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  2 JUN 2011 16:24
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  2 JUN 2011 17:16
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -863,12 +863,12 @@ File: graficos/elGrito.jpg Graphic file (type jpg)
 ] [8
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 80.
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 80.
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -915,7 +915,7 @@ File: graficos/fiset1.png Graphic file (type png)
 File: graficos/fiset5.png Graphic file (type png)
 
 <use graficos/fiset5.png>
-Overfull \vbox (19.82407pt too high) detected at line 144
+Overfull \vbox (19.82407pt too high) detected at line 145
  []
 
 [15
@@ -926,7 +926,7 @@ File: graficos/fiset1.png Graphic file (type png)
 File: graficos/fiset5.png Graphic file (type png)
 
 <use graficos/fiset5.png>
-Overfull \vbox (19.82407pt too high) detected at line 144
+Overfull \vbox (19.82407pt too high) detected at line 145
  []
 
 [16
@@ -936,7 +936,7 @@ File: graficos/fiset1.png Graphic file (type png)
  <use graficos/fiset1.png>
 File: graficos/fiset5.png Graphic file (type png)
  <use graficos/fiset5.png>
-Overfull \vbox (19.82407pt too high) detected at line 144
+Overfull \vbox (19.82407pt too high) detected at line 145
  []
 
 [17
@@ -960,7 +960,7 @@ File: graficos/letras.png Graphic file (type png)
 File: graficos/complejidadesBoxplot.png Graphic file (type png)
 
 <use graficos/complejidadesBoxplot.png>
-Overfull \vbox (6.33421pt too high) detected at line 178
+Overfull \vbox (6.33421pt too high) detected at line 179
  []
 
 [23
@@ -971,7 +971,7 @@ File: graficos/letras.png Graphic file (type png)
 <use graficos/letras.png>
 File: graficos/complejidadesBoxplot.png Graphic file (type png)
  <use graficos/complejidadesBoxplot.png>
-Overfull \vbox (6.33421pt too high) detected at line 178
+Overfull \vbox (6.33421pt too high) detected at line 179
  []
 
 [24
@@ -980,7 +980,7 @@ Overfull \vbox (6.33421pt too high) detected at line 178
 File: graficos/REFERENCIA.png Graphic file (type png)
 
 <use graficos/REFERENCIA.png>
-Overfull \vbox (2.34377pt too high) detected at line 190
+Overfull \vbox (2.34377pt too high) detected at line 191
  []
 
 [25
@@ -1078,7 +1078,7 @@ aRelativa_Famosas_ideal.png (PNG copy)>] [45
 ]
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 425.
+(hyperref)                setting the option has no effect on input line 426.
 
 [49
 
@@ -1102,7 +1102,7 @@ File: graficos/importanciaRelativa_Arial.png Graphic file (type png)
 <graficos/importanciaRelativa_Arial_ideal.png, id=1589, 1023.825pt x 325.215pt>
 File: graficos/importanciaRelativa_Arial_ideal.png Graphic file (type png)
 <use graficos/importanciaRelativa_Arial_ideal.png>
-Overfull \vbox (2.95885pt too high) detected at line 455
+Overfull \vbox (2.95885pt too high) detected at line 456
  []
 
 [52
@@ -1122,17 +1122,17 @@ File: graficos/importanciaRelativa_Kunstler_ideal.png Graphic file (type png)
 iaRelativa_Kunstler_ideal.png (PNG copy)>] [54
 
 ]
-Overfull \hbox (12.3383pt too wide) in paragraph at lines 576--576
+Overfull \hbox (12.3383pt too wide) in paragraph at lines 577--577
  [] 
  []
 
 
-Overfull \hbox (12.3383pt too wide) in paragraph at lines 576--576
+Overfull \hbox (12.3383pt too wide) in paragraph at lines 577--577
  [] 
  []
 
 
-Overfull \hbox (9.68202pt too wide) in paragraph at lines 576--576
+Overfull \hbox (9.68202pt too wide) in paragraph at lines 577--577
  [] 
  []
 
@@ -1157,7 +1157,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  14459 strings out of 495061
  252383 string characters out of 1182622
- 365057 words of memory out of 3000000
+ 366057 words of memory out of 3000000
  17105 multiletter control sequences out of 15000+50000
  12614 words of font info for 47 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -1172,7 +1172,7 @@ fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/s
 hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Presentacionfinal.pdf (55 pages, 5666345 bytes).
+Output written on Presentacionfinal.pdf (55 pages, 5666656 bytes).
 PDF statistics:
  1770 PDF objects out of 2073 (max. 8388607)
  130 named destinations out of 1000 (max. 500000)
