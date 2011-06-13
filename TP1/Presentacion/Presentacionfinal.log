@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  2 JUN 2011 17:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.4)  2 JUN 2011 23:01
 entering extended mode
  %&-line parsing enabled.
 **Presentacionfinal.tex
@@ -1078,7 +1078,7 @@ aRelativa_Famosas_ideal.png (PNG copy)>] [45
 ]
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 426.
+(hyperref)                setting the option has no effect on input line 428.
 
 [49
 
@@ -1102,7 +1102,7 @@ File: graficos/importanciaRelativa_Arial.png Graphic file (type png)
 <graficos/importanciaRelativa_Arial_ideal.png, id=1589, 1023.825pt x 325.215pt>
 File: graficos/importanciaRelativa_Arial_ideal.png Graphic file (type png)
 <use graficos/importanciaRelativa_Arial_ideal.png>
-Overfull \vbox (2.95885pt too high) detected at line 456
+Overfull \vbox (2.95885pt too high) detected at line 458
  []
 
 [52
@@ -1122,21 +1122,40 @@ File: graficos/importanciaRelativa_Kunstler_ideal.png Graphic file (type png)
 iaRelativa_Kunstler_ideal.png (PNG copy)>] [54
 
 ]
-Overfull \hbox (12.3383pt too wide) in paragraph at lines 577--577
+Overfull \hbox (9.54367pt too wide) in paragraph at lines 579--579
  [] 
  []
 
 
-Overfull \hbox (12.3383pt too wide) in paragraph at lines 577--577
+Overfull \hbox (9.54367pt too wide) in paragraph at lines 579--579
  [] 
  []
 
 
-Overfull \hbox (9.68202pt too wide) in paragraph at lines 577--577
+Overfull \hbox (6.88739pt too wide) in paragraph at lines 579--579
  [] 
  []
 
 [55
+
+] [56
+
+]
+Overfull \hbox (6.88739pt too wide) in paragraph at lines 689--689
+ [] 
+ []
+
+
+Overfull \hbox (8.65825pt too wide) in paragraph at lines 689--689
+ [] 
+ []
+
+
+Overfull \hbox (6.88739pt too wide) in paragraph at lines 689--689
+ [] 
+ []
+
+[57
 
 ]
 \tf@nav=\write5
@@ -1155,10 +1174,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 14459 strings out of 495061
- 252383 string characters out of 1182622
+ 14467 strings out of 495061
+ 252457 string characters out of 1182622
  366057 words of memory out of 3000000
- 17105 multiletter control sequences out of 15000+50000
+ 17109 multiletter control sequences out of 15000+50000
  12614 words of font info for 47 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,57p,352b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1172,9 +1191,9 @@ fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/s
 hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-
 texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Presentacionfinal.pdf (55 pages, 5666656 bytes).
+Output written on Presentacionfinal.pdf (57 pages, 5683523 bytes).
 PDF statistics:
- 1770 PDF objects out of 2073 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 1827 PDF objects out of 2073 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

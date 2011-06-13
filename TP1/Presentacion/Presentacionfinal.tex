@@ -413,12 +413,14 @@
 
 	  \begin{block}{Trabajo Futuro}
 	   \begin{itemize}
-		\item Incorporación del tiempo como una dimensi\'on más (an\'alisis espacio-temporal)
-		\item Bubbles para habla
+		\item Incorporar al tiempo como una dimensi\'on (an\'alisis espacio-temporal)
+		\item Usar Bubbles para habla
 		    \begin{itemize}
 		      \item rasgos relevantes para el reconocimiento de hablantes
 		      \item detección de rasgos para expresividad o emociones
 		    \end{itemize}
+		\item Utilizar prob. de error de tipeo para prever errores (\alert{new})
+		\item Utilizar valor de respuestas erróneas (\alert{new})
 	    \end{itemize}                     
 	  \end{block}	    
 	\end{frame}
@@ -526,52 +528,162 @@
 	\begin{table}
 	  \begin{tabular}[t]{|r|r|r|r|r|}
 	    \hline
-		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Media} & \textbf{Desviación típ.} & \textbf{Error típ. de la media} \\ \hline
 		No Conocida & 1439 & 0.8764 & 0.3082 & 0.0081 \\ \hline
 		Conocida & 769 & 0.8495 & 0.2874 & 0.0104 \\ \hline
 	  \end{tabular}
 	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
 	    \hline
-		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
-		  & F & Sig. & t & gl & Sig. (bil.) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% conf. para la dif.} \\ \hline
-		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
-		Varianzas iguales & 2.797 & 0.095 & 1.998 & 2206 & 0.046 & 0.0269 & 0.0134 & 0.0005 & 0.0532 \\ \hline
-		Varianzas no iguales &   &   & 2.041 & 1665.884 & 0.041 & 0.0269 & 0.0132 & 0.001 & 0.0527 \\ \hline
+		  & \multicolumn{2}{|c|}{\textbf{Prueba de Levene}} &  \multicolumn{7}{|c|}{\textbf{Prueba T para la igualdad de medias}} \\ \hline
+		  & \textbf{F} & \textbf{Sig.} & \textbf{t} & \textbf{gl} & \textbf{Sig. (bil.)} & \textbf{Dif. de medias} & \textbf{Error típ. de la dif.} & \multicolumn{2}{|c|}{\textbf{95\% conf. para la dif.}} \\ \hline
+		  &   &   &   &   &   &   &   & \textbf{Inferior} & \textbf{Superior} \\ \hline
+		Varianzas ig. & 2.797 & 0.095 & 1.998 & 2206 & 0.046 & 0.0269 & 0.0134 & 0.0005 & 0.0532 \\ \hline
+		Varianzas no ig. &   &   & 2.041 & 1665.884 & 0.041 & 0.0269 & 0.0132 & 0.001 & 0.0527 \\ \hline
 	  \end{tabular}
 	\end{table}
 
 	\begin{table}
 	  \begin{tabular}[t]{|r|r|r|r|r|}
 	    \hline
-		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Media} & \textbf{Desviación típ.} & \textbf{Error típ. de la media} \\ \hline
 		Conocida  & 769 & 0.8495 & 0.2874 & 0.0104 \\ \hline
 		Conocida Vista & 660 & 0.796 & 0.2779 & 0.0108 \\ \hline
 	  \end{tabular}
 	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
 	    \hline
-		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
-		  & F & Sig. & t & gl & Sig. (bil.) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% conf. para la dif.} \\ \hline
-		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
-	    Varianzas iguales & 2.858 & 0.091 & 3.558 & 1427 & 0 & 0.0534 & 0.015 & 0.024 & 0.0829 \\ \hline
-	    Varianzas no iguales &   &   & 3.567 & 1406.885 & 0 & 0.0534 & 0.015 & 0.0241 & 0.0828 \\ \hline
+		  & \multicolumn{2}{|c|}{\textbf{Prueba de Levene}} &  \multicolumn{7}{|c|}{\textbf{Prueba T para la igualdad de medias}} \\ \hline
+		  & \textbf{F} & \textbf{Sig.} & \textbf{t} & \textbf{gl} & \textbf{Sig. (bil.)} & \textbf{Dif. de medias} & \textbf{Error típ. de la dif.} & \multicolumn{2}{|c|}{\textbf{95\% conf. para la dif.}} \\ \hline
+		  &   &   &   &   &   &   &   & \textbf{Inferior} & \textbf{Superior} \\ \hline
+	    Varianzas ig. & 2.858 & 0.091 & 3.558 & 1427 & 0 & 0.0534 & 0.015 & 0.024 & 0.0829 \\ \hline
+	    Varianzas no ig. &   &   & 3.567 & 1406.885 & 0 & 0.0534 & 0.015 & 0.0241 & 0.0828 \\ \hline
 	  \end{tabular}
 	\end{table}
 
 	\begin{table}
 	  \begin{tabular}[t]{|r|r|r|r|r|}
 	    \hline
-		GRUPO & N & Media & Desviación típ. & Error típ. de la media \\ \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Media} & \textbf{Desviación típ.} & \textbf{Error típ. de la media} \\ \hline
 		No Conocida & 1439 & 0.8764 & 0.3082 & 0.0081 \\ \hline
 		Conocida Vista & 660 & 0.796 & 0.2779 & 0.0108 \\ \hline
 
 	  \end{tabular}
 	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
 	    \hline
-		  & \multicolumn{2}{|c|}{Prueba de Levene} &  \multicolumn{7}{|c|}{Prueba T para la igualdad de medias} \\ \hline
-		  & F & Sig. & t & gl & Sig. (bil.) & Dif. de medias & Error típ. de la dif. & \multicolumn{2}{|c|}{95\% conf. para la dif.} \\ \hline
-		  &   &   &   &   &   &   &   & Inferior & Superior \\ \hline
-	Varianzas iguales & 11.449 & 0.001 & 5.714 & 2097 & 0 & 0.0803 & 0.0141 & 0.0527 & 0.1079 \\ \hline
-	Varianzas no iguales &   &   & 5.937 & 1406.88 & 0 & 0.0803 & 0.0135 & 0.0538 & 0.1068 \\ \hline
+		  & \multicolumn{2}{|c|}{\textbf{Prueba de Levene}} &  \multicolumn{7}{|c|}{\textbf{Prueba T para la igualdad de medias}} \\ \hline
+		  & \textbf{F} & \textbf{Sig.} & \textbf{t} & \textbf{gl} & \textbf{Sig. (bil.)} & \textbf{Dif. de medias} & \textbf{Error típ. de la dif.} & \multicolumn{2}{|c|}{\textbf{95\% conf. para la dif.}} \\ \hline
+		  &   &   &   &   &   &   &   & \textbf{Inferior} & \textbf{Superior} \\ \hline
+	Varianzas ig. & 11.449 & 0.001 & 5.714 & 2097 & 0 & 0.0803 & 0.0141 & 0.0527 & 0.1079 \\ \hline
+	Varianzas no ig. &   &   & 5.937 & 1406.88 & 0 & 0.0803 & 0.0135 & 0.0538 & 0.1068 \\ \hline
+	  \end{tabular}
+	\end{table}
+      \end{frame}
+
+      \begin{frame}
+      \tiny
+	  \frametitle{Burbujas vs. Complejidad:\\Test de Mann-Whitney}
+	\begin{table}
+	  \begin{tabular}[t]{|l|l|r|r|r|}
+	    \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		No Conocidas & 83 & 82.95 & 6885 \\ \hline
+		Conocidas & 74 & 74.57 & 5518 \\ \hline
+		\textit{Total} & 157 &   &   \\ \hline
+	  \end{tabular}   \begin{tabular}[t]{|l|r|}
+	    \hline
+		& \textbf{T\_RESP} \\ \hline
+		  U de Mann-Whitney & 2743 \\ \hline
+		  W de Wilcoxon & 5518 \\ \hline
+		  Z & -1.154 \\ \hline
+		  Sig. asintót. (bilateral) & 0.249 \\ \hline
+	  \end{tabular}
+	\end{table}
+
+	\begin{table}
+	  \begin{tabular}[t]{|l|r|r|r|}
+	    \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		Conocidas & 74 & 76.95 & 5694.5 \\ \hline
+		Conocidas Vistas & 81 & 78.96 & 6395.5 \\ \hline
+		\textit{Total} & 155 &   &   \\ \hline
+	  \end{tabular}   \begin{tabular}[t]{|l|r|}
+	    \hline
+		& \textbf{T\_RESP} \\ \hline
+		U de Mann-Whitney & 2919.5 \\ \hline
+		W de Wilcoxon & 5694.5 \\ \hline
+		Z & -0.278 \\ \hline
+		Sig. asintót. (bilateral) & 0.781 \\ \hline
+	  \end{tabular}
+	\end{table}
+
+	\begin{table}
+	  \begin{tabular}[t]{|l|l|r|r|r|}
+	    \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Rango promedio} & \textbf{Suma de rangos} \\ \hline
+		No Conocidas & 83 & 83.99 & 6971 \\ \hline
+		Conocidas Vistas & 81 & 80.98 & 6559 \\ \hline
+		\textit{Total} & 164 &   &   \\ \hline
+	  \end{tabular}   \begin{tabular}[t]{|l|r|}
+	    \hline
+		& \textbf{T\_RESP} \\ \hline
+		U de Mann-Whitney & 3238 \\ \hline
+		W de Wilcoxon & 6559 \\ \hline
+		Z & -0.406 \\ \hline
+		Sig. asintót. (bilateral) & 0.685 \\ \hline
+	  \end{tabular}
+	\end{table}
+      \end{frame}
+
+      \begin{frame}
+      \tiny
+	  \frametitle{Burbujas vs. Complejidad:\\Test de Student}
+	\begin{table}
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+	    \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Media} & \textbf{Desviación típ.} & \textbf{Error típ. de la media} \\ \hline
+		No Conocida &  83 & 2.0634 & 0.98573 & 0.1082 \\ \hline
+		Conocida & 74 & 1.851 & 0.78591 & 0.09136 \\ \hline
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+	    \hline
+		  & \multicolumn{2}{|c|}{\textbf{Prueba de Levene}} &  \multicolumn{7}{|c|}{\textbf{Prueba T para la igualdad de medias}} \\ \hline
+		  & \textbf{F} & \textbf{Sig.} & \textbf{t} & \textbf{gl} & \textbf{Sig. (bil.)} & \textbf{Dif. de medias} & \textbf{Error típ. de la dif.} & \multicolumn{2}{|c|}{\textbf{95\% conf. para la dif.}} \\ \hline
+		  &   &   &   &   &   &   &   & \textbf{Inferior} & \textbf{Superior} \\ \hline
+		Varianzas ig. & 5.116 & 0.025 & 1.481 & 155 & 0.141 & 0.2125 & 0.14344 & -0.07089 & 0.49582 \\ \hline
+		Varianzas no ig. &   &   &  1.5 & 153.157 & 0.136 & 0.2125 & 0.14161 & -0.0673 & 0.49223 \\ \hline
+	  \end{tabular}
+	\end{table}
+
+	\begin{table}
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+	    \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Media} & \textbf{Desviación típ.} & \textbf{Error típ. de la media} \\ \hline
+		Conocida  & 74 & 1.851 & 0.78591 & 0.09136\\ \hline
+		Conocida Vista & 81 & 1.9565 & 0.86447 & 0.09605\\ \hline
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+	    \hline
+		  & \multicolumn{2}{|c|}{\textbf{Prueba de Levene}} &  \multicolumn{7}{|c|}{\textbf{Prueba T para la igualdad de medias}} \\ \hline
+		  & \textbf{F} & \textbf{Sig.} & \textbf{t} & \textbf{gl} & \textbf{Sig. (bil.)} & \textbf{Dif. de medias} & \textbf{Error típ. de la dif.} & \multicolumn{2}{|c|}{\textbf{95\% conf. para la dif.}} \\ \hline
+		  &   &   &   &   &   &   &   & \textbf{Inferior} & \textbf{Superior} \\ \hline
+		  Varianzas ig. & 0 & 0.995 & -0.793 & 153 & 0.429 & -0.1055 & 0.13314 & -0.36855 & 0.15749 \\ \hline
+		  Varianzas no ig. &   &   & -0.796 & 152.997 & 0.427 & -0.1055 & 0.13256 & -0.36742 & 0.15635 \\ \hline
+	  \end{tabular}
+	\end{table}
+
+	\begin{table}
+	  \begin{tabular}[t]{|r|r|r|r|r|}
+	    \hline
+		\textbf{GRUPO} & \textbf{N} & \textbf{Media} & \textbf{Desviación típ.} & \textbf{Error típ. de la media} \\ \hline
+		No Conocida & 196 & 2.2022 & 0.89102 & 0.06364\\ \hline
+		Conocida Vista 120 & 2.1637 & 0.87485 & 0.07986\\ \hline
+	  \end{tabular}
+	  \begin{tabular}[t]{|l|r|r|r|r|r|r|r|r|r|}
+	    \hline
+		  & \multicolumn{2}{|c|}{\textbf{Prueba de Levene}} &  \multicolumn{7}{|c|}{\textbf{Prueba T para la igualdad de medias}} \\ \hline
+		  & \textbf{F} & \textbf{Sig.} & \textbf{t} & \textbf{gl} & \textbf{Sig. (bil.)} & \textbf{Dif. de medias} & \textbf{Error típ. de la dif.} & \multicolumn{2}{|c|}{\textbf{95\% conf. para la dif.}} \\ \hline
+		  &   &   &   &   &   &   &   & \textbf{Inferior} & \textbf{Superior} \\ \hline
+		  Varianzas ig. & 0.764 & 0.383 & 0.376 & 314 & 0.708 & 0.0385 & 0.10257 & -0.1633 & 0.24033 \\ \hline
+		  Varianzas no ig. &   &   & 0.377 & 255.308 & 0.706 & 0.0385 & 0.10212 & -0.16259 & 0.23962 \\ \hline
 	  \end{tabular}
 	\end{table}
       \end{frame}
