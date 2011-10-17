@@ -1,0 +1,53 @@
+TEMA:
+
+Análisis de estados de ánimo en tweets
+
+Descripción:
+
+Cosas a hacer/medir
+
++ Cantidad de tweets (en base a una consulta) por unidad de tiempo.
++ Estadísticas de tweets
+	- Longitud mínima/máxima (carácteres y palabras)
+	- Longitud modal/promedio  (carácteres y palabras)
+	- Hashtags más usados
++ Polaridad dominante
+	- Cantidad de tweets con polaridad positiva
+	- Cantidad de tweets con polaridad negativa
+	- Cantidad de tweets con polaridad neutral
++ El análisis de arriba por región geográfica (zonas)
++ El análisis de arriba por hashtag (temas)
++ Estado de ánimo (ver trabajo Pulse of a Nation en EEUU).
+	- Armar curva en base a tweets y su polaridad
++ Tendencias en el estado de ánimo (derivada)
++ Cambios en las tendencias (segunda derivada)
+
+Cosas a identificar en un texto (posiblemente útiles para hacer estadísticas)
++ Texto puro
+	- Nombres propios
+	- POS Tagging
++ Hashtags
++ Palabras clave (RT, MT, etc.)
++ Referencias (@CFK_Argentina)
+
+Cosas a resolver:
+
++ Retweets (RT) que cambian el sentido de lo que dicho (por ejemplo: "RT Me siento re triste por River en la B :( // Se lo merecían"
+	- Resolución: Eliminarlos 
++ Modified Retweet (MT)
+	- Resolución: Eliminarlos 
+
+
+Hipótesis:
+
+Se puede predecir el estado de ánimo de una zona en un momento T, a partir de los tweets de en la ventana T-N..T (averigu.
+Los eventos con polaridad definida (positiva o negativa) tienen un impacto en el estado de ánimo general durante X 
+
+Diseño:
+
+
+
+Resultados:
+
+Conclusiones
+! 
