@@ -40,8 +40,8 @@ Cosas a resolver:
 
 Hipótesis:
 
-Se puede predecir el estado de ánimo de una zona en un momento T, a partir de los tweets de en la ventana T-N..T (averigu.
-Los eventos con polaridad definida (positiva o negativa) tienen un impacto en el estado de ánimo general durante X 
+Se puede predecir el estado de ánimo de una zona en un momento T, a partir de los tweets en la ventana T-N..T (averigu.
+Los eventos con polaridad definida (positiva o negativa) tienen un impacto en el estado de ánimo general durante X tiempo.
 
 Diseño:
 
@@ -50,4 +50,79 @@ Diseño:
 Resultados:
 
 Conclusiones
-! 
+
+
+TAREAS
+-------
+
+1 - POMS: Ver el trabajo de Pepe & Bollen (2008) y ver si hay algo para español. Si no hay nada, haremos un POM de tres valores (negativo, positivo, neutral).
+2 - Buscar eventos posiblemente significativos en las fechas en que hay tweets (MANDAR MAIL A ESTEBAN).
+3 - Revisar emoticones existentes y categorizarlos (ver cómo reemplazar cada emoticon por adjetivos).
+4 - Completar lista de atributos por tweet, persona, y para toda la base. Hacer script para obtener el resto de los atributos.
+6 - Filtrado de tweets: analizar qué tweets/personas hay que filtrar (e.g., personas con poca cantidad de tweets, tweets en otros idiomas, RTs sin información nueva del usuario)
+
+ATRIBUTOS
+------------
+
+Persona
+..........
++ Cantidad de amigos (followers simétricos)
++ Cant de followers
++ Cant. de following's
++ Cant. de tweets total
++ Cant. de tweets por clase de POMS.
++ Antigüedad de la cuenta (días)
++ Ubicación
+
+Por tweet
+..........
++ Longitud en chars
++ Longitud en palabras
++ Hastags asociados.
++ Emoticones usados
++ Otras cuentas referidas (Obs. se puede guardar el estado de ánimo de esa otra persona en ese momento).
++ Es RT/MT?
++ Es Reply?
++ Hora.
++ Día desde apertura de cuenta.
+
+De la base completa
+...............................
++ Longitud mínima/máxima (carácteres y palabras)
++ Longitud modal/promedio  (carácteres y palabras)
++ Hashtags más usados
+
+Atributos por persona por día (usuarios con más tweets por mes)
+............................
++ Cant. de tweets
++ Longitud mínima/máxima (carácteres y palabras)
++ Longitud modal/promedio  (carácteres y palabras)
++ Hashtags más usados
++ Hora de primer tweet
++ Hora del último tweet
++ Promedio de valores POMS
++ Variaciones de POMS (pendientes)
+
+Atributos por día (usuarios con más tweets por mes)
+.....................................................
++ Cantidad total de tweets
++ Clusters POMS.
++ 
+
+
+OBJETIVOS
+Modelar la variación del estado de ánimo de los usuarios de twitter (UT's).
+Analizar la existencia de grupos de usuarios, de acuerdo a su estado de ánimo y evento actual.
+Analizar la variación de los estados de ánimo de los UT's con respecto a eventos de connotación negativa, positiva y neutral.
+Probar la predicción de estados de ánimo de los UT's con respecto otros eventos (positivos, negativos y neutrales).
+
+HIPÓTESIS
+
+Para un mismo evento, existe más de un grupo estados de ánimo (diferentes interpretaciones del evento).
+	Inclusive hay grupos que están inversamente correlaciones para diverso tipo de eventos.
+Para un momento determinado, existen diferentes eventos que impactan sobre el estado de ánimo de los usuarios de twitter.
+
+POMS permite caracterizar el estado de ánimo de los usuarios de twitter ().
+El estado de ánimo de una persona varía a lo largo del día, y puede verse representado en Twitter.
+
+
