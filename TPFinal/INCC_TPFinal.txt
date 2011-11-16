@@ -84,4 +84,18 @@ Para un momento determinado, existen diferentes eventos que impactan sobre el es
 POMS permite caracterizar el estado de ánimo de los usuarios de twitter ().
 El estado de ánimo de una persona varía a lo largo del día, y puede verse representado en Twitter.
 
+---------------------
+
+Cosas a analizar
+---------------------
++ H: los usuarios se agrupan y desagrupan 
+
+
+TODO:
+==========
++ Obtener datos precisos del corpus (tweets desde/hasta, etc.)
++ Armar lista de eventos en período de tweets (evento, fecha, hashtags|palabras).
++ Obtener lista de palabras significativas a partir de la base
++ Evaluación de lista de palabras (positiva y negativa, de 0-5)
+
 
