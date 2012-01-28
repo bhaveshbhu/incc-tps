@@ -1,0 +1,77 @@
+mysql> show tables;
+
++-----------------+
+| Tables_in_clep2 |
++-----------------+
+| following       |
+| palabra         |
+| queue           |
+| retweet         |
+| status_palabra  |
+| statuses        |
++-----------------+
+6 rows in set (0.00 sec)
+
+mysql> describe following;
++-------------+------------+------+-----+---------+-------+
+| Field       | Type       | Null | Key | Default | Extra |
++-------------+------------+------+-----+---------+-------+
+| follower_id | bigint(20) | NO   | PRI | NULL    |       |
+| user_id     | bigint(20) | NO   | PRI | NULL    |       |
++-------------+------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> describe palabra;
++--------------------+--------------+------+-----+---------+----------------+
+| Field              | Type         | Null | Key | Default | Extra          |
++--------------------+--------------+------+-----+---------+----------------+
+| id                 | int(11)      | NO   | PRI | NULL    | auto_increment |
+| palabra            | varchar(140) | NO   | UNI | NULL    |                |
+| nuevas_apariciones | int(11)      | YES  |     | 0       |                |
++--------------------+--------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+mysql> describe queue;
++-----------+------------+------+-----+---------+----------------+
+| Field     | Type       | Null | Key | Default | Extra          |
++-----------+------------+------+-----+---------+----------------+
+| id        | bigint(20) | NO   | PRI | NULL    | auto_increment |
+| user_id   | bigint(20) | NO   | UNI | NULL    |                |
+| processed | char(1)    | YES  |     | F       |                |
++-----------+------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+mysql> describe retweet;
++------------------+------------+------+-----+---------+-------+
+| Field            | Type       | Null | Key | Default | Extra |
++------------------+------------+------+-----+---------+-------+
+| idstatus         | bigint(20) | NO   | PRI | NULL    |       |
+| idusuario        | bigint(20) | NO   |     | NULL    |       |
+| idusuarioretweet | bigint(20) | NO   |     | NULL    |       |
++------------------+------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe status_palabra;
++-----------+------------+------+-----+---------+-------+
+| Field     | Type       | Null | Key | Default | Extra |
++-----------+------------+------+-----+---------+-------+
+| idstatus  | bigint(20) | NO   | PRI | NULL    |       |
+| idpalabra | int(11)    | NO   | PRI | NULL    |       |
+| cantidad  | int(11)    | NO   |     | NULL    |       |
++-----------+------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe statuses;
++---------------------+--------------+------+-----+---------+----------------+
+| Field               | Type         | Null | Key | Default | Extra          |
++---------------------+--------------+------+-----+---------+----------------+
+| id                  | bigint(20)   | NO   | PRI | NULL    | auto_increment |
+| status_id           | bigint(20)   | NO   | UNI | NULL    |                |
+| created_at          | datetime     | YES  |     | NULL    |                |
+| text                | varchar(200) | YES  |     | NULL    |                |
+| user_id             | bigint(20)   | YES  | MUL | NULL    |                |
+| retweeted_status_id | bigint(20)   | YES  |     | NULL    |                |
+| full_data           | text         | YES  |     | NULL    |                |
+| processed           | char(1)      | YES  |     | F       |                |
++---------------------+--------------+------+-----+---------+----------------+
+8 rows in set (0.00 sec)
