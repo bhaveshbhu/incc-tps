@@ -5,18 +5,16 @@ Análisis de estados de ánimo en tweets
 Cosas a resolver:
 
 + Retweets (RT) que cambian el sentido de lo que dicho (por ejemplo: "RT Me siento re triste por River en la B :( // Se lo merecían"
-	- Resolución: Eliminarlos 
+	- Resolución: Eliminarlos
 + Modified Retweet (MT)
-	- Resolución: Eliminarlos 
-
-
+	- Resolución: Eliminarlos
 
 TAREAS
 -------
 
 1 - POMS: Ver el trabajo de Pepe & Bollen (2008) y ver si hay algo para español. Si no hay nada, haremos un POM de tres valores (negativo, positivo, neutral). MIGUEL
-2 - Buscar eventos posiblemente significativos en las fechas en que hay tweets (MANDAR MAIL A ESTEBAN).
-3 - Revisar emoticones existentes y categorizarlos (ver cómo reemplazar cada emoticon por adjetivos). MAILÉn
+2 - Buscar eventos posiblemente significativos en las fechas en que hay tweets.	PENDIENTE
+3 - Revisar emoticones existentes y categorizarlos (ver cómo reemplazar cada emoticon por adjetivos). Mailén	HECHO!
 4 - Completar lista de atributos por tweet, persona, y para toda la base. Hacer script para obtener el resto de los atributos. CHRISTIAN
 6 - Filtrado de tweets: analizar qué tweets/personas hay que filtrar (e.g., personas con poca cantidad de tweets, tweets en otros idiomas, RTs sin información nueva del usuario) TODOS JUNTOS
 
@@ -79,10 +77,12 @@ HIPÓTESIS
 
 Para un mismo evento, existe más de un grupo estados de ánimo (diferentes interpretaciones del evento).
 	Inclusive hay grupos que están inversamente correlaciones para diverso tipo de eventos.
-Para un momento determinado, existen diferentes eventos que impactan sobre el estado de ánimo de los usuarios de twitter.
 
-POMS permite caracterizar el estado de ánimo de los usuarios de twitter ().
-El estado de ánimo de una persona varía a lo largo del día, y puede verse representado en Twitter.
+El estado de ánimo de una persona varía a lo largo del día/semana/mes, y puede verse representado en Twitter -> Mostrar que se puede hacer un modelo para el la positividad/negatividad por hora/día de la semana(dom, lun, ...)/semana del mes (nro. de día DIV 7)
+Para un momento determinado, existen diferentes eventos que impactan sobre el estado de ánimo de los usuarios de twitter -> Con el modelo anterior, se pueden detectar anomaías
+
+La gente que es menos sociable es más negativa? -> Promedio de positividad/negativad por cant. de amistades.
+Se puede detectar estado de ánimo a partir de la oposición de positividad y negatividad en una persona (no ocurren en una misma unidad de tiempo absoluta: hora/día) -> Al armar los modelos para positividad y negatividad, y superponer las curvas, debería quedar en evidencia.
 
 ---------------------
 
@@ -97,5 +97,3 @@ TODO:
 + Armar lista de eventos en período de tweets (evento, fecha, hashtags|palabras).
 + Obtener lista de palabras significativas a partir de la base
 + Evaluación de lista de palabras (positiva y negativa, de 0-5)
-
-
